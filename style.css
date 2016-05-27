@@ -34,7 +34,6 @@ body{
 	height:20vw;
 	float:left;
 	margin:0 2vw 0 0;
-
 }
 
 
@@ -45,6 +44,8 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
+  	-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 }
 
 .tile__back{
@@ -53,6 +54,8 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
+  	-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 }
 
 .tile__front,
@@ -134,7 +137,57 @@ body{
 }
 
 .imgpoulet {
-  background-image: url('poulet.jpg');
+  background-image: url('images/poulet.jpg');
+  display:table;
+  width: 26vw;
+  height: 15vw;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+.imginformaticien {
+  background-image: url('images/informaticien.jpg');
+  display:table;
+  width: 26vw;
+  height: 15vw;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+.imgribery {
+  background-image: url('images/ribery.jpg');
+  display:table;
+  width: 26vw;
+  height: 15vw;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+.imginsa {
+  background-image: url('images/insa.jpg');
+  display:table;
+  width: 26vw;
+  height: 15vw;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+.imghardcore {
+  background-image: url('images/hardcore.jpg');
+  display:table;
+  width: 26vw;
+  height: 15vw;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+.imgpc {
+  background-image: url('images/pc.jpg');
   display:table;
   width: 26vw;
   height: 15vw;
