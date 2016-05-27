@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0;}
+
+body {
+  background: #00a651;
+}
+
+.card {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 250px;
+  height: 350px;
+  border-radius: 25px;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+
+}
+
+.card p {
+  padding : 10px;
+  text-align: justify;
+  font: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+div[class*='suit']:before {
+  position: absolute;
+  font-size: 50px;
+  left: 15px;
+  top: 15px;
+}
+ 
+div[class*='suit']:after {
+  position: absolute;
+  font-size: 50px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.suitdiamonds:before, .suitdiamonds:after {
+  content: "♦";
+  color: #ff0000;
+}
