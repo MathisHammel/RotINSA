@@ -71,6 +71,8 @@
 	var total_cards = [];
 	var deck = [];
 
+	var joueurs = ["Bob", "Alice", "Marcus", "ClapTrap"];
+
 
 	// Charger le fichier de cartes 
 	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
@@ -119,7 +121,32 @@
 			  	{
 			  		$("#back .card").addClass("suit"+deck[id].type);
 			  	}
-			  	$("#back .card p ").html(deck[id].content);
+
+
+			  	// Charger le texte de la carte
+			  	var txt = deck[id].content;
+
+			  	var joueursTmp = joueurs.slice();
+			  	var random = 0;
+			  	// Patterns !
+			  	// Définition des parterns : {lePattern}
+			  	var personne = [];
+			  	for(var i =0; i<3; i++)
+			  	{
+			  		random = Math.floor((Math.random() * (joueursTmp.length)));
+
+			  		personne[i] = joueursTmp[random];
+			  		joueursTmp.splice(random);
+
+			  	}
+
+			  	txt = txt.replace(/{j1}/i, personne[0]);
+			  	txt = txt.replace(/{j2}/i, personne[1]);
+			  	txt = txt.replace(/{j3}/i, personne[2]);
+
+
+
+			  	$("#back .card p ").html(txt);
 
 			  	// Enlever la carte du deck
 			  	deck.splice(id,1);

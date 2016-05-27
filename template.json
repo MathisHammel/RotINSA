@@ -15,6 +15,15 @@
 		{
 		"type":"action",
 		"content":"Joue à pile-ou-face avec quelqu'un. Le perdant boit <i class='fa fa-beer' aria-hidden='true'></i> et le ganant peut rejouer. Doublez les <i class='fa fa-beer' aria-hidden='true'></i> à chaque fois."
+	},
+		{
+		"type":"regle",
+		"content":"Choisis un mot. A partir de maintenant, ceux qui prononcent ce mot doivent boire <i class='fa fa-beer' aria-hidden='true'></i>."
+	},
+		{
+		"type":"action",
+		"content":"{j1} doit mourir. {j2} lui donne <i class='fa fa-beer' aria-hidden='true'></i><i class='fa fa-beer' aria-hidden='true'></i><i class='fa fa-beer' aria-hidden='true'></i>."
 	}
+
 	]
 }

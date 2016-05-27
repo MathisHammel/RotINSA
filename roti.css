@@ -108,6 +108,20 @@ div[class*='suit']:after {
   color: #000;
 }
 
+.suitregle {
+  background: #34495e;
+  color: #fff;
+}
+
+.suitregle:before, .suitregle:after {
+  font-family: FontAwesome;
+  content: "\f085";
+  color: #000;
+}
+
+
+
+
 
 
 
