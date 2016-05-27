@@ -130,11 +130,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Ton Co-TP n'est jamais là ! Tu sombre dans l'alcoolisme et bois {b4-5}."
-	},
-	{
-		"type":"action",
-		"content":"Ton Co-TP n'est jamais là ! Tu sombre dans l'alcoolisme et bois {b4-5}."
+		"content":"Ton Co-TP n'est jamais là ! Tu sombre dans l'alcoolisme et boit {b4-5}."
 	},
 	{
 		"type":"action",
