@@ -33,45 +33,60 @@
 	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
 	<div class="container">
-		<div class="flip-container">
-			<div class="flipper" id="flip">
-				<div class="card front suitspin" onclick='turn();' id="front">
-					<p> Chaqu'un énumère un mort de Game Of Thrones. Celui qui ne sait plus bois <i class="fa fa-beer" aria-hidden="true"></i>
-						<i class="fa fa-beer" aria-hidden="true"></i>.
-		   			</p>
-				</div>
+		<div class="center-block">
+			<div class="flip-container" onclick='turn()';>
+				<div class="flipper" id="flip">
+					<div class="front" id="front">
+						<div class="card suitspin"'>
+							<p> Chaqu'un énumère un mort de Game Of Thrones. Celui qui ne sait plus bois <i class="fa fa-beer" aria-hidden="true"></i>
+								<i class="fa fa-beer" aria-hidden="true"></i>.
+				   			</p>
+						</div>
+					</div>
 
-				<div class="card back suitspin" id="back">
-					<p> MA BITE <i class="fa fa-beer" aria-hidden="true"></i>
-						<i class="fa fa-beer" aria-hidden="true"></i>.
-		   			</p>
-				</div>
+					<div class="back" id="back">
+						<div class="card suitspin">
+							<p> MA BITE <i class="fa fa-beer" aria-hidden="true"></i>
+								<i class="fa fa-beer" aria-hidden="true"></i>.
+				   			</p>
+						</div>
+					</div>
 
+
+				</div>
 			</div>
-
-		</div>
-		
+		</div>	
 
 		<div class="center-item">
-			<a class="waves-effect waves-light btn ">button</a>
+			<a class="waves-effect waves-light btn" onclick='turn();'>button</a>
 		</div>
 
 	</div>
 
 	<script type="text/javascript">
-
+	var count = 1;
+	var block = false;
 		function turn(){
+			if (!block)
+			{
+				block = true;
+			  $("#flip").addClass('rotate');
 
-		    $("#flip").addClass('rotate');
+			  $("#flip").one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',   
+			  function(e) {
+			  	$("#flip").removeClass('rotate');
+			  	
+			  	$("#front").html($("#back").html());
 
-		    $("#flip").one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',   
-		    function(e) {
-		    	$("#flip").removeClass('rotate');
-		    	
-		    	$("#front").html($("#back").html());
-		    
+			  	
+			  	// Charger ici le back de la prochaine carte à jouer
+			  	$("#back .card").removeClass().addClass("card");
+			  	$("#back .card p ").html("Carte" + count++);
 
-		  });
+			  	block = false;
+				});
+			}
+
 
 		};
 

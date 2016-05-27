@@ -39,6 +39,15 @@ body {
   text-align: center;
 }
 
+.center-block {
+  display: flex;
+
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+  margin: auto;
+}
+
 .card p {
   padding: 10px;
   text-align: justify;
@@ -63,7 +72,7 @@ div[class*='suit']:after {
 }
 
 .suitspin {
-  background: #8434FF;
+  background: #9b59b6;
 }
 
 .suitdiamonds:before, .suitdiamonds:after {
@@ -94,7 +103,7 @@ div[class*='suit']:after {
 
 .flip-container, .front, .back {
   width: 320px;
-  height: 480px;
+  height: 350px;
 }
 
 /* flip speed goes here */
