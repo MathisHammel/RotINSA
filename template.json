@@ -9,12 +9,12 @@
 		"content":"Ceux qui sont roti boivent encore !"
 	},
 	{
-		"type":"question",
-		"content":"Ceci est une autre rotisserie"
+		"type":"role",
+		"content":"Tu deviens le <b>Messie</b> : Si tu est le seul à devoir boire, tout le monde doit boire pour te soutenir."
 	},
 		{
-		"type":"question",
-		"content":"Encore une autre carte !"
+		"type":"action",
+		"content":"Joue à pile-ou-face avec quelqu'un. Le perdant boit <i class='fa fa-beer' aria-hidden='true'></i> et le ganant peut rejouer. Doublez les <i class='fa fa-beer' aria-hidden='true'></i> à chaque fois."
 	}
 	]
 }
