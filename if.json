@@ -1,0 +1,37 @@
+{
+	"info":{
+		"nom":"Hardcore",
+		"a":"a"
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Ceux qui ont perdu au Jeu boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i>"
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne connaissent pas le vrai nom de barbiche boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i>"
+	},
+	{
+		"type":"spin",
+		"content":"Enumerez des langages de programmation. Celui qui ne sait plus boit <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> "
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui font des retours à la ligne avant d'ouvrir une accolade boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> "
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne font pas des retours à la ligne avant d'ouvrir une accolade boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> "
+	},
+	{
+		"type":"action",
+		"content":"Récite les décimales de pi. Distribue un <i class='fa fa-beer' aria-hidden='true'></i> par décimale juste."
+	},
+	{
+		"type":"action",
+		"content":"Paul-Louis, tu bois <i class='fa fa-beer' aria-hidden='true'></i><i class='fa fa-beer' aria-hidden='true'></i>. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>fini son verre</b>."
+	}
+
+	]
+}

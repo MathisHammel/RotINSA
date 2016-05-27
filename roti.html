@@ -79,7 +79,7 @@
 		</div>	
 
 		<div class="center-item">
-			<a class="waves-effect waves-light btn" onclick='turn();'>rôti-moi ! </a>
+			<a class="waves-effect waves-light btn green lighten-1" onclick='turn();'>rôti-moi ! </a>
 		</div>
 
 		<div class="modal" id="deckend">
@@ -105,10 +105,29 @@
 
 	var joueurs = ["Bob", "Alice", "Marcus", "ClapTrap"];
 
+	var getUrlParameter = function getUrlParameter(sParam) {
+	    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+	        sURLVariables = sPageURL.split('&'),
+	        sParameterName,
+	        i;
 
+	    for (i = 0; i < sURLVariables.length; i++) {
+	        sParameterName = sURLVariables[i].split('=');
+
+	        if (sParameterName[0] === sParam) {
+	            return sParameterName[1] === undefined ? true : sParameterName[1];
+	        }
+	    }
+	};
 	// Charger le fichier de cartes 
 	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
-	 $.getJSON("template.json", function(data)
+
+	file = getUrlParameter("deck");
+	if (!file)
+	{
+		file = "template.json"
+	}
+	 $.getJSON(file, function(data)
 	 	{
 	 		json = data;
 	 		total_cards = json.cards;
@@ -116,18 +135,25 @@
 
 	 	});
 
+	 var showModalNextTurn = false;
+
 		function turn(){
 
 			// Attentre que block soit dispo (pour eviter de tourner plusieurs cartes en même temps)
 			if (!block)
 			{
 				block = true;
+				if (showModalNextTurn == true)
+				{
+					$("#deckend").openModal();
+					showModalNextTurn = false;
+				}
 
 				// Si le deck est vide, le recharger
 			  	if (deck.length == 0)
 			  	{
 			  		deck = total_cards.slice();
-			  		$("#deckend").openModal();
+			  		showModalNextTurn = true;
 			  	}
 
 
