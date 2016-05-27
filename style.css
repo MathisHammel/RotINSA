@@ -83,6 +83,36 @@ body{
           transform: rotateY(0);
 }
 
+.tile_title{
+	height:20%;
+	/*background-color:white;*/
+}
+
+.tile_image{
+	
+	height:75%;
+	width:96%;
+	margin:2%;
+	background-color:blue;
+}
+
+.tile_descr{
+
+}
+
+.tile_button{
+	position:absolute;
+	left:15vw;
+	top:15vw;
+	height:4vw;
+	width:10vw;
+	background-color:green;
+	color:white;
+	font-size:200%;
+	font-family: 'Roboto Slab', serif;
+	font-weight:300;
+}
+
 .diff1{
 background-color:#2ecc71;
 }
