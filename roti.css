@@ -9,8 +9,8 @@ body {
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   position: relative;
-  float: left;
-  margin-right: 10px;
+  /*float: left;*/
+  /*margin-right: 10px;*/
   width: 250px;
   height: 350px;
   border-radius: 25px;
@@ -18,14 +18,27 @@ body {
   -webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
   box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+}
+
+.container {
+  width: 100%;
 }
 
 .card p {
-  padding : 10px;
+  padding: 10px;
   text-align: justify;
-  font: 20px;
+  font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
 }
+
 
 div[class*='suit']:before {
   position: absolute;
@@ -35,6 +48,7 @@ div[class*='suit']:before {
 }
  
 div[class*='suit']:after {
+  
   position: absolute;
   font-size: 50px;
   right: 15px;
@@ -44,4 +58,10 @@ div[class*='suit']:after {
 .suitdiamonds:before, .suitdiamonds:after {
   content: "♦";
   color: #ff0000;
+}
+
+.suitspin:before, .suitspin:after {
+  font-family: FontAwesome;
+  content: "\f021";
+  color: #000;
 }
