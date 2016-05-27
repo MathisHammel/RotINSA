@@ -23,6 +23,14 @@
 		{
 		"type":"action",
 		"content":"{j1} doit mourir. {j2} lui donne <i class='fa fa-beer' aria-hidden='true'></i><i class='fa fa-beer' aria-hidden='true'></i><i class='fa fa-beer' aria-hidden='true'></i>."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens le <b>Sans Nom</b> : Si quelqu'un prononce ton nom, il doit boire <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i>."
+	},
+	{
+		"type":"regle",
+		"content":"A chaque fois que l'on doit boire, les filles boivent un <i class='fa fa-beer' aria-hidden='true'></i> de moins, les mecs un <i class='fa fa-beer' aria-hidden='true'></i> de plus."
 	}
 
 	]

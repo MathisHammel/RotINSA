@@ -116,7 +116,7 @@ div[class*='suit']:after {
 .suitregle:before, .suitregle:after {
   font-family: FontAwesome;
   content: "\f085";
-  color: #000;
+  color: #fff;
 }
 
 

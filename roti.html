@@ -4,10 +4,10 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Roti</title>
+	<title>rôti</title>
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
-	<meta name="description" content="La rotisserie en ligne">
-	<meta name="author" content="Des gens roti">
+	<meta name="description" content="La rôtisserie en ligne">
+	<meta name="author" content="Des gens rôti">
 	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 
 	<!--Import Google Icon Font-->
@@ -19,6 +19,28 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<link rel="stylesheet" href="roti.css">
+
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
+
 	
 
 
@@ -37,17 +59,16 @@
 			<div class="flip-container" onclick='turn()';>
 				<div class="flipper" id="flip">
 					<div class="front" id="front">
-						<div class="card suitspin"'>
-							<p> Chaqu'un énumère un mort de Game Of Thrones. Celui qui ne sait plus boit <i class="fa fa-beer" aria-hidden="true"></i>
-								<i class="fa fa-beer" aria-hidden="true"></i>.
+						<div class="card suitregle">
+							<p> <b>Règles</b> : Chaque rôti tire une carte à tour de role dans le sens des aiguilles d'une montre.
+								
 				   			</p>
 						</div>
 					</div>
 
 					<div class="back" id="back">
-						<div class="card suitquestion">
-							<p> Ceux qui font des retours à la ligne avant d'ouvrir des acollades boivent 
-								<i class="fa fa-beer" aria-hidden="true"></i><i class="fa fa-beer" aria-hidden="true"></i><i class="fa fa-beer" aria-hidden="true"></i>.
+						<div class="card suitregle">
+							<p> Un <i class="fa fa-beer" aria-hidden="true"></i> indique un shot de boisson. Chaqu'un est libre de boire ce qu'il veut, du moment que ça rend rôti. <br/> <b> Bon Rôtissage !</b>
 				   			</p>
 						</div>
 					</div>
@@ -58,7 +79,18 @@
 		</div>	
 
 		<div class="center-item">
-			<a class="waves-effect waves-light btn" onclick='turn();'>Roti-moi ! </a>
+			<a class="waves-effect waves-light btn" onclick='turn();'>rôti-moi ! </a>
+		</div>
+
+		<div class="modal" id="deckend">
+    <div class="modal-content">
+      <h4>Fin du deck ! </h4>
+      <p>Tout le monde perd son rôle et toutes les règles sont annulés ! C'est reparti pour un tour !</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Let's rôti !</a>
+    </div>
+
 		</div>
 
 	</div>
@@ -80,6 +112,7 @@
 	 	{
 	 		json = data;
 	 		total_cards = json.cards;
+	 		deck = total_cards.slice();
 
 	 	});
 
@@ -89,6 +122,14 @@
 			if (!block)
 			{
 				block = true;
+
+				// Si le deck est vide, le recharger
+			  	if (deck.length == 0)
+			  	{
+			  		deck = total_cards.slice();
+			  		$("#deckend").openModal();
+			  	}
+
 
 				// Faire tourner la carte
 			  $("#flip").addClass('rotate');
@@ -103,12 +144,6 @@
 
 				// Enlever la rotation (la carte front repasse devant)
 			  	$("#flip").removeClass('rotate');
-
-			  	// Si le deck est vide, le recharger
-			  	if (deck.length == 0)
-			  	{
-			  		deck = total_cards.slice();
-			  	}
 
 			  	// Charger ici le back de la prochaine carte à jouer (back)
 			  	var id = Math.floor((Math.random() * (deck.length)));
