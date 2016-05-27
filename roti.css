@@ -18,18 +18,25 @@ body {
   -webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
   box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
   margin: auto;
 
 }
 
 .container {
-  width: 100%;
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.center-item {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .card p {
@@ -55,6 +62,10 @@ div[class*='suit']:after {
   bottom: 15px;
 }
 
+.suitspin {
+  background: #8434FF;
+}
+
 .suitdiamonds:before, .suitdiamonds:after {
   content: "♦";
   color: #ff0000;
@@ -64,4 +75,50 @@ div[class*='suit']:after {
   font-family: FontAwesome;
   content: "\f021";
   color: #000;
+}
+
+
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+/* flip the pane when hovered */
+.rotate {
+  transform: rotateY(180deg);
+    transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+.flip-container, .front, .back {
+  width: 320px;
+  height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
 }

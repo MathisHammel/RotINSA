@@ -10,6 +10,14 @@
 	<meta name="author" content="Des gens roti">
 	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 
+	<!--Import Google Icon Font-->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 	<link rel="stylesheet" href="roti.css">
 	
 
@@ -20,13 +28,57 @@
 </head>
 
 <body>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
 	<div class="container">
-		<div class="card suitspin">
-			<p> Chaqu'un énumère un mort de Game Of Thrones. Celui qui ne sait plus bois <i class="fa fa-beer" aria-hidden="true"></i>
-<i class="fa fa-beer" aria-hidden="true"></i>.
-   </p>
+		<div class="flip-container">
+			<div class="flipper" id="flip">
+				<div class="card front suitspin" onclick='turn();' id="front">
+					<p> Chaqu'un énumère un mort de Game Of Thrones. Celui qui ne sait plus bois <i class="fa fa-beer" aria-hidden="true"></i>
+						<i class="fa fa-beer" aria-hidden="true"></i>.
+		   			</p>
+				</div>
+
+				<div class="card back suitspin" id="back">
+					<p> MA BITE <i class="fa fa-beer" aria-hidden="true"></i>
+						<i class="fa fa-beer" aria-hidden="true"></i>.
+		   			</p>
+				</div>
+
+			</div>
+
 		</div>
+		
+
+		<div class="center-item">
+			<a class="waves-effect waves-light btn ">button</a>
+		</div>
+
 	</div>
 
+	<script type="text/javascript">
+
+		function turn(){
+
+		    $("#flip").addClass('rotate');
+
+		    $("#flip").one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',   
+		    function(e) {
+		    	$("#flip").removeClass('rotate');
+		    	
+		    	$("#front").html($("#back").html());
+		    
+
+		  });
+
+		};
+
+	</script>
+
 </body>
+
+
+
 </html>
