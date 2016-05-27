@@ -201,10 +201,46 @@
 
 			  	}
 
-			  	txt = txt.replace(/{j1}/i, personne[0]);
-			  	txt = txt.replace(/{j2}/i, personne[1]);
-			  	txt = txt.replace(/{j3}/i, personne[2]);
+			  	txt = txt.replace(/{j1}/g, personne[0]);
+			  	txt = txt.replace(/{j2}/g, personne[1]);
+			  	txt = txt.replace(/{j3}/g, personne[2]);
+			  	txt = txt.replace(/{b}/g, "<i class='fa fa-beer' aria-hidden='true'></i>");
 
+			  	// Remplacer verres random
+				var result = txt.match(/{b\d+-\d+}/g);
+				if (result != null)
+				{
+					for (var m = 0; m<result.length; m++) {
+						var data = result[m];
+
+						var n = data.match(/(\d+)/g);
+						n[0] = parseInt(n[0]);
+						n[1] = parseInt(n[1]);
+						random = Math.floor((Math.random() * (n[1]-n[0]+1))+n[0]);
+
+						var beer = "";
+
+						for (var i = 0; i < random; i++)
+						{
+							beer = beer + "<i class='fa fa-beer' aria-hidden='true'></i>";
+						}
+					    txt = txt.replace(data,beer)
+					}
+				}
+
+				// Remplacer choix multiple :
+
+				var result = txt.match(/{[^}]*\|[^}]*}/g);
+				if (result != null)
+				{
+					for (var m = 0; m<result.length; m++) {
+						var data = result[m];
+
+						var n = data.match(/[^{\|}]+/g)
+						random = Math.floor((Math.random() * (n.length)));
+					    txt = txt.replace(data,n[random]);
+					}
+				}
 
 
 			  	$("#back .card p ").html(txt);

@@ -6,31 +6,75 @@
 	"cards":[
 	{
 		"type":"question",
-		"content":"Ceux qui ont perdu au Jeu boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i>"
+		"content":"Ceux qui ont perdu au Jeu boivent {b} {b} {b}"
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ne connaissent pas le vrai nom de barbiche boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i>"
+		"content":"Ceux qui ne connaissent pas le vrai nom de barbiche boivent {b} {b} {b}"
 	},
 	{
 		"type":"spin",
-		"content":"Enumerez des langages de programmation. Celui qui ne sait plus boit <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> "
+		"content":"Enumerez des langages de programmation. Celui qui ne sait plus boit {b} {b} "
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui font des retours à la ligne avant d'ouvrir une accolade boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> "
+		"content":"Ceux qui font des retours à la ligne avant d'ouvrir une accolade boivent {b} {b} "
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ne font pas des retours à la ligne avant d'ouvrir une accolade boivent <i class='fa fa-beer' aria-hidden='true'></i> <i class='fa fa-beer' aria-hidden='true'></i> "
+		"content":"Ceux qui ne font pas des retours à la ligne avant d'ouvrir une accolade boivent {b} {b} "
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui codent en {lua|python|c++|java} boivent {b2-4}"
 	},
 	{
 		"type":"action",
-		"content":"Récite les décimales de pi. Distribue un <i class='fa fa-beer' aria-hidden='true'></i> par décimale juste."
+		"content":"Récite les décimales de pi. Distribue un {b} par décimale juste."
 	},
 	{
 		"type":"action",
-		"content":"Paul-Louis, tu bois <i class='fa fa-beer' aria-hidden='true'></i><i class='fa fa-beer' aria-hidden='true'></i>. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>fini son verre</b>."
+		"content":"Paul-Louis, tu bois {b}{b}. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>fini son verre</b>."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne vont plus en amphi, buvez {b}"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>La Patrouille</b> : Si tu vois quelqu'un poser son verre, tu peux lui faire boire {b}{b}{b}"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Barbiche</b> : Tu n'as plus de stage, et tu bois {b}{b}{b}{b} pour oublier"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>la DSI</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b}{b} pour oublier"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Maurincaûme</b> : Tu peux rediriger la moitiée de tes {b} (arrondi à l'inférieur) sur quelqu'un d'autre quand tu dois boire"
+	},
+	{
+		"type":"regle",
+		"content":"A chaque fois que l'on doit boire, les filles boivent un {b} de moins, les mecs un {b} de plus."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le cours de Génie Logiciel</b> : Distribue un {b} à chaque fois que quelqu'un pioche."	
+	},
+	{
+		"type":"action",
+		"content":"Joue à pile-ou-face avec quelqu'un. Le perdant boit {b} et le ganant peut rejouer. Doublez les {b} à chaque fois."
+	},
+	{
+		"type":"action",
+		"content":"Distribue {b1-6} shots."
+	},
+	{
+		"type":"action",
+		"content":"Donne {b}{b}{b}{b}{b} à quelqu'un. Il en donne un de moins à quelqu'un d'autre et ainsi de suite."
 	}
 
 	]
