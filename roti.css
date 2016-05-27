@@ -8,6 +8,14 @@ body {
   background: linear-gradient(#4caf50, #2e7d32); /* Standard syntax */
   height: 100vh;
 }
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 100px rgba(0,0,0,0.5) inset;
+}
 
 .card {
   display: flex;
@@ -29,7 +37,7 @@ body {
 }
 
 .container {
-  padding-top: 10vh;
+  padding-top: 20vh;
 }
 
 .center-item {
