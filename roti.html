@@ -38,16 +38,16 @@
 				<div class="flipper" id="flip">
 					<div class="front" id="front">
 						<div class="card suitspin"'>
-							<p> Chaqu'un énumère un mort de Game Of Thrones. Celui qui ne sait plus bois <i class="fa fa-beer" aria-hidden="true"></i>
+							<p> Chaqu'un énumère un mort de Game Of Thrones. Celui qui ne sait plus boit <i class="fa fa-beer" aria-hidden="true"></i>
 								<i class="fa fa-beer" aria-hidden="true"></i>.
 				   			</p>
 						</div>
 					</div>
 
 					<div class="back" id="back">
-						<div class="card suitspin">
-							<p> MA BITE <i class="fa fa-beer" aria-hidden="true"></i>
-								<i class="fa fa-beer" aria-hidden="true"></i>.
+						<div class="card suitquestion">
+							<p> Ceux qui font des retours à la ligne avant d'ouvrir des acollades boivent 
+								<i class="fa fa-beer" aria-hidden="true"></i><i class="fa fa-beer" aria-hidden="true"></i><i class="fa fa-beer" aria-hidden="true"></i>.
 				   			</p>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
 		</div>	
 
 		<div class="center-item">
-			<a class="waves-effect waves-light btn" onclick='turn();'>button</a>
+			<a class="waves-effect waves-light btn" onclick='turn();'>Roti-moi ! </a>
 		</div>
 
 	</div>
@@ -66,22 +66,63 @@
 	<script type="text/javascript">
 	var count = 1;
 	var block = false;
+
+	var json = [];
+	var total_cards = [];
+	var deck = [];
+
+
+	// Charger le fichier de cartes 
+	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
+	 $.getJSON("template.json", function(data)
+	 	{
+	 		json = data;
+	 		total_cards = json.cards;
+
+	 	});
+
 		function turn(){
+
+			// Attentre que block soit dispo (pour eviter de tourner plusieurs cartes en même temps)
 			if (!block)
 			{
 				block = true;
+
+				// Faire tourner la carte
 			  $("#flip").addClass('rotate');
 
+
+			  // Attendre la fin de l'animation
 			  $("#flip").one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',   
 			  function(e) {
-			  	$("#flip").removeClass('rotate');
-			  	
+
+			  	// Copier la carte au back sur le front
 			  	$("#front").html($("#back").html());
 
-			  	
-			  	// Charger ici le back de la prochaine carte à jouer
+				// Enlever la rotation (la carte front repasse devant)
+			  	$("#flip").removeClass('rotate');
+
+			  	// Si le deck est vide, le recharger
+			  	if (deck.length == 0)
+			  	{
+			  		deck = total_cards.slice();
+			  	}
+
+			  	// Charger ici le back de la prochaine carte à jouer (back)
+			  	var id = Math.floor((Math.random() * (deck.length)));
+
+			  	// Enlever les classe de la carte du back pour pouvoir les recharger en fonction de ce qu'il y a dans le json
 			  	$("#back .card").removeClass().addClass("card");
-			  	$("#back .card p ").html("Carte" + count++);
+
+			  	// Si la carte à un type, le charger
+			  	if (deck[id].type)
+			  	{
+			  		$("#back .card").addClass("suit"+deck[id].type);
+			  	}
+			  	$("#back .card p ").html(deck[id].content);
+
+			  	// Enlever la carte du deck
+			  	deck.splice(id,1);
 
 			  	block = false;
 				});

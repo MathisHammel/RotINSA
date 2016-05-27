@@ -1,0 +1,20 @@
+{
+	"info":{
+		"nom":"Hardcore",
+		"a":"a"
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Ceux qui sont roti boivent encore !"
+	},
+	{
+		"type":"question",
+		"content":"Ceci est une autre rotisserie"
+	},
+		{
+		"type":"question",
+		"content":"Encore une autre carte !"
+	}
+	]
+}
