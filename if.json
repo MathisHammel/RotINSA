@@ -34,7 +34,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Paul-Louis, tu bois {b}{b}. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>fini son verre</b>."
+		"content":"Paul-Louis, tu bois {b}{b}. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>finit son verre</b>."
 	},
 	{
 		"type":"question",
@@ -46,11 +46,11 @@
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Barbiche</b> : Tu n'as plus de stage, et tu bois {b}{b}{b}{b} pour oublier"
+		"content":"Tu deviens <b>Barbiche</b> : Tu n'as plus de stage, et tu bois {b} à chaque fois que quelqu'un tire une carte pour oublier."
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>la DSI</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b}{b} pour oublier"
+		"content":"Tu deviens <b>Maranzana</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b2-4}"
 	},
 	{
 		"type":"role",
@@ -75,7 +75,76 @@
 	{
 		"type":"action",
 		"content":"Donne {b}{b}{b}{b}{b} à quelqu'un. Il en donne un de moins à quelqu'un d'autre et ainsi de suite."
+	},
+	{
+		"type":"action",
+		"content":"Dis quelquechose que tu n'as jamais fait. Ceux qui l'on fait boivent {b2-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui trouvent que la Modélisation des processus c'est vraiement du bullshit, buvez {b1-5}"
+	},
+	{
+		"type":"spin",
+		"content":"Recitez l'aphabet à l'envers. Celui qui se trompe bois {b3-5}"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le Rôti</b> : Si tu dois boire un nombre {pair|impair} de {b}, double ce nombre !"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le Co-TP</b> : Choisis une personne. Elle doit boire à chaque fois que tu dois boire !"
+	},
+	{
+		"type":"action",
+		"content":"Ton PC est en panne ! Bois {b2-3} pour oublier."
+	},
+	{
+		"type":"action",
+		"content":"On te vante les mérites de l'open source ! Bois {b3-5}."
+	},
+	{
+		"type":"action",
+		"content":"HADOPI t'as choppé ! Bois {b5-5}."
+	},
+	{
+		"type":"action",
+		"content":"Tu majores en DASI ! Distribue 8 {b}."
+	},
+	{
+		"type":"action",
+		"content":"En retard pour Maranzana ! Bois {b1-2}."
+	},
+	{
+		"type":"action",
+		"content":"Mise à jour windows ! Bois {b2-5} pour patienter."
+	},
+	{
+		"type":"action",
+		"content":"La DSI a effacé tous les serveurs ! Tout le monde perds son rôle et boit {b1-3}."
+	},
+	{
+		"type":"action",
+		"content":"Paul-Louis est encore en retard ! Il il est dans la pièce, il distribue 10 {b}."
+	},
+	{
+		"type":"action",
+		"content":"Ton Co-TP n'est jamais là ! Tu sombre dans l'alcoolisme et bois {b4-5}."
+	},
+	{
+		"type":"action",
+		"content":"Ton Co-TP n'est jamais là ! Tu sombre dans l'alcoolisme et bois {b4-5}."
+	},
+	{
+		"type":"action",
+		"content":"Tu viens de terminer tes spécifications ! Distribue {b5-5} pour fêter ça !"
+	},
+	{
+		"type":"spin",
+		"content":"Enumérez les noms des profs d'IF. Celui qui ne trouve pas boit {b5-5}."
 	}
+
 
 	]
 }
