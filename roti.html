@@ -98,7 +98,7 @@
 
 	<script type="text/javascript">
 	var count = 1;
-	var block = false;
+	var block = true;
 
 	var json = [];
 	var total_cards = [];
@@ -123,18 +123,20 @@
 	// Charger le fichier de cartes 
 	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
 
-	file = "decks/"+getUrlParameter("deck");
+	file = getUrlParameter("deck");
 	if (!file)
 	{
-		file = "decks/template.json"
+		file = "template.json"
 	}
+	file = "decks/"+file;
 	 $.getJSON(file, function(data)
 	 	{
 	 		json = data;
 	 		total_cards = json.cards;
 	 		deck = total_cards.slice();
-
-	 	});
+	 		block = false;
+	 	}
+	 	);	
 
 	 var showModalNextTurn = false;
 
@@ -178,7 +180,15 @@
 				loadCard("#back .card", deck, id);
 
 			  	// Enlever la carte du deck
-			  	deck.splice(id,1);
+			  	if (deck[id].count && deck[id].count > 1)
+			  	{
+			  		deck[id].count --;
+			  	}
+			  	else
+			  	{
+			  		deck.splice(id,1);
+			  	}
+			  	
 
 			  	block = false;
 				});

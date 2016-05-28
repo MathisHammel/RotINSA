@@ -1,0 +1,40 @@
+{
+	"info":{
+		"nom":"Bizuth",
+	},
+	"cards":[
+	{
+		"type":"action",
+		"content":"Tout le monde boit b{1-9}."
+	},
+	{
+		"type":"spin",
+		"content":"Récitez l'alphabet à l'envers. Celui qui se trompe boit b{5-7}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le Rôti</b> : Si tu dois boire un nombre {pair|impair} de {b}, double ce nombre !"
+	},
+	{
+		"type":"action",
+		"content":"Distribue {b5-8}."
+	},
+	{
+		"type":"action",
+		"content":"Joue à Chi-Fu-Mi avec la personne de ton choix en 3 manches gagnantes. Le perdant boit {b5-5}"
+	},
+	{
+		"type":"question",
+		"content":"Jouez à pile ou face. Si c'est pile, les filles boivent {b5-5}, si c'est face, les mecs boivent {b5-5}."
+	},
+	{
+		"type":"question",
+		"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et boivent {b1-10}."
+	},
+	{
+		"type":"question",
+		"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et boivent {b1-10}."
+	}
+
+	]
+}

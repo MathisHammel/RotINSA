@@ -1,0 +1,16 @@
+{
+	"info":{
+		"nom":"Bizuth",
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Ceux qui pensent qu'ils ont raté leur partielles, buvez {b3-5}"
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui sont roti boivent encore !"
+	}
+
+	]
+}

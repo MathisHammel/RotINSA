@@ -39,3 +39,7 @@ Les fichiers de decks ont la forme suivante :
  - `{b1-3}` : Place un nombre aléatoire de symboles 'boisson', choisi entre le premier nombre (ici 1) et le 2ème nombre (ici 3).
  - `{j1}` : Remplace ce template par le nom d'un joueur tiré aléatoirement. Il peut y avoir jusqu'à 3 joueurs sur une même carte, en uttilisant respectivement `{j1}`, `{j2}` ou `{j3}`. Chaque balise aura toujours la même valeur sur la carte, donc on peut réuttiliser `{j1}` pour afficher plusieurs fois le même nom de joueur sur la carte.
  - `{nom1|nom2|nom3}` : Choisis un terme au hazard parmis plusieurs (séparés par des `|`).
+
+Exemple : `"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et boivent {b1-10}."` -> La carte choisira au hazard parmis {roux|chatains|bruns|blonds|chauves} pour la couleur de cheveux, et entre 1 et 10 coups à boire à afficher sur la carte.
+
+`count` : Opptionnel, correspond au nombre de fois que la carte apparaitra dans un deck (Utile pour les cartes génériques). Exemple : `"count":3` -> La carte apparaitra 3 fois dans la partie. Si non défini, la carte n'apparaitra qu'une fois.

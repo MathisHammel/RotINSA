@@ -139,6 +139,10 @@
 	{
 		"type":"spin",
 		"content":"Enumérez les noms des profs d'IF. Celui qui ne trouve pas boit {b5-5}."
+	},
+	{
+		"type":"regle",
+		"content":"Tout le monde parle à présent comme <b>Yoda</b>. Boire {b1-3}, ceux qui se trompent doivent !"
 	}
 
 
