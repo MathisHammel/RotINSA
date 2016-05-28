@@ -29,7 +29,7 @@ Les fichiers de decks ont la forme suivante :
 
  - `spin` : Pour toutes les cartes qui implique de faire tourner quelquechose parmis les participants, comme donner la liste des acteurs de Game Of Throne, et qui implique que celui qui n'arrive plus à faire tourner doit boire.
  - `question` : Pour toutes les cartes qui font boire les gens qui remplissent une condition, comme par exemple faire boire ceux dont l'age est pair.
- - `action` : Pour les cartes qui font faire une action à celui qui la tire, soit boire directement, soit jouer a un mini-jeu avec un autre joueur pour boire.
+ - `action` : Pour les cartes qui font faire une action à celui qui la tire, que ce soit boire un nombre de coups, distribuer des coups ou jouer a un mini-jeu avec un autre joueur pour boire.
  - `role` : Pour les cartes qui donnent un bonus, malus ou pouvoir à celui qui la tire jusqu'a la fin du deck. Des examples sont faire boire moins ou plus de verres, ou pouvoir rediriger une partie de ses verres vers une autre personne.
  - `regle` : Pour les cartes qui changent le cours de la partie jusqu'à la fin du deck. Cela peut include doubler le nombre de verres ou empecher de dire un mot sous peine de boisson.
 
