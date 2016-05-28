@@ -198,7 +198,7 @@
 			  		random = Math.floor((Math.random() * (joueursTmp.length)));
 
 			  		personne[i] = joueursTmp[random];
-			  		joueursTmp.splice(random);
+			  		joueursTmp.splice(random,1);
 
 			  	}
 
@@ -221,9 +221,16 @@
 
 						var beer = "";
 
-						for (var i = 0; i < random; i++)
+						if (random <= 5)
 						{
-							beer = beer + "<i class='fa fa-beer' aria-hidden='true'></i>";
+							for (var i = 0; i < random; i++)
+							{
+								beer = beer + "<i class='fa fa-beer' aria-hidden='true'></i>";
+							}
+						}
+						else
+						{
+							beer = "" + random + " <i class='fa fa-beer' aria-hidden='true'></i>";
 						}
 					    txt = txt.replace(data,beer)
 					}
