@@ -86,10 +86,10 @@
 	// Charger le fichier de cartes 
 	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
 
-	file = getUrlParameter("deck");
+	file = "decks/"+getUrlParameter("deck");
 	if (!file)
 	{
-		file = "template.json"
+		file = "decks/template.json"
 	}
 	 $.getJSON(file, function(data)
 	 	{
