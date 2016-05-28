@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>rôti</title>
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<meta name="description" content="La rôtisserie en ligne">
+	<meta name="author" content="Des gens rôti">
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<!--Import Google Icon Font-->
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="stylesheet" href="roti.css">
+
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
+
+	<script type="text/javascript" src="loadCard.js"></script>
+
+	
+
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body onload="charger();">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+	<div class="container" id="fillMe">
+	</div>
+
+
+	<script type="text/javascript">
+	var count = 1;
+	var block = false;
+
+	var json = [];
+	var total_cards = [];
+	var deck = [];
+
+	var joueurs = ["Bob", "Alice", "Marcus", "ClapTrap"];
+
+	var getUrlParameter = function getUrlParameter(sParam) {
+	    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+	        sURLVariables = sPageURL.split('&'),
+	        sParameterName,
+	        i;
+
+	    for (i = 0; i < sURLVariables.length; i++) {
+	        sParameterName = sURLVariables[i].split('=');
+
+	        if (sParameterName[0] === sParam) {
+	            return sParameterName[1] === undefined ? true : sParameterName[1];
+	        }
+	    }
+	};
+	// Charger le fichier de cartes 
+	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
+
+	file = getUrlParameter("deck");
+	if (!file)
+	{
+		file = "template.json"
+	}
+	 $.getJSON(file, function(data)
+	 	{
+	 		json = data;
+	 		total_cards = json.cards;
+	 		deck = total_cards.slice();
+
+	 	});
+
+	 var showModalNextTurn = false;
+
+	 function charger(){
+	 		 for (var i = 0; i < total_cards.length; i++)
+			 {
+			 	$("#fillMe").append("<div class='card' id='next'><p></p></div>");
+			 	loadCard("#next", total_cards, i);
+			 	$("#next").removeAttr("id");
+			 }
+
+	 }
+
+
+	</script>
+
+</body>
+
+
+
+</html>
+
+<body>
