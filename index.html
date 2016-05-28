@@ -1,115 +1,133 @@
 ﻿<html>
 	<head>
-	<meta charset="utf-8">
-
 		<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
 		<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+		<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+		<script src="materialize/js/materialize.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	<body>
-		<div class="title">
-			Rôt'INSA
-		</div>
-		
-
-		
-		<div class="table">
-			<div class="line">
-				<div class="tile effect__hover">
-					<div class="tile__front diff1">
-						<div class="tile_title">Rôti basique</div>
-						<div class="tile_image">
-							<div class="imgpoulet">&nbsp;</div>
+		<main>
+			<header>
+				<div class="row title">
+					Rôt'INSA
+				</div>
+			</header>
+			
+			<div class="row" id="shuffle">
+				<div class="col s12 m6 l4">
+					<div class="card small z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/pc.jpg" />
 						</div>
-					</div>
-					<div class="tile__back">
-						<form method="get" action="/page2">
-							<div class="tile_descr">Un grand classique pour démarrer une soirée !</div>
-							<a href="roti.html"><div class="tile_button">GO !</div><a>
-						</form>
+						<div class="card-content activator waves-effect waves-block waves-light">
+							<span class="card-title activator grey-text text-darken-4" style="font-size:35px">Bizuth</span>
+							<p style="font-size:24px">Niveau   <i class="material-icons" style="font-size:24px">star</i></p>
+						</div>
+						<div class="card-reveal activator">
+							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Bizuth<i class="material-icons right">close</i></span>
+							<p>Moi j'aime bien l'OMSI lol</p>
+							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
 					</div>
 				</div>
-				
-				<div class="tile effect__hover">
-					<div class="tile__front diff2">
-						<div class="tile_title">IF</div>
-						<div class="tile_image">
-							<div class="imginformaticien">&nbsp;</div>
+				<div class="col s12 m6 l4">
+					<div class="card small z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/hardcore.jpg" />
 						</div>
-					</div>
-					<div class="tile__back">
-						<form method="get" action="/page2">
-							<div class="tile_descr">Je suis ingénieur informaticieeeeeeeeeeen</div>
-							<a href="roti.html?deck=if.json"><div class="tile_button">GO !</div><a>
-						</form>
+						<div class="card-content activator waves-effect waves-block waves-light">
+							<span class="card-title activator grey-text text-darken-4" style="font-size:35px">Hardcore</span>
+							<p style="font-size:24px">Niveau   <i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i></p>
+						</div>
+						<div class="card-reveal activator">
+							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Hardcore<i class="material-icons right">close</i></span>
+							<p>Pour les plus solides</p>
+							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
 					</div>
 				</div>
-				
-				<div class="tile effect__hover">
-					<div class="tile__front diff1">
-						<div class="tile_title">Je n'ai jamais</div>
-						<div class="tile_image">
-							<div class="imgribery">&nbsp;</div>
+				<div class="col s12 m6 l4">
+					<div class="card small z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/poulet.jpg" />
+						</div>
+						<div class="card-content activator waves-effect waves-block waves-light">
+							<span class="card-title activator grey-text text-darken-4" style="font-size:35px">Rôti standard</span>
+							<p style="font-size:24px">Niveau   <i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i></p>
+						</div>
+						<div class="card-reveal activator">
+							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Rôti standard<i class="material-icons right">close</i></span>
+							<p>Pour une rôtisserie classique en famille ou entre amis</p>
+							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+								<i class="material-icons right">send</i>
+							</button>
 						</div>
 					</div>
-					<div class="tile__back">
-						<form method="get" action="/page2">
-							<div class="tile_descr">Je n'ai jamais...<br />J'ai déjà...</div>
-							<a href="roti.html"><div class="tile_button">GO !</div><a>
-						</form>
+				</div>
+				<div class="col s12 m6 l4">
+					<div class="card small z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/ribery.jpg" />
+						</div>
+						<div class="card-content activator waves-effect waves-block waves-light">
+							<span class="card-title activator grey-text text-darken-4" style="font-size:35px">Je n'ai jamais/J'ai déjà</span>
+							<p style="font-size:24px">Niveau   <i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i></p>
+						</div>
+						<div class="card-reveal activator">
+							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Je n'ai jamais/J'ai déjà<i class="material-icons right">close</i></span>
+							<p>Découvrez des dossiers sur vos amis de manière très conviviale</p>
+							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m6 l4">
+					<div class="card small z-depth-3">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/informaticien.jpg" />
+						</div>
+						<div class="card-content activator waves-effect waves-block waves-light">
+							<span class="card-title activator grey-text text-darken-4" style="font-size:35px">IF</span>
+							<p style="font-size:24px">Niveau   <i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i><i class="material-icons" style="font-size:24px">star</i></p>
+						</div>
+						<div class="card-reveal activator">
+							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">IF<i class="material-icons right">close</i></span>
+							<p>Je suis ingénieur informaticieeeeeeeeeeeeeeeeen</p>
+							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+								<i class="material-icons right">send</i>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
 			
+			<script>
+			$(function () {
+				var parent = $("#shuffle");
+				var divs = parent.children();
+				while (divs.length) {
+					parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+				}
+			}); //shuffle des familles
+			</script>
 			
-			<div class="line">
-				<div class="tile effect__hover">
-					<div class="tile__front diff3">
-						<div class="tile_title">INSA</div>
-						<div class="tile_image">
-							<div class="imginsa">&nbsp;</div>
-						</div>
-					</div>
-					<div class="tile__back">
-						<form method="get" action="/page2">
-							<div class="tile_descr">Approved by Eric</div>
-							<a href="roti.html"><div class="tile_button">GO !</div><a>
-						</form>
-					</div>
-				</div>
-				
-				<div class="tile effect__hover">
-					<div class="tile__front diff5">
-						<div class="tile_title">Hardcore</div>
-						<div class="tile_image">
-							<div class="imghardcore">&nbsp;</div>
-						</div>
-					</div>
-					<div class="tile__back">
-						<form method="get" action="/page2">
-							<div class="tile_descr">Rôtisserie à hautes performances</div>
-							<a href="roti.html"><div class="tile_button">GO !</div><a>
-						</form>
-					</div>
-				</div>
-				
-				<div class="tile effect__hover">
-					<div class="tile__front diff4">
-						<div class="tile_title">Premier Cycle</div>
-						<div class="tile_image">
-							<div class="imgpc">&nbsp;</div>
-						</div>
-					</div>
-					<div class="tile__back">
-						<form method="get" action="/page2">
-							<div class="tile_descr">Moi j'aime bien l'OMSI lol</div>
-							<a href="roti.html"><div class="tile_button">GO !</div><a>
-						</form>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
+		</main>
+		<footer class="page-footer indigo">
+          <div class="footer-copyright">
+            <div class="container">
+            Par <a href="https://www.linkedin.com/in/clément-espeute-231618111">Clément ESPEUTE</a> et <a href="https://fr.linkedin.com/in/mathis-hammel-467baaa6">Mathis HAMMEL</a>
+            <a class="grey-text text-lighten-4 right" href="https://github.com/kara71/RotINSA">Devenez contributeur sur GitHub</a>
+            </div>
+          </div>
+        </footer>
 	</body>
 </html>
