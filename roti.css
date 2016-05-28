@@ -8,6 +8,11 @@ body {
   background: linear-gradient(#4caf50, #2e7d32); /* Standard syntax */
   height: 100vh;
 }
+
+.remove-bg {
+  background: #2ecc71;
+}
+
 .vignette {
   position: fixed;
   top: 0;
