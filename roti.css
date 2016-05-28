@@ -7,6 +7,7 @@ body {
   background: -moz-linear-gradient(#4caf50, #2e7d32); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#4caf50, #2e7d32); /* Standard syntax */
   height: 100vh;
+
 }
 
 .remove-bg {

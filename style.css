@@ -12,7 +12,15 @@ body{
 	text-align:center;
 	color:#ecf0f1;
 	height:15vh;
-	font-size:14vh;
+	font-size: 100px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 640px){
+.title
+{
+  font-size:20vw;
+}
 }
 
 .table{
