@@ -6,7 +6,7 @@
 	"cards":[
 	{
 		"type":"question",
-		"content":"Ceux qui ont perdu au Jeu boivent {b} {b} {b}"
+		"content":"Ceux qui ont perdu au Jeu boivent {b2-4}"
 	},
 	{
 		"type":"question",
