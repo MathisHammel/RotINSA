@@ -34,7 +34,7 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Bizuth<i class="material-icons right">close</i></span>
 							<p>Moi j'aime bien l'OMSI lol</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="bizuthB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
@@ -52,7 +52,7 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Hardcore<i class="material-icons right">close</i></span>
 							<p>Pour les plus solides</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="hardcoreB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
@@ -70,7 +70,7 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Rôti standard<i class="material-icons right">close</i></span>
 							<p>Pour une rôtisserie classique en famille ou entre amis</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="rotiB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
@@ -88,7 +88,7 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Je n'ai jamais.../J'ai déjà...<i class="material-icons right">close</i></span>
 							<p>Découvrez des dossiers sur vos amis de manière très conviviale</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="jenaijamaisB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
@@ -106,15 +106,21 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">IF<i class="material-icons right">close</i></span>
 							<p>Je suis ingénieur informaticieeeeeeeeeeeeeeeeen</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="ifB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			
+			  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
 			<script>
+			$(document).ready(function(){
+				// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+				$('.modal-trigger').leanModal();
+			});
+			
 			$(function () {
 				var parent = $("#shuffle");
 				var divs = parent.children();
@@ -122,14 +128,66 @@
 					parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
 				}
 			}); //shuffle des familles
+			
+			
+			function inscription()
+			{
+			
+			}
+			
+			function setBizuth(){
+				document.cookie='deck=bizuth.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("bizuthB").addEventListener("click", setBizuth);
+			
+			function setHardcore(){
+				document.cookie='deck=hardcore.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("hardcoreB").addEventListener("click", setHardcore);
+			
+			function setIf(){
+				document.cookie='deck=if.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("ifB").addEventListener("click", setIf);
+			
+			function setRoti(){
+				document.cookie='deck=roti.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("rotiB").addEventListener("click", setRoti);
+			
+			function setJenaijamais(){
+				document.cookie='deck=jenaijamais.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("jenaijamaisB").addEventListener("click", setJenaijamais);
 			</script>
+			
+			<div id="modalInscription" class="modal">
+				<div class="modal-content">
+					<h4>Inscription des joueurs</h4>
+					<p>j1 j2 ...</p>
+				</div>
+				<div class="modal-footer">
+					<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Démarrer la partie</a>
+				</div>
+			</div>
 			
 		</main>
 		<footer class="page-footer indigo">
           <div class="footer-copyright">
             <div class="container">
-            Par <a href="https://www.linkedin.com/in/clément-espeute-231618111">Clément ESPEUTE</a> et <a href="https://fr.linkedin.com/in/mathis-hammel-467baaa6">Mathis HAMMEL</a>
-            <a class="grey-text text-lighten-4 right" href="https://github.com/kara71/RotINSA">Devenez contributeur sur GitHub</a>
+				<div class="row">
+					<div class="col s12 m12 l6">
+						Par <a href="https://www.linkedin.com/in/clément-espeute-231618111">Clément ESPEUTE</a> et <a href="https://fr.linkedin.com/in/mathis-hammel-467baaa6">Mathis HAMMEL</a>
+					</div>
+					<div class="col s12 m12 l6">
+						<a class="grey-text text-lighten-4 right" href="https://github.com/kara71/RotINSA">Devenez contributeur sur GitHub</a>
+					</div>
+				</div>
             </div>
           </div>
         </footer>
