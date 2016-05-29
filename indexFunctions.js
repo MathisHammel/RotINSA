@@ -132,7 +132,7 @@ function setIf(){
 document.getElementById("ifB").addEventListener("click", setIf);
 
 function setRoti(){
-	localStorage.setItem('deck','roti.json');
+	localStorage.setItem('deck','rotistandard.json');
 	$('#modalInscription').openModal();
 }
 document.getElementById("rotiB").addEventListener("click", setRoti);
