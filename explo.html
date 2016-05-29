@@ -55,7 +55,7 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
-	<div class="" id="fillMe">
+	<div class="row" id="fillMe">
 	</div>
 
 
@@ -105,7 +105,7 @@
 	 function charger(){
 	 		 for (var i = 0; i < total_cards.length; i++)
 			 {
-			 	if (i%3 == 0)
+			 	/*if (i%3 == 0)
 			 	{
 			 		$("#0").removeAttr("id");
 			 		$("#1").removeAttr("id");
@@ -116,10 +116,10 @@
 			 		 <div class='col l4' id='1'></div>\
 			 		 <div class='col l4' id='2'></div>\
 			 		 </div>");
-			 	}
-			 	$("#"+i%3).html("<div class='card' id='next'><p></p></div>");
+			 	}*/
+			 	$("#fillMe").append("<div class='col l3'><div class='card' id='next'><p></p></div><p class='text-center'>"+i+"</p></div>");
 			 	loadCard("#next", total_cards, i);
-			 	$("#next").removeAttr("id");
+			 	$("#next").attr("id",""+i);
 			 }
 
 	 }
