@@ -31,7 +31,7 @@ function loadCard(tag, deck, id)
 			  	txt = txt.replace(/{j1}/g, personne[0]);
 			  	txt = txt.replace(/{j2}/g, personne[1]);
 			  	txt = txt.replace(/{j3}/g, personne[2]);
-			  	txt = txt.replace(/{b}/g, "<i class='fa fa-beer' aria-hidden='true'></i>");
+			  	txt = txt.replace(/{b}/g, "<span class='beer'>"+String.fromCharCode(0xf0fc)+"</span>");
 
 			  	// Remplacer verres random
 				var result = txt.match(/{b\d+-\d+}/g);
@@ -49,14 +49,16 @@ function loadCard(tag, deck, id)
 
 						if (random <= 5)
 						{
+							beer = "<span class='beer'>";
 							for (var i = 0; i < random; i++)
 							{
-								beer = beer + "<i class='fa fa-beer' aria-hidden='true'></i>";
+								beer = beer + String.fromCharCode(0xf0fc);
 							}
+							beer = beer + "</span>";
 						}
 						else
 						{
-							beer = "" + random + " <i class='fa fa-beer' aria-hidden='true'></i>";
+							beer = "" + random + "<span class='beer'>"+String.fromCharCode(0xf0fc)+"</span>";
 						}
 					    txt = txt.replace(data,beer)
 					}
