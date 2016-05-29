@@ -110,7 +110,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Tu majores en DASI ! Distribue 8 {b}."
+		"content":"Tu majores en DASI ! Distribue {b8-8}."
 	},
 	{
 		"type":"action",
@@ -126,7 +126,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Paul-Louis est encore en retard ! Il il est dans la pièce, il distribue 10 {b}."
+		"content":"Paul-Louis est encore en retard ! Il il est dans la pièce, il distribue {b10-10}."
 	},
 	{
 		"type":"action",

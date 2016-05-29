@@ -58,9 +58,9 @@ function loadCard(tag, deck, id)
 						}
 						else
 						{
-							beer = "" + random + "<span class='beer'>"+String.fromCharCode(0xf0fc)+"</span>";
+							beer = "<b>" + random + "</b>&nbsp;<span class='beer'>"+String.fromCharCode(0xf0fc)+"</span>";
 						}
-					    txt = txt.replace(data,beer)
+					    txt = txt.replace(data,beer);
 					}
 				}
 
