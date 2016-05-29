@@ -1,5 +1,30 @@
 ﻿<html>
 	<head>
+	
+		<title>Rôt'INSA</title>
+		<meta name="description" content="La rôtisserie en ligne">
+		<meta name="author" content="Des gens rôti">
+		
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+		<link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+		<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+		<link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+		<meta name="application-name" content="&nbsp;"/>
+		<meta name="msapplication-TileColor" content="#FFFFFF" />
+		<meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+		<meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
+		<meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
+		<meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
+		<meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
 		<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
 		<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
@@ -9,8 +34,8 @@
 		<script src="materialize/js/materialize.min.js"></script>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-		     <!--Let browser know website is optimized for mobile-->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		 <!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
 		<main>
@@ -121,48 +146,55 @@
 					<h4>Inscription des joueurs</h4>
 					<div class="row">
 						<div id="players">
+						
 							<div class="player" id="1">
 								<div class="input-field col s11">
-									<input placeholder="Joueur 1" id="j1" type="text">
+									<input placeholder="Joueur" class="inputjoueur" id="j1" type="text">
 								</div>
-								<div class="input-field col s1" id="close1">
+								<div class="input-field col s1 removebtn" id="close1">
 									<i class="material-icons">close</i>
 								</div>
 							</div>
+							
 							<div class="player" id="2">
 								<div class="input-field col s11">
-									<input placeholder="Joueur 2" id="j2" type="text">
+									<input placeholder="Joueur" class="inputjoueur" id="j2" type="text">
 								</div>
-								<div class="input-field col s1"id="close2">
+								<div class="input-field col s1 removebtn"id="close2">
 									<i class="material-icons">close</i>
 								</div>
 							</div>
+							
 							<div class="player" id="3">
 								<div class="input-field col s11">
-									<input placeholder="Joueur 3" id="j3" type="text">
+									<input placeholder="Joueur" class="inputjoueur" id="j3" type="text">
 								</div>
-								<div class="input-field col s1"id="close3">
+								<div class="input-field col s1 removebtn"id="close3">
 									<i class="material-icons">close</i>
 								</div>
 							</div>
+							
 						</div>
 						<div class="input-field col s12" id="add">
 							<i class="material-icons">add</i>
 						</div>
 					</div>
 				</div>
-				<div class="modal-footer">
-					<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Démarrer la partie</a>
+				<div class="modal-footer" id="letsgobtn">
+					<a href="#" class="waves-effect waves-green btn-flat">Démarrer la partie</a>
 				</div>
 			</div>
 			
 						<script>
 			$(document).ready(function(){
-				// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+
 				$('.modal-trigger').leanModal();
 				document.getElementById("close1").addEventListener("click", supprJoueur);
 				document.getElementById("close2").addEventListener("click", supprJoueur);
 				document.getElementById("close3").addEventListener("click", supprJoueur);
+				desactiverSuppr();
+				
+				document.getElementById("letsgobtn").addEventListener("click", letsGo);
 			});
 			
 			$(function () {
@@ -173,82 +205,128 @@
 				}
 			}); //shuffle des familles
 			
+			function letsGo()
+			{
+				var players=document.getElementsByClassName("player");
+				
+				var playerValues=[];
+				var i;
+				var ok=true;
+				for(i=0;i<players.length;i++)
+				{
+					if(players[i].children[0].children[0].value==="")
+					{
+						ok=false;
+						players[i].children[0].children[0].className="inputjoueur invalid";
+					}
+					else
+					{
+						playerValues.push(players[i].children[0].children[0].value);
+						players[i].children[0].children[0].className="inputjoueur";
+					}
+				}
+				if(ok)
+				{
+					localStorage.setItem('joueurs',JSON.stringify(playerValues));
+					window.location.replace("roti.html");
+				}
+			}
+			
+			function desactiverSuppr()
+			{
+				var remBtns=document.getElementsByClassName("removebtn");
+				var it;
+				for(it=0;it<remBtns.length;it++)
+				{
+					remBtns[it].style.visibility = "hidden";
+				}
+			}
+			
+			function activerSuppr()
+			{
+				var remBtns=document.getElementsByClassName("removebtn");
+				var it;
+				for(it=0;it<remBtns.length;it++)
+				{
+					remBtns[it].style.visibility = "visible";
+				}
+			}
+			
 			var compteurJoueurs=3;
 			var iterIdJoueur=3;
 			function addJoueur()
 			{
+				activerSuppr();
+				
+				
+				compteurJoueurs++;
+				iterIdJoueur++;
+
+				var players='<div class="input-field col s11">';
+				players+='<input placeholder="Joueur" class="inputjoueur" id="j'+iterIdJoueur+'" type="text">';
+				players+='</div>';
+				players+='<div class="input-field col s1 removebtn" id="close'+iterIdJoueur+'">';
+				players+='<i class="material-icons">close</i>';
+				players+='</div>';
+				
+				var newDiv=document.createElement('div');
+				newDiv.className="player";
+				newDiv.setAttribute("id",''+iterIdJoueur);
+				newDiv.innerHTML=players;
+				
+				document.getElementById("players").appendChild(newDiv);
+				
+				document.getElementById("close"+iterIdJoueur).addEventListener("click", supprJoueur);
+				document.getElementById("j"+iterIdJoueur).addEventListener("select", function(){alert(123);});
+				
 				if(compteurJoueurs>=20)
 				{
-					alert("Erreur : 20 joueurs max.")
+					this.style.visibility = "hidden";
 				}
-				else
-				{
-					compteurJoueurs++;
-					iterIdJoueur++;
-					
-					
-					var players='<div class="input-field col s11">';
-					players+='<input placeholder="Joueur '+compteurJoueurs+'" id="j'+iterIdJoueur+'" type="text">';
-					players+='</div>';
-					players+='<div class="input-field col s1" id="close'+iterIdJoueur+'">';
-					players+='<i class="material-icons">close</i>';
-					players+='</div>';
-					
-					var newDiv=document.createElement('div');
-					newDiv.className="player";
-					newDiv.setAttribute("id",''+iterIdJoueur);
-					newDiv.innerHTML=players;
-					
-					document.getElementById("players").appendChild(newDiv);
-					
-					
-					console.log(newDiv.firstChild);
-					document.getElementById("close"+iterIdJoueur).addEventListener("click", supprJoueur);
-					
-					
-				}
+				
+				$("#modalInscription").scrollTop($("#modalInscription")[0].scrollHeight);
 			}
 			document.getElementById("add").addEventListener("click", addJoueur);
 			
 			function supprJoueur()
 			{
-				if(compteurJoueurs>3)
+
+				this.parentNode.parentNode.removeChild(this.parentNode);
+				compteurJoueurs--;
+				document.getElementById("add").style.visibility="visible";
+				
+				if(compteurJoueurs<=3)
 				{
-					this.parentNode.parentNode.removeChild(this.parentNode);
-					compteurJoueurs--;
-				}
-				else
-				{
-					console.log("not removing, 3 only remain")
+					desactiverSuppr();
 				}
 			}
 			
 			function setBizuth(){
-				document.cookie='deck=bizuth.json';
+				localStorage.setItem('deck','bizuth.json');
 				$('#modalInscription').openModal();
 			}
 			document.getElementById("bizuthB").addEventListener("click", setBizuth);
 			
 			function setHardcore(){
-				document.cookie='deck=hardcore.json';
+				localStorage.setItem('deck','hardcore.json');
 				$('#modalInscription').openModal();
 			}
 			document.getElementById("hardcoreB").addEventListener("click", setHardcore);
 			
 			function setIf(){
-				document.cookie='deck=if.json';
+				localStorage.setItem('deck','if.json');
 				$('#modalInscription').openModal();
 			}
 			document.getElementById("ifB").addEventListener("click", setIf);
 			
 			function setRoti(){
-				document.cookie='deck=roti.json';
+				localStorage.setItem('deck','roti.json');
 				$('#modalInscription').openModal();
 			}
 			document.getElementById("rotiB").addEventListener("click", setRoti);
 			
 			function setJenaijamais(){
-				document.cookie='deck=jenaijamais.json';
+				localStorage.setItem('deck','jenaijamais.json');
 				$('#modalInscription').openModal();
 			}
 			document.getElementById("jenaijamaisB").addEventListener("click", setJenaijamais);
