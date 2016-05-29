@@ -16,13 +16,12 @@
 		<main>
 			<header>
 				<div class="row title">
-				<div class="col s12">Rôt'INSA</div>
-					
+					Rôt'INSA
 				</div>
 			</header>
 			
 			<div class="row" id="shuffle">
-				<div class="col s12 m6 l4">
+				<div class="col s12 m12 l4">
 					<div class="card small z-depth-3">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="images/bizuth.jpg" />
@@ -34,13 +33,13 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Bizuth<i class="material-icons right">close</i></span>
 							<p>Moi j'aime bien l'OMSI lol</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="bizuthB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
 					</div>
 				</div>
-				<div class="col s12 m6 l4">
+				<div class="col s12 m12 l4">
 					<div class="card small z-depth-3">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="images/hardcore.jpg" />
@@ -52,13 +51,13 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Hardcore<i class="material-icons right">close</i></span>
 							<p>Pour les plus solides</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="hardcoreB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
 					</div>
 				</div>
-				<div class="col s12 m6 l4">
+				<div class="col s12 m12 l4">
 					<div class="card small z-depth-3">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="images/poulet.jpg" />
@@ -70,13 +69,13 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Rôti standard<i class="material-icons right">close</i></span>
 							<p>Pour une rôtisserie classique en famille ou entre amis</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="rotiB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
 					</div>
 				</div>
-				<div class="col s12 m6 l4">
+				<div class="col s12 m12 l4">
 					<div class="card small z-depth-3">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="images/ribery.jpg" />
@@ -88,13 +87,13 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">Je n'ai jamais.../J'ai déjà...<i class="material-icons right">close</i></span>
 							<p>Découvrez des dossiers sur vos amis de manière très conviviale</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="jenaijamaisB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
 					</div>
 				</div>
-				<div class="col s12 m6 l4">
+				<div class="col s12 m12 l4">
 					<div class="card small z-depth-3">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="images/informaticien.jpg" />
@@ -106,15 +105,66 @@
 						<div class="card-reveal activator">
 							<span class="card-title grey-text text-darken-4 activator" style="font-size:35px">IF<i class="material-icons right">close</i></span>
 							<p>Je suis ingénieur informaticieeeeeeeeeeeeeeeeen</p>
-							<button class="btn waves-effect waves-light" type="submit" name="action">C'est parti
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="ifB">C'est parti
 								<i class="material-icons right">send</i>
 							</button>
 						</div>
 					</div>
 				</div>
 			</div>
+			  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+
 			
-			<script>
+			<div id="modalInscription" class="modal">
+				<div class="modal-content">
+					<h4>Inscription des joueurs</h4>
+					<div class="row">
+						<div id="players">
+							<div class="player" id="1">
+								<div class="input-field col s11">
+									<input placeholder="Joueur 1" id="j1" type="text">
+								</div>
+								<div class="input-field col s1" id="close1">
+									<i class="material-icons">close</i>
+								</div>
+							</div>
+							<div class="player" id="2">
+								<div class="input-field col s11">
+									<input placeholder="Joueur 2" id="j2" type="text">
+								</div>
+								<div class="input-field col s1"id="close2">
+									<i class="material-icons">close</i>
+								</div>
+							</div>
+							<div class="player" id="3">
+								<div class="input-field col s11">
+									<input placeholder="Joueur 3" id="j3" type="text">
+								</div>
+								<div class="input-field col s1"id="close3">
+									<i class="material-icons">close</i>
+								</div>
+							</div>
+						</div>
+						<div class="input-field col s12" id="add">
+							<i class="material-icons">add</i>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Démarrer la partie</a>
+				</div>
+			</div>
+			
+						<script>
+			$(document).ready(function(){
+				// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+				$('.modal-trigger').leanModal();
+				document.getElementById("close1").addEventListener("click", supprJoueur);
+				document.getElementById("close2").addEventListener("click", supprJoueur);
+				document.getElementById("close3").addEventListener("click", supprJoueur);
+			});
+			
 			$(function () {
 				var parent = $("#shuffle");
 				var divs = parent.children();
@@ -122,14 +172,100 @@
 					parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
 				}
 			}); //shuffle des familles
-			</script>
 			
+			var compteurJoueurs=3;
+			var iterIdJoueur=3;
+			function addJoueur()
+			{
+				if(compteurJoueurs>=20)
+				{
+					alert("Erreur : 20 joueurs max.")
+				}
+				else
+				{
+					compteurJoueurs++;
+					iterIdJoueur++;
+					
+					
+					var players='<div class="input-field col s11">';
+					players+='<input placeholder="Joueur '+compteurJoueurs+'" id="j'+iterIdJoueur+'" type="text">';
+					players+='</div>';
+					players+='<div class="input-field col s1" id="close'+iterIdJoueur+'">';
+					players+='<i class="material-icons">close</i>';
+					players+='</div>';
+					
+					var newDiv=document.createElement('div');
+					newDiv.className="player";
+					newDiv.setAttribute("id",''+iterIdJoueur);
+					newDiv.innerHTML=players;
+					
+					document.getElementById("players").appendChild(newDiv);
+					
+					
+					console.log(newDiv.firstChild);
+					document.getElementById("close"+iterIdJoueur).addEventListener("click", supprJoueur);
+					
+					
+				}
+			}
+			document.getElementById("add").addEventListener("click", addJoueur);
+			
+			function supprJoueur()
+			{
+				if(compteurJoueurs>3)
+				{
+					this.parentNode.parentNode.removeChild(this.parentNode);
+					compteurJoueurs--;
+				}
+				else
+				{
+					console.log("not removing, 3 only remain")
+				}
+			}
+			
+			function setBizuth(){
+				document.cookie='deck=bizuth.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("bizuthB").addEventListener("click", setBizuth);
+			
+			function setHardcore(){
+				document.cookie='deck=hardcore.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("hardcoreB").addEventListener("click", setHardcore);
+			
+			function setIf(){
+				document.cookie='deck=if.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("ifB").addEventListener("click", setIf);
+			
+			function setRoti(){
+				document.cookie='deck=roti.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("rotiB").addEventListener("click", setRoti);
+			
+			function setJenaijamais(){
+				document.cookie='deck=jenaijamais.json';
+				$('#modalInscription').openModal();
+			}
+			document.getElementById("jenaijamaisB").addEventListener("click", setJenaijamais);
+			
+			</script>
 		</main>
 		<footer class="page-footer indigo">
           <div class="footer-copyright">
             <div class="container">
-            Par <a href="https://www.linkedin.com/in/clément-espeute-231618111">Clément ESPEUTE</a> et <a href="https://fr.linkedin.com/in/mathis-hammel-467baaa6">Mathis HAMMEL</a>
-            <a class="grey-text text-lighten-4 right" href="https://github.com/kara71/RotINSA">Devenez contributeur sur GitHub</a>
+				<div class="row">
+					<div class="col s12 m12 l6">
+						Par <a href="https://www.linkedin.com/in/clément-espeute-231618111">Clément ESPEUTE</a> et <a href="https://fr.linkedin.com/in/mathis-hammel-467baaa6">Mathis HAMMEL</a>
+					</div>
+					<div class="col s12 m12 l6">
+						<a class="grey-text text-lighten-4 right" href="https://github.com/kara71/RotINSA">Devenez contributeur sur GitHub</a>
+					</div>
+				</div>
             </div>
           </div>
         </footer>
