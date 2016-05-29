@@ -10,23 +10,23 @@
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ne connaissent pas le vrai nom de barbiche boivent {b} {b} {b}"
+		"content":"Ceux qui ne connaissent pas le vrai nom de barbiche boivent {b3-3}."
 	},
 	{
 		"type":"spin",
-		"content":"Enumerez des langages de programmation. Celui qui ne sait plus boit {b} {b} "
+		"content":"Énumérez des langages de programmation. Celui qui ne sait plus boit {b2-5}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui font des retours à la ligne avant d'ouvrir une accolade boivent {b} {b} "
+		"content":"Ceux qui font des retours à la ligne avant d'ouvrir une accolade boivent {b2-5}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ne font pas des retours à la ligne avant d'ouvrir une accolade boivent {b} {b} "
+		"content":"Ceux qui ne font pas des retours à la ligne avant d'ouvrir une accolade boivent {b2-5}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui codent en {lua|python|c++|java} boivent {b2-4}"
+		"content":"Ceux qui codent en {lua|python|c++|java} boivent {b2-4}."
 	},
 	{
 		"type":"action",
@@ -34,15 +34,15 @@
 	},
 	{
 		"type":"action",
-		"content":"Paul-Louis, tu bois {b}{b}. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>finit son verre</b>."
+		"content":"Paul-Louis, tu bois {b2-2}. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>finit son verre</b>."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ne vont plus en amphi, buvez {b}"
+		"content":"Ceux qui ne vont plus en amphi, buvez {b2-5}."
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>La Patrouille</b> : Si tu vois quelqu'un poser son verre, tu peux lui faire boire {b}{b}{b}"
+		"content":"Tu deviens <b>La Patrouille</b> : Si tu vois quelqu'un poser son verre, tu peux lui faire boire {b3-3}."
 	},
 	{
 		"type":"role",
@@ -50,7 +50,7 @@
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Maranzana</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b2-4}"
+		"content":"Tu deviens <b>Maranzana</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b2-4}."
 	},
 	{
 		"type":"role",
@@ -78,7 +78,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Dis quelquechose que tu n'as jamais fait. Ceux qui l'on fait boivent {b2-5}."
+		"content":"\"Je n'ai jamais ... \". Ceux qui l'on déjà fait boivent {b2-5}."
 	},
 	{
 		"type":"question",
@@ -118,7 +118,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Mise à jour windows ! Bois {b2-5} pour patienter."
+		"content":"Mise à jour Windows ! Bois {b2-5} pour patienter."
 	},
 	{
 		"type":"action",
@@ -126,7 +126,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Paul-Louis est encore en retard ! Il il est dans la pièce, il distribue {b10-10}."
+		"content":"Paul-Louis est encore en retard ! Si il est dans la pièce, il distribue {b10-10}."
 	},
 	{
 		"type":"action",
@@ -138,11 +138,47 @@
 	},
 	{
 		"type":"spin",
-		"content":"Enumérez les noms des profs d'IF. Celui qui ne trouve pas boit {b5-5}."
+		"content":"Énumérez les noms des profs d'IF. Celui qui ne trouve pas boit {b5-5}."
 	},
 	{
 		"type":"regle",
 		"content":"Tout le monde parle à présent comme <b>Yoda</b>. Boire {b1-3}, ceux qui se trompent doivent !"
+	},
+	{
+		"type":"action",
+		"content":"Cul Sec ! Finis ton verre."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont été témoins d'un Bazoom boivent {b5-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui {viennent du PC|ne viennent pas du PC} boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont un mac boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont installé Linux boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui jouent à LoL boivent {b1-3}."
+	},
+	{
+		"type":"action",
+		"content":"Joue au Chou-Fleur avec la personne de ton choix. Le perdant boit {b2-5}."
+	},
+	{
+		"type":"action",
+		"content":"<b>Chapeau Chinois !</b> Le dernier boit {b3-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà fait une nuit blanche pour rendre un TP boivent {b2-6}."
 	}
 
 

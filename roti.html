@@ -104,7 +104,11 @@
 	var total_cards = [];
 	var deck = [];
 
-	var joueurs = ["Bob", "Alice", "Marcus", "ClapTrap"];
+	var joueurs = JSON.parse(localStorage.getItem("joueurs"));
+	if (!joueurs)
+	{
+		joueurs	= ["Bob", "Alice", "Fred"];
+	}
 
 	var getUrlParameter = function getUrlParameter(sParam) {
 	    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
@@ -123,13 +127,19 @@
 	// Charger le fichier de cartes 
 	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
 
+
 	file = getUrlParameter("deck");
 	if (!file)
 	{
-		file = "template.json"
+		file = localStorage.getItem("deck");
+		if (!file)
+		{
+			file = "template.json";	
+		}
 	}
+
 	file = "decks/"+file;
-	 $.getJSON(file, function(data)
+	$.getJSON(file, function(data)
 	 	{
 	 		json = data;
 	 		total_cards = json.cards;
