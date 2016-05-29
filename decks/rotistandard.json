@@ -5,11 +5,11 @@
 	"cards":[
 	{
 		"type":"action",
-		"content":"Tout le monde boit b{1-9}."
+		"content":"Tout le monde boit {b1-9}."
 	},
 	{
 		"type":"spin",
-		"content":"Récitez l'alphabet à l'envers. Celui qui se trompe boit b{5-7}."
+		"content":"Récitez l'alphabet à l'envers. Celui qui se trompe boit {b5-7}."
 	},
 	{
 		"type":"role",
