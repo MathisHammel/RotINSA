@@ -35,7 +35,7 @@ Les fichiers de decks ont la forme suivante :
 
 `content` : correspond au texte de la carte. Il peut contennir des balises HTML et des templates spéciaux dont voici la liste :
 
- - `{b}` : Place un symbole 'boisson'. Il correspond au fait que le joueur doit boire un coup.
+ - `{b}` (DEPRECATED, uttilisez plutot `{b3-3}` pour affihcer 3 bières: Place un symbole 'boisson'. Il correspond au fait que le joueur doit boire un coup.
  - `{b1-3}` : Place un nombre aléatoire de symboles 'boisson', choisi entre le premier nombre (ici 1) et le 2ème nombre (ici 3).
  - `{j1}` : Remplace ce template par le nom d'un joueur tiré aléatoirement. Il peut y avoir jusqu'à 3 joueurs sur une même carte, en uttilisant respectivement `{j1}`, `{j2}` ou `{j3}`. Chaque balise aura toujours la même valeur sur la carte, donc on peut réuttiliser `{j1}` pour afficher plusieurs fois le même nom de joueur sur la carte.
  - `{nom1|nom2|nom3}` : Choisis un terme au hazard parmis plusieurs (séparés par des `|`).
