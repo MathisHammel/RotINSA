@@ -143,7 +143,7 @@ function setJenaijamais(){
 }
 document.getElementById("jenaijamaisB").addEventListener("click", setJenaijamais);
 
-function setCitations()){
+function setCitations(){
 	localStorage.setItem('deck','citations.json');
 	$('#modalInscription').openModal();
 }
