@@ -42,4 +42,4 @@ Les fichiers de decks ont la forme suivante :
 
 Exemple : `"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et boivent {b1-10}."` -> La carte choisira au hasard parmi {roux|chatains|bruns|blonds|chauves} pour la couleur de cheveux, et entre 1 et 10 coups à boire à afficher sur la carte.
 
-`count` : Opptionnel, correspond au nombre de fois que la carte apparaîtra dans un deck (Utile pour les cartes génériques). Exemple : `"count":3` -> La carte apparaîtra 3 fois dans la partie. Si non défini, la carte n’apparaîtra qu'une fois.
+`count` : Optionnel, correspond au nombre de fois que la carte apparaîtra dans un deck (Utile pour les cartes génériques). Exemple : `"count":3` -> La carte apparaîtra 3 fois dans la partie. Si non défini, la carte n’apparaîtra qu'une fois.
