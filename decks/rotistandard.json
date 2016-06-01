@@ -34,6 +34,139 @@
 	{
 		"type":"question",
 		"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et boivent {b1-10}."
+	},
+	{
+		"type":"spin",
+		"content":"Votez a tour de role pour <em> Voler ou se Téléporter </em>. La minorité boit {b3-5}."
+	},
+	{
+		"type":"action",
+		"content":"Tu dois parler en continu jusqu'à nouvel ordre. Bois {b2-5} si tu t’arrêtes."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Stop Man</b>. Si tu t'arretes de bouger, tout le monde doit faire de même. Le dernier doit boire {b2}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont dilué leur boissons, buvez {b3-3}."
+
+	},
+	{
+		"type":"spin",
+		"content":"Enumerez les critères pour un partenaire sexuel pour {j1}. Celui qui ne trouve plus boit {b2-5}."
+	},
+	{
+		"type":"action",
+		"content":"{j1} et {j2}, prenez un selfie grimace ensemble, puis buvez {b2-4}."
+	},
+	{
+		"type":"action",
+		"content":"Montre les 5 dernières photos de ton téléphone à tout le monde, ou bois {b4-8}."
+	},
+	{
+		"type":"action",
+		"content":"Ceux qui sont en couple distribuent {b3-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les synonymes de <em>Penis</em>. Celui qui ne sait plus boit {b3-4}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les synonymes de <em>Vagin</em>. Celui qui ne sait plus boit {b3-4}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà triché à une intéro boivent {b3-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà triché à une intéro boivent {b3-5}."
+	},
+	{
+		"type":"action",
+		"content":"Jusqu'à ton prochain tour, bois {b1-2} à chaque fois que quelqu'un tire une carte."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà triché à une intéro boivent {b3-5}."
+	},
+	{
+		"type":"action",
+		"content":"Celui qui à les sous-vêtements les plus sombres entre {j1} et {j2} boit {b2-3}."
+	},
+	{
+		"type":"action",
+		"content":"Tu dois sourire pendant une minute, bois {b3-5} si tu t’arrêtes."
+	},
+	{
+		"type":"action",
+		"content":"Celui qui à la boisson la plus alcoolisée boit <b>X</b>{b} et en distribue le double."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont un paquet de cigarettes sur eux boivent autant de {b} que de cigarettes dans le paquet."
+	},
+	{
+		"type":"spin",
+		"content":"<em>\"Dans ma valise, il y a ...\"</em>. Le perdant boit {b2-4}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les techniques pour ne pas avoir la gueule de bois. Celui qui ne sait plus boit {b2-4}."
+	},
+	{
+		"type":"action",
+		"content":"La personne à ta gauche boit {b2-4}."
+	},
+	{
+		"type":"action",
+		"content":"La personne à ta gauche boit {b2-4}."
+	},
+	{
+		"type":"action",
+		"content":"La personne à ta gauche boit {b2-4}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le visiteur du Turfu</b>. Tu dois à présent parler au futur. Quand tu te trompera, tu boira {b1-3}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Alain Delon</b>. Tu dois parler de toi à la 3ème personne, sinon Il boit {b1-3}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Alain Delon</b>. Tu dois parler de toi à la 3ème personne, sinon Il boit {b1-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les personnages {des Avengers|de Marvel|de DC}. Celui qui ne trouve plus boit {b2-4}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les chanteurs Français nazes. Celui qui ne trouve plus boit {b2-4}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les contes pour enfants. Celui qui ne trouve plus boit {b2-4}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Stare Man</b>. Si quelqu'un te regardes dans les yeux, fais lui boire {b1-2}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Stare Man</b>. Si quelqu'un te regardes dans les yeux, fais lui boire {b1-2}."
+	},
+	{
+		"type":"action",
+		"content":"Dans les 15 prochaines secondes, le premier à lécher son coude distribue {b100-100}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Giles De La Tourette</b>. Quand tu cries un mot, tout le monde doit le crier. Le dernier boit {b2-2}."
 	}
 
 	]

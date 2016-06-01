@@ -78,7 +78,7 @@
 				</div>
 			</div>
 		</div>	
-
+		<p class="player-name">Tour de : <span id="player-name"></span></p>
 		<div class="center-item">
 			<a class="waves-effect waves-light btn green lighten-1" onclick='turn();'>rôti-moi ! </a>
 		</div>
@@ -109,6 +109,7 @@
 	{
 		joueurs	= ["Bob", "Alice", "Fred"];
 	}
+	playerTurn = Math.floor((Math.random() * (joueurs.length)));
 
 	var getUrlParameter = function getUrlParameter(sParam) {
 	    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
@@ -138,12 +139,26 @@
 		}
 	}
 
+
+
 	file = "decks/"+file;
 	$.getJSON(file, function(data)
 	 	{
 	 		json = data;
 	 		total_cards = json.cards;
-	 		deck = total_cards.slice();
+	 		/*for (var i = 0; i < deck.length / 10; i++)
+	 		{
+	 			deck.push(
+	 			{
+	 				"type":"action",
+	 				"content":"Toutes les règles en cours sont annulés."
+	 			}
+
+	 			);
+	 		}*/
+
+	 		deck = randomDeck(total_cards);
+
 	 		block = false;
 	 	}
 	 	);	
@@ -156,6 +171,8 @@
 			if (!block)
 			{
 				block = true;
+				$("#player-name").html(joueurs[playerTurn]);
+				playerTurn = (playerTurn+1)%joueurs.length;
 				if (showModalNextTurn == true)
 				{
 					$("#deckend").openModal();
@@ -165,7 +182,7 @@
 				// Si le deck est vide, le recharger
 			  	if (deck.length == 0)
 			  	{
-			  		deck = total_cards.slice();
+			  		deck = randomDeck(total_cards);
 			  		showModalNextTurn = true;
 			  	}
 
@@ -206,6 +223,36 @@
 
 
 		};
+
+	function shuffle(array) {
+	  var currentIndex = array.length, temporaryValue, randomIndex;
+
+	  // While there remain elements to shuffle...
+	  while (0 !== currentIndex) {
+
+	    // Pick a remaining element...
+	    randomIndex = Math.floor(Math.random() * currentIndex);
+	    currentIndex -= 1;
+
+	    // And swap it with the current element.
+	    temporaryValue = array[currentIndex];
+	    array[currentIndex] = array[randomIndex];
+	    array[randomIndex] = temporaryValue;
+	  }
+
+	  return array;
+	}
+
+	function randomDeck(original){
+		rand = shuffle(original)
+
+		if (rand.length > 52)
+		{
+			rand = rand.slice(0,52);
+		}
+		return rand;
+	}
+
 
 	</script>
 
