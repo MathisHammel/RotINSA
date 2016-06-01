@@ -144,7 +144,7 @@ function setJenaijamais(){
 document.getElementById("jenaijamaisB").addEventListener("click", setJenaijamais);
 
 function setCitations(){
-	localStorage.setItem('deck','citations.json');
+	localStorage.setItem('deck','repliques.json');
 	$('#modalInscription').openModal();
 }
 document.getElementById("citationsB").addEventListener("click", setCitations);
