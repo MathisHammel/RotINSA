@@ -37,15 +37,19 @@
 	},
 	{
 		"type":"spin",
-		"content":"Votez a tour de role pour <em> Voler ou se Téléporter </em>. La minorité boit {b3-5}."
+		"content":"Votez a tour de role pour <em> Voler ou se Téléporter</em>. La minorité boit {b3-5}."
+	},
+	{
+		"type":"spin",
+		"content":"Votez a tour de role pour <em> La Gauche ou La Droite</em>. La minorité boit {b3-5}."
 	},
 	{
 		"type":"action",
-		"content":"Tu dois parler en continu jusqu'à nouvel ordre. Bois {b2-5} si tu t’arrêtes."
+		"content":"Tu dois parler en continu jusqu'à nouvel ordre. Bois {b2-3} si tu t’arrêtes."
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Stop Man</b>. Si tu t'arretes de bouger, tout le monde doit faire de même. Le dernier doit boire {b2}."
+		"content":"Tu deviens <b>Stop Man</b>. Si tu t'arretes de bouger, tout le monde doit faire de même. Le dernier doit boire {b2-2}."
 	},
 	{
 		"type":"question",
@@ -54,7 +58,7 @@
 	},
 	{
 		"type":"spin",
-		"content":"Enumerez les critères pour un partenaire sexuel pour {j1}. Celui qui ne trouve plus boit {b2-5}."
+		"content":"Énumérez les critères pour un partenaire sexuel pour {j1}. Celui qui ne trouve plus boit {b2-3}."
 	},
 	{
 		"type":"action",
@@ -62,7 +66,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Montre les 5 dernières photos de ton téléphone à tout le monde, ou bois {b4-8}."
+		"content":"Montre les 5 dernières photos de ton téléphone à tout le monde, ou bois {b4-4}."
 	},
 	{
 		"type":"action",
@@ -70,19 +74,19 @@
 	},
 	{
 		"type":"spin",
-		"content":"Énumérez les synonymes de <em>Penis</em>. Celui qui ne sait plus boit {b3-4}."
+		"content":"Énumérez les synonymes de <em>Penis</em>. Celui qui ne sait plus boit {b2-4}."
 	},
 	{
 		"type":"spin",
-		"content":"Énumérez les synonymes de <em>Vagin</em>. Celui qui ne sait plus boit {b3-4}."
+		"content":"Énumérez les synonymes de <em>Vagin</em>. Celui qui ne sait plus boit {b2-4}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ont déjà triché à une intéro boivent {b3-5}."
+		"content":"Ceux qui ont déjà triché à une intéro boivent {b2-5}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ont déjà triché à une intéro boivent {b3-5}."
+		"content":"Ceux qui ont déjà triché à une intéro boivent {b2-5}."
 	},
 	{
 		"type":"action",
@@ -102,7 +106,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Celui qui à la boisson la plus alcoolisée boit <b>X</b>{b} et en distribue le double."
+		"content":"Celui qui à la boisson la plus alcoolisée boit autant de {b} qu'il veut, puis en distribue le double."
 	},
 	{
 		"type":"question",
@@ -137,10 +141,6 @@
 		"content":"Tu deviens <b>Alain Delon</b>. Tu dois parler de toi à la 3ème personne, sinon Il boit {b1-3}."
 	},
 	{
-		"type":"role",
-		"content":"Tu deviens <b>Alain Delon</b>. Tu dois parler de toi à la 3ème personne, sinon Il boit {b1-3}."
-	},
-	{
 		"type":"spin",
 		"content":"Énumérez les personnages {des Avengers|de Marvel|de DC}. Celui qui ne trouve plus boit {b2-4}."
 	},
@@ -157,16 +157,76 @@
 		"content":"Tu deviens <b>Stare Man</b>. Si quelqu'un te regardes dans les yeux, fais lui boire {b1-2}."
 	},
 	{
-		"type":"role",
-		"content":"Tu deviens <b>Stare Man</b>. Si quelqu'un te regardes dans les yeux, fais lui boire {b1-2}."
-	},
-	{
 		"type":"action",
 		"content":"Dans les 15 prochaines secondes, le premier à lécher son coude distribue {b100-100}."
 	},
 	{
 		"type":"role",
 		"content":"Tu deviens <b>Giles De La Tourette</b>. Quand tu cries un mot, tout le monde doit le crier. Le dernier boit {b2-2}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont vraiment mal fini à leur dernière soirée boivent {b3-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les Burgers du McDo. Celui qui ne trouve plus boit {b2-4}."
+	},
+	{
+		"type":"action",
+		"content":"Ceux qui n'ont pas encore distribué de la soirée, distribuez {b3-4}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>La Reine d'Angleterre</b>. Si quelqu'un ne te parles pas avec le respect qu'il te doit, tu peut lui faire boire {b2-2}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le stéréotype Asiatique</b>. Tu parles à présent avec un accent chinois raciste {b2-2}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>L'Atiraciste Extrémiste</b>. Si quelqu'un dit quelque chose qui pourrait être raciste, tu peux lui faire boire {b1-1}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les méchants de film. Celui qui ne trouve plus boit {b2-4}."
+	},
+	{
+		"type":"action",
+		"content":"Fait boire {b3-3} à la personne de ton choix."
+	},
+	{
+		"type":"action",
+		"content":"Échange ton verre avec la personne sur ta droite."
+	},
+	{
+		"type":"action",
+		"content":"Échange ton verre avec la personne sur ta droite."
+	},
+	{
+		"type":"action",
+		"content":"Bois {b1-1}."
+	},
+	{
+		"type":"action",
+		"content":"Bois {b2-2}."
+	},
+	{
+		"type":"action",
+		"content":"Bois {b1-1}."
+	},
+	{
+		"type":"action",
+		"content":"Bois {b3-3}."
+	},
+	{
+		"type":"action",
+		"content":"Bois {b4-4}."
+	},
+	{
+		"type":"action",
+		"content":"Distribue {b5-5}."
 	}
 
 	]
