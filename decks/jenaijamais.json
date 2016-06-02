@@ -5,11 +5,79 @@
 	"cards":[
 	{
 		"type":"question",
-		"content":"Ceux qui pensent qu'ils ont raté leur partielles, buvez {b3-5}"
+		"content":"Ceux qui ont déjà donné de l'argent à un sdf boivent {b1-3}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui sont roti boivent encore !"
+		"content":"Ceux qui ont déjà sucé des bites boivent {b1-3}."
+	},
+	{
+		"type":"action",
+		"content":"Celui qui s'est masturbé le plus récemment {boit|distribue} {b4-8}."
+	},	
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà fait l'amour à plus de deux personnes différentes dans la même journée boivent {b2-4}."
+	},	
+	{
+		"type":"spin",
+		"content":"Enumérez les sites de porn. Celui qui ne sait plus boit {b2-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Enumérez les sites acteurs/actrices X. Celui qui ne sait plus boit {b1-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Ceux qui ont déjà regardé du hentai à tentacule boivent {b1-3}."
+	},	
+	{
+		"type":"action",
+		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
+	},	
+	{
+		"type":"action",
+		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
+	},	
+	{
+		"type":"action",
+		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
+	},	
+	{
+		"type":"action",
+		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
+	},	
+	{
+		"type":"action",
+		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
+	},	
+	{
+		"type":"action",
+		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
+	},	
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà envoyé des photos coquines de toi, bois b{1-3}."
+	},	
+	{
+		"type":"question",
+		"content":"Ceux qui se sont masturbé aujourd'hui boivent b{1-3}."
+	},	
+	{
+		"type":"question",
+		"content":"Ceux qui ont regardé un porno dans les 5 derniers jours boivent b{1-3}."
+	},	
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà couché avec quelqu'un dans la pièce boivent b{1-3}."
+	},	
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent b{1-3}."
+	},	
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent b{1-3}."
 	}
 
 	]

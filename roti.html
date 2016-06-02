@@ -166,7 +166,7 @@
 	 			);
 	 		}*/
 
-	 		deck = randomDeck(total_cards);
+	 		deck = randomDeck(total_cards.slice());
 
 	 		block = false;
 	 	}
@@ -191,7 +191,7 @@
 				// Si le deck est vide, le recharger
 			  	if (deck.length == 0)
 			  	{
-			  		deck = randomDeck(total_cards);
+			  		deck = randomDeck(total_cards.slice());
 			  		showModalNextTurn = true;
 			  	}
 
