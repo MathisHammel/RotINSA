@@ -19,13 +19,16 @@ function loadCard(tag, deck, id)
 			  	// Patterns !
 			  	// Définition des parterns : {lePattern}
 			  	var personne = [];
-			  	for(var i =0; i<3; i++)
+
+			  	// Dégager le joueur qui tourne
+			  	personne[0] = joueurs[playerTurn];
+			  	joueursTmp.splice(playerTurn,1);
+			  	for(var i =1; i<3; i++)
 			  	{
 			  		random = Math.floor((Math.random() * (joueursTmp.length)));
 
 			  		personne[i] = joueursTmp[random];
 			  		joueursTmp.splice(random,1);
-
 			  	}
 
 			  	txt = txt.replace(/{j1}/g, personne[0]);

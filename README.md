@@ -37,7 +37,7 @@ Les fichiers de decks ont la forme suivante :
 
  - `{b}` (DEPRECATED, utilisez plutôt `{b3-3}` pour afficher 3 bières) : Place un symbole 'boisson'. Il correspond au fait que le joueur doit boire un coup.
  - `{b1-3}` : Place un nombre aléatoire de symboles 'boisson', choisi entre le premier nombre (ici 1) et le 2ème nombre (ici 3). Utilisez aussi ce template pour afficher un nombre de bière fixe, car elles seront formatés correctement.  
- - `{j1}` : Remplace ce template par le nom d'un joueur tiré aléatoirement. Il peut y avoir jusqu'à 3 joueurs sur une même carte, en utilisant respectivement `{j1}`, `{j2}` ou `{j3}`. Chaque balise aura toujours la même valeur sur la carte, donc on peut réutiliser `{j1}` pour afficher plusieurs fois le même nom de joueur sur la carte.
+ - `{j1}` : Remplace ce template par le nom d'un joueur dont c'est le tour. Il peut y avoir jusqu'à 3 joueurs sur une même carte, en utilisant respectivement `{j1}`, `{j2}` ou `{j3}`. `{j2}` et `{j3}` tirent eux un joueur aléatoire parmis les autres joueurs dans la partie. Chaque balise aura toujours la même valeur sur la carte, donc on peut réutiliser `{j1}` pour afficher plusieurs fois le même nom de joueur sur la carte.
  - `{nom1|nom2|nom3}` : Choisit un terme au hasard parmi plusieurs (séparés par des `|`).
 
 Exemple : `"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et boivent {b1-10}."` -> La carte choisira au hasard parmi {roux|chatains|bruns|blonds|chauves} pour la couleur de cheveux, et entre 1 et 10 coups à boire à afficher sur la carte.
