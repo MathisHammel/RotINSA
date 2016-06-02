@@ -5,20 +5,24 @@
 	"cards":[
 	{
 		"type":"question",
-		"content":"Ceux qui ont déjà donné de l'argent à un sdf boivent {b1-3}."
+		"content":"Ceux/celles qui {ont déjà|n'ont jamais} donné de l'argent à un sdf boivent {b1-3}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ont déjà sucé des bites boivent {b1-3}."
+		"content":"Ceux/celles qui {ont déjà|n'ont jamais} sucé une bite boivent {b1-3}."
 	},
 	{
 		"type":"action",
-		"content":"Celui qui s'est masturbé le plus récemment {boit|distribue} {b4-8}."
+		"content":"Celui/celle qui s'est masturbé le plus récemment {boit|distribue} {b4-8}."
 	},	
 	{
 		"type":"question",
 		"content":"Ceux qui ont déjà fait l'amour à plus de deux personnes différentes dans la même journée boivent {b2-4}."
-	},	
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà  passé une journée sans mettre de sous-vêtements boivent {b2-4}."
+	},
 	{
 		"type":"spin",
 		"content":"Enumérez les sites de porn. Celui qui ne sait plus boit {b2-3}."
@@ -33,32 +37,112 @@
 	},	
 	{
 		"type":"action",
-		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} envoyé des photos coquines\"</em>. {b1-3}"
 	},	
 	{
 		"type":"action",
-		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
-	},	
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} dormi sous tente\"</em>. {b1-3}"
+	},
 	{
 		"type":"action",
-		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
-	},	
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} été arrêté\"</em>. {b1-3}"
+	},
 	{
 		"type":"action",
-		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
-	},	
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} téléchargé illégalement\"</em>. {b1-3}"
+	},
 	{
 		"type":"action",
-		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
-	},	
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} regardé GoT\"</em>. {b1-3}"
+	},
 	{
 		"type":"action",
-		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b1-3}."
-	},	
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} Donné un faux numéro\"</em>. {b1-3}"
+	},
 	{
-		"type":"question",
-		"content":"Ceux qui ont déjà envoyé des photos coquines de toi, bois b{1-3}."
-	},	
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} Donné une excuse bidon pour être en retard\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} perdu au jeu\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} payé mon cul\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} pris de la drogue\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} vu un homme politique dire la vérité\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} léché mon nez\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} raté un avion\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} été blessé en faisant l'amour\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} joui en moins de 2 minutes\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} dormi nu plus de 10 fois\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} raté le permis\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} raté mon code\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} oublié un rendez-vous galant\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} joué au jeu de la bouteille\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} joué au jeu de la biscotte\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} fait l'amour en gardant mes chaussettes\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} été en {Asie|Afrique|Amérique du Sud}\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} visité {les USA|l'Allemagne|les Pays-Bas|le Canada}\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} visité {la Chine|l'Inde|le Japon|la Grèce}\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} pris l'avion pendant plus de 8h\"</em>. {b1-3}"
+	},
+	{
+		"type":"action",
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} mangé 2 faois fast-food en une journée\"</em>. {b1-3}"
+	},
 	{
 		"type":"question",
 		"content":"Ceux qui se sont masturbé aujourd'hui boivent b{1-3}."
@@ -69,16 +153,11 @@
 	},	
 	{
 		"type":"question",
-		"content":"Ceux qui ont déjà couché avec quelqu'un dans la pièce boivent b{1-3}."
-	},	
-	{
-		"type":"question",
-		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent b{1-3}."
+		"content":"Ceux qui ont déjà couché avec quelqu'un présent dans la pièce boivent b{1-3}."
 	},	
 	{
 		"type":"question",
 		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent b{1-3}."
 	}
-
 	]
 }
