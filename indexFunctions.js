@@ -113,11 +113,11 @@ function supprJoueur()
 	}
 }
 
-function setBizuth(){
-	localStorage.setItem('deck','bizuth.json');
+function setFap(){
+	localStorage.setItem('deck','fap.json');
 	$('#modalInscription').openModal();
 }
-document.getElementById("bizuthB").addEventListener("click", setBizuth);
+document.getElementById("fapB").addEventListener("click", setFap);
 
 function setHardcore(){
 	localStorage.setItem('deck','hardcore.json');
