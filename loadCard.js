@@ -21,6 +21,10 @@ function loadCard(tag, deck, id)
 			  	var personne = [];
 
 			  	// Dégager le joueur qui tourne
+			  	if (typeof playerTurn == 'undefined')
+			  	{
+			  		playerTurn = 0;
+			  	}
 			  	personne[0] = joueurs[playerTurn];
 			  	joueursTmp.splice(playerTurn,1);
 			  	for(var i =1; i<3; i++)

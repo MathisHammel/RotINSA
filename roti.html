@@ -87,7 +87,7 @@
 				</div>
 			</div>
 		</div>	
-		<p class="player-name">Tour de : <span id="player-name"></span></p>
+		<p class="player-name" id="player-box" style="visibility: hidden;">Tour de : <span id="player-name"></span></p>
 		<div class="center-item">
 			<a class="waves-effect waves-light btn green lighten-1" onclick='turn();'>rôti-moi ! </a>
 		</div>
@@ -173,15 +173,34 @@
 	 	);	
 
 	 var showModalNextTurn = false;
+	 var skipNextTurn = 0;
+	 var turnPlayed = 0;
 
 		function turn(){
 
 			// Attentre que block soit dispo (pour eviter de tourner plusieurs cartes en même temps)
 			if (!block)
-			{
+			{	
+
+				// Attendre 2 tours avant de show les noms de gens
+				turnPlayed ++;
+
+				if (turnPlayed == 2)
+				{
+					$("#player-box").removeAttr("style");
+				}
 				block = true;
 				$("#player-name").html(joueurs[playerTurn]);
-				playerTurn = (playerTurn+1)%joueurs.length;
+
+				// Gerer le sautage de tours
+				playerTurn = (playerTurn+skipNextTurn)%joueurs.length;
+				if (skipNextTurn != 1 )
+				{
+					skipNextTurn = 1;
+				}
+
+				
+
 				if (showModalNextTurn == true)
 				{
 					$("#deckend").openModal();
@@ -214,6 +233,12 @@
 			  	var id = Math.floor((Math.random() * (deck.length)));
 
 				loadCard("#back .card", deck, id);
+
+				// Verifier qu'il n'y à pas de noturn sur la carte
+				if (typeof deck[id].skipTurn != 'undefined')
+				{
+					skipNextTurn = deck[id].skipTurn;
+				}
 
 			  	// Enlever la carte du deck
 			  	if (deck[id].count && deck[id].count > 1)
