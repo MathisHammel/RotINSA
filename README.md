@@ -44,4 +44,4 @@ Exemple : `"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme 
 
 `count` : Optionnel, correspond au nombre de fois que la carte apparaîtra dans un deck (Utile pour les cartes génériques). Exemple : `"count":3` -> La carte apparaîtra 3 fois dans la partie. Si non défini, la carte n’apparaîtra qu'une fois.
 
-`noturn` : Optionnel, ne change pas de tour à la prochaine carte (Pratique pour la carte "Ame des cartes").
+`skipTurn` : Optionnel, qui sera le prochain joueur dans la liste du tour. 1 est la valeur par défaut (utilisée si il n'y a pas le paramètre), 0 ne change pas le joueur, et 2 saute le prochain joueur. Utile pour les cartes qui font sauter des tours ou re-piocher. (Pratique pour la carte "Ame des cartes").
