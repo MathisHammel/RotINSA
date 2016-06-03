@@ -37,7 +37,7 @@
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Le roi des Pouces</b>. Quand tu poses ton pouce sur la table, tout le monde doit faire pareil. Le deriner boit {b2}."
+		"content":"Tu deviens <b>Le roi des Pouces</b>. Quand tu poses ton pouce sur la table, tout le monde doit faire pareil. Le deriner boit {b2-2}."
 	},
 	{
 		"type":"action",
