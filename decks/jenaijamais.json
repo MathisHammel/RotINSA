@@ -145,19 +145,19 @@
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui se sont masturbé aujourd'hui boivent b{1-3}."
+		"content":"Ceux qui se sont masturbé aujourd'hui boivent {b1-3}."
 	},	
 	{
 		"type":"question",
-		"content":"Ceux qui ont regardé un porno dans les 5 derniers jours boivent b{1-3}."
+		"content":"Ceux qui ont regardé un porno dans les 5 derniers jours boivent {b1-3}."
 	},	
 	{
 		"type":"question",
-		"content":"Ceux qui ont déjà couché avec quelqu'un présent dans la pièce boivent b{1-3}."
+		"content":"Ceux qui ont déjà couché avec quelqu'un présent dans la pièce boivent {b1-3}."
 	},	
 	{
 		"type":"question",
-		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent b{1-3}."
+		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent {b1-3}."
 	}
 	]
 }
