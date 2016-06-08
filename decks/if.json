@@ -54,7 +54,7 @@
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Maurincaûme</b> : Tu peux rediriger la moitiée de tes {b} (arrondi à l'inférieur) sur quelqu'un d'autre quand tu dois boire"
+		"content":"Tu deviens <b>Maurincaûme</b> : Tu peux rediriger la moitié de tes {b} (arrondi à l'inférieur) sur quelqu'un d'autre quand tu dois boire"
 	},
 	{
 		"type":"regle",
@@ -70,7 +70,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Distribue {b1-6} shots."
+		"content":"Distribue {b1-6}."
 	},
 	{
 		"type":"action",
@@ -86,7 +86,7 @@
 	},
 	{
 		"type":"spin",
-		"content":"Recitez l'aphabet à l'envers. Celui qui se trompe bois {b3-5}"
+		"content":"Recitez l'aphabet à l'envers. Celui qui se trompe boit {b3-5}"
 	},
 	{
 		"type":"role",
@@ -106,7 +106,7 @@
 	},
 	{
 		"type":"action",
-		"content":"HADOPI t'as choppé ! Bois {b5-5}."
+		"content":"HADOPI t'a chopé ! Bois {b5-5}."
 	},
 	{
 		"type":"action",
