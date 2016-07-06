@@ -5,7 +5,7 @@
 	"cards":[
 	{
 		"type":"question",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} donné de l'argent à un sdf boivent {b1-3}."
+		"content":"Ceux/celles qui {ont déjà|n'ont jamais} donné de l'argent à un SDF boivent {b1-3}."
 	},
 	{
 		"type":"question",
@@ -57,11 +57,11 @@
 	},
 	{
 		"type":"action",
-		"content":"<em>\"{Je n'ai jamais|J'ai déjà} Donné un faux numéro\"</em>. {b1-3}"
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} donné un faux numéro\"</em>. {b1-3}"
 	},
 	{
 		"type":"action",
-		"content":"<em>\"{Je n'ai jamais|J'ai déjà} Donné une excuse bidon pour être en retard\"</em>. {b1-3}"
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} donné une excuse bidon pour être en retard\"</em>. {b1-3}"
 	},
 	{
 		"type":"action",

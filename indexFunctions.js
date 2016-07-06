@@ -117,7 +117,7 @@ function setFap(){
 	localStorage.setItem('deck','fap.json');
 	$('#modalInscription').openModal();
 }
-document.getElementById("fapB").addEventListener("click", setFap);
+//document.getElementById("fapB").addEventListener("click", setFap);
 
 function setHardcore(){
 	localStorage.setItem('deck','hardcore.json');
