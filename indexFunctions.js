@@ -147,10 +147,10 @@ function setCitations(){
 	localStorage.setItem('deck','repliques.json');
 	$('#modalInscription').openModal();
 }
-document.getElementById("fapB").addEventListener("click", setFap);
+document.getElementById("citationsB").addEventListener("click", setCitations);
 
 function setFap(){
 	localStorage.setItem('deck','fap.json');
 	$('#modalInscription').openModal();
 }
-document.getElementById("citationsB").addEventListener("click", setCitations);
+document.getElementById("fapB").addEventListener("click", setFap);
