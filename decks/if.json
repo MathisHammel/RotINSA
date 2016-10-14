@@ -179,8 +179,66 @@
 	{
 		"type":"question",
 		"content":"Ceux qui ont déjà fait une nuit blanche pour rendre un TP boivent {b2-6}."
-	}
-
-
+	},
+	{
+		"type":"action",
+		"content":"Complète cette citation et distribue {b}{b}, sinon bois {b}{b}{b}{b}. Je suis surpris et _______."
+	},
+	{
+		"type":"action",
+		"content":"Bois autant de {b} que de rattrapages où tu penses aller !"
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui un iPhone boivent {b}{b}{b}{b}."
+	},
+	{
+		"type":"action",
+		"content":"Le premier qui donne la complexité de bubble sort distribue {b}{b}."
+	},
+	{
+		"type":"action",
+		"content":"Tu passes ta nuit à taper du bullshit pour le PLD. Bois {b}{b}{b} pour oublier."
+	},
+	{
+		"type":"action",
+		"content":"Les {3IF | 4IF | 5IF s'il en reste encore en France} boivent {b}."
+	},
+	{
+		"type":"action",
+		"content":"Un IF doit rester seul. Celui qui a le plus d'amis Facebook boit {b}{b}{b}."
+	},
+	{
+		"type":"action",
+		"content":"Imite un pointeur ou bois {b}."
+	},
+	{
+		"type":"question",
+		"content":"Quand y a un new, y a un ? Bois {b}."
+	},
+	{
+		"type":"action",
+		"content":"Tu es élu Mister Bizuth au WEI ! Distribue {b}{b} et choisit ta Miss Bizuth."
+	},
+	{
+		"type":"action",
+		"content":"Tu es rôti le matin des RIFs, pas de stage pour toi ! Bois {b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne sont jamais allé aux simulations d'entretien boivent {b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux dont le CV est un template Word boivent {b}{b}{b}{b}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les cours de bullshit en 4IF. Celui qui ne sait plus boit {b}{b}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les mots qui riment avec IF. Celui qui ne sait plus boit {b}{b}{b}{b}."
+	}	
 	]
 }
