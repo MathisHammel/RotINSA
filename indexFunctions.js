@@ -148,3 +148,9 @@ function setCitations(){
 	$('#modalInscription').openModal();
 }
 document.getElementById("citationsB").addEventListener("click", setCitations);
+
+function setFap(){
+	localStorage.setItem('deck','fap.json');
+	$('#modalInscription').openModal();
+}
+document.getElementById("fapB").addEventListener("click", setFap);
