@@ -29,11 +29,11 @@
 	},
 	{
 		"type":"spin",
-		"content":"Enumérez les sites acteurs/actrices X. Celui qui ne sait plus boit {b1-3}."
+		"content":"Enumérez les acteurs/actrices X. Celui qui ne sait plus boit {b1-3}."
 	},
 	{
 		"type":"spin",
-		"content":"Ceux qui ont déjà regardé du hentai à tentacule boivent {b1-3}."
+		"content":"Ceux qui ont déjà regardé du hentai à tentacules boivent {b1-3}."
 	},	
 	{
 		"type":"action",
@@ -141,7 +141,7 @@
 	},
 	{
 		"type":"action",
-		"content":"<em>\"{Je n'ai jamais|J'ai déjà} mangé 2 faois fast-food en une journée\"</em>. {b1-3}"
+		"content":"<em>\"{Je n'ai jamais|J'ai déjà} mangé 2 fois fast-food en une journée\"</em>. {b1-3}"
 	},
 	{
 		"type":"question",
