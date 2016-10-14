@@ -46,6 +46,24 @@
 			  ga('create', 'UA-78627361-1', 'auto');
 			  ga('send', 'pageview');
 			
+			
+			//Haut, haut, bas, bas, gauche, droite, gauche, droite, B, A
+			var k = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
+			n = 0;
+			$(document).keydown(function (e) {
+				if (e.keyCode === k[n++]) {
+					if (n === k.length) {
+						alert('Konami rôti !\nNew content available...'); // à remplacer par votre code
+						document.getElementById('konami').style.display = 'block';
+						
+						n = 0;
+						return false;
+					}
+				}
+				else {
+					n = 0;
+				}
+			});
 		</script>
 	</head>
 	<body>
@@ -58,7 +76,7 @@
 			</header>
 			
 			<div class="row" id="shuffle">
-<!-- 				<div class="col s12 m12 l4">
+ 				<div class="col s12 m12 l4" style="display:none" id="konami">
 					<div class="card small z-depth-3">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="images/fap.jpg" />
@@ -75,7 +93,7 @@
 							</button>
 						</div>
 					</div>
-				</div> -->
+				</div> 
 				<div class="col s12 m12 l4">
 					<div class="card small z-depth-3">
 						<div class="card-image waves-effect waves-block waves-light">
