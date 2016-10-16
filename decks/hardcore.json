@@ -5,11 +5,11 @@
 	"cards":[
 	{
 		"type":"question",
-		"content":"Ceux qui pensent qu'ils ont raté leur partiels, buvez {b3-5}"
+		"content":"Ceux qui pensent avoir raté leurs partiels, buvez {b3-5}"
 	},
 	{
 		"type":"action",
-		"content":"Paie une couille ou bois {b5-10}. Passe si tu n'as pas de couilles."
+		"content":"Paie une couille ou bois {b5-10}. Passe si tu n'as pas de couilles (au sens propre)."
 	},	
 	{
 		"type":"action",
@@ -29,15 +29,15 @@
 	},
 	{
 		"type":"action",
-		"content":"Joue à pile-ou-face avec quelqu'un. Le perdant boit {b} et le ganant peut rejouer. Doublez les {b} à chaque fois."
+		"content":"Joue à pile-ou-face avec quelqu'un. Le perdant boit {b} et le gagnant peut rejouer. Doublez les {b} à chaque fois."
 	},
 	{
 		"type":"spin",
-		"content":"Enumerez les sites de Porn. Celui qui ne trouve pas boit {b3-5}."
+		"content":"Énumérez les sites de Porn. Celui qui ne trouve pas boit {b3-5}."
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Le roi des Pouces</b>. Quand tu poses ton pouce sur la table, tout le monde doit faire pareil. Le deriner boit {b2-2}."
+		"content":"Tu deviens <b>Le roi des Pouces</b>. Quand tu poses ton pouce sur la table, tout le monde doit faire pareil. Le dernier boit {b2-2}."
 	},
 	{
 		"type":"action",
@@ -50,11 +50,11 @@
 	},
 	{
 		"type":"spin",
-		"content":"Enumerez les personnages morts de Game of Thrones. Celui qui ne trouve pas boit {b3-5}."
+		"content":"Énumérez les personnages morts de Game of Thrones. Celui qui ne trouve pas boit {b3-5}."
 	},
 	{
 		"type":"spin",
-		"content":"Enumerez les gros spoilers de films. Celui qui ne trouve pas boit {b3-5}."
+		"content":"Énumérez les gros spoilers de films. Celui qui ne trouve pas boit {b3-5}."
 	},
 	{
 		"type":"role",
