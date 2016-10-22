@@ -2975,13 +2975,15 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
+  /*background-color:#ee6e73*/
 }
 
 footer.page-footer .footer-copyright {
   overflow: hidden;
   height: 50px;
   line-height: 50px;
-  color: rgba(255, 255, 255, 0.8);
+ /* color: rgba(255, 255, 255, 0.8);*/
+  
 }
 
 table, th, td {
