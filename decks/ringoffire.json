@@ -1,0 +1,59 @@
+{
+	"info":{
+		"nom":"Ring of Fire"
+	},
+	"cards":[
+	{
+		"type":"spin",
+		"content":"<h4>As</h4><i>Waterfall !</i><br/>Tout le monde boit et ne s'arrête qu'après son voisin de droite.<br/>Celui qui a pioché s'arrête en premier.<br/><br/>"
+	},
+	{
+		"type":"action",
+		"content":"<h4>2</h4><i>is you</i><br/>Tu désignes quelqu'un qui doit boire {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<h4>3</h4><i>is me</i><br/>Tu bois {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<h4>4</h4><i>is floor</i><br/>Tout le monde touche par terre. Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<h4>5</h4><i>is guys</i><br/>Les mecs boivent {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<h4>6</h4><i>is chicks</i><br/>Les filles boivent {b1-3}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<h4>7</h4><i>is heaven</i><br/>Tout le monde lève une main au ciel ! Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<h4>8</h4><i>is mate</i><br/>Tu choisis un partenaire de boisson. {Quand l'un de vous boit, l'autre doit boire|Quand tu bois, ton partenaire doit boire aussi}.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<h4>9</h4><i>is rhyme</i><br/>Choisis un mot. Énumérez les mots qui riment avec. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<h4>10</h4><i>is categories</i><br/>Choisis une catégorie. Énumérez ce qui en fait partie. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"regle",
+		"content":"<h4>J</h4><i>is make a rule</i><br/>Tu inventes une règle. Les règles précédentes sont {annulées|conservées}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<h4>Q</h4><i>is Question Queen</i><br/>Tu deviens la Question Queen. Ceux qui répondent à tes questions boivent {b}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<h4>K</h4><i>is Thumb King</i><br/>Tu deviens le roi des pouces. Quand tu poses ton pouce sur la table, le dernier à faire pareil boit.<br/>"
+	}
+	]
+}
