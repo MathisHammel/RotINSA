@@ -154,3 +154,9 @@ function setFap(){
 	$('#modalInscription').openModal();
 }
 document.getElementById("fapB").addEventListener("click", setFap);
+
+function setRing(){
+	localStorage.setItem('deck','ringoffire.json');
+	$('#modalInscription').openModal();
+}
+document.getElementById("ringB").addEventListener("click", setRing);
