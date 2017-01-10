@@ -34,7 +34,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Paul-Louis, tu bois {b2-2}. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>finit son verre</b>."
+		"content":"{j1}, tu bois {b2-2}. Si {j1} a tiré cette carte, à la place tout le monde <b>finit son verre</b>."
 	},
 	{
 		"type":"question",
