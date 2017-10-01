@@ -1,7 +1,13 @@
 {
 	"info":{
 		"nom":"Hardcore",
-		"a":"a"
+		"a":"a",
+		"stars":3,
+		"nomDeck":"IF",
+		"nomEtendu":"IF",
+		"description":"Je suis ingénieur informaticieeeeeeeeeeeeeeeeen",
+		"nomImage":"informaticien.jpg",
+		"idDeck":"if"
 	},
 	"cards":[
 	{

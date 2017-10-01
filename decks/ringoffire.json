@@ -1,6 +1,15 @@
 {
 	"info":{
-		"nom":"Ring of Fire"
+
+		"nom":"Ring of Fire",
+		"stars":2,
+		"nomDeck":"Ring of Fire",
+		"nomEtendu":"Ring of Fire",
+		"description":"Baby you're so classic",
+		"nomImage":"joker.jpg",
+		"idDeck":"ringoffire"
+
+
 	},
 	"cards":[
 	{
@@ -212,4 +221,6 @@
 		"content":"<b>K ♣</b><br/><i>is Thumb King</i><br/>Tu deviens le roi des pouces. Quand tu poses ton pouce sur la table, le dernier à faire pareil boit.<br/>"
 	}
 	]
+
 }
+

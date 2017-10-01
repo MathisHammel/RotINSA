@@ -1,6 +1,12 @@
 {
 	"info":{
-		"nom":"Répliques cultes"
+		"nom":"Répliques cultes",
+		"stars":3,
+		"nomDeck":"Citations",
+		"nomEtendu":"Citations",
+		"description":"Complétez les citations données",
+		"nomImage":"obama.jpg",
+		"idDeck":"repliques"
 	},
 	"cards":[
 	{

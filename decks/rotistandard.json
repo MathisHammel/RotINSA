@@ -1,6 +1,11 @@
 {
 	"info":{
-		"nom":"Bizuth"
+		"nom":"Bizuth",
+		"nomDeck":"Rôti standard",
+		"nomEtendu":"Rôti standard",
+		"description":"Pour une rôtisserie classique en famille ou entre amis",
+		"nomImage":"poulet.jpg",
+		"idDeck":"rotistandard"
 	},
 	"cards":[
 	{

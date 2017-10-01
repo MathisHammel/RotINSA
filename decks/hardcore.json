@@ -1,6 +1,12 @@
 {
 	"info":{
-		"nom":"Bizuth"
+		"nom":"Bizuth",
+		"stars":5,
+		"nomDeck":"Hardcore",
+		"nomEtendu":"Harcore",
+		"description":"Pour les plus solides!",
+		"nomImage":"hardcore.jpg",
+		"idDeck":"hardcore"
 	},
 	"cards":[
 	{
