@@ -1,0 +1,222 @@
+{
+	"info":{
+		"nom":"Ring of Fire",
+				"stars":2,
+		"nomDeck":"Ring of Fire",
+		"nomEtendu":"Ring of Fire",
+		"description":"Baby you're so classic",
+		"nomImage":"joker.jpg",
+		"idDeck":"ringoffire"
+
+	},
+	"cards":[
+	{
+		"type":"spin",
+		"content":"<b>As ♥</b><br/><i>Waterfall !</i><br/>Tout le monde boit et ne s'arrête qu'après son voisin de droite.<br/>Celui qui a pioché s'arrête en premier.<br/><br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>2 ♥</b><br/><i>is you</i><br/>Tu désignes quelqu'un qui doit boire {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>3 ♥</b><br/><i>is me</i><br/>Tu bois {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>4 ♥</b><br/><i>is floor</i><br/>Tout le monde touche par terre. Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>5 ♥</b><br/><i>is guys</i><br/>Les mecs boivent {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>6 ♥</b><br/><i>is chicks</i><br/>Les filles boivent {b1-3}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>7 ♥</b><br/><i>is heaven</i><br/>Tout le monde lève une main au ciel ! Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>8 ♥</b><br/><i>is mate</i><br/>Tu choisis un partenaire de boisson. {Quand l'un de vous boit, l'autre doit boire|Quand tu bois, ton partenaire doit boire aussi}.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>9 ♥</b><br/><i>is rhyme</i><br/>Choisis un mot. Énumérez les mots qui riment avec. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>10 ♥</b><br/><i>is categories</i><br/>Choisis une catégorie. Énumérez ce qui en fait partie. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"regle",
+		"content":"<b>J ♥</b><br/><i>is make a rule</i><br/>Tu inventes une règle. Les règles précédentes sont {annulées|conservées}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>Q ♥</b><br/><i>is Question Queen</i><br/>Tu deviens la Question Queen. Ceux qui répondent à tes questions boivent {b}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>K ♥</b><br/><i>is Thumb King</i><br/>Tu deviens le roi des pouces. Quand tu poses ton pouce sur la table, le dernier à faire pareil boit.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>As ♠</b><br/><i>Waterfall !</i><br/>Tout le monde boit et ne s'arrête qu'après son voisin de droite.<br/>Celui qui a pioché s'arrête en premier.<br/><br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>2 ♠</b><br/><i>is you</i><br/>Tu désignes quelqu'un qui doit boire {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>3 ♠</b><br/><i>is me</i><br/>Tu bois {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>4 ♠</b><br/><i>is floor</i><br/>Tout le monde touche par terre. Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>5 ♠</b><br/><i>is guys</i><br/>Les mecs boivent {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>6 ♠</b><br/><i>is chicks</i><br/>Les filles boivent {b1-3}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>7 ♠</b><br/><i>is heaven</i><br/>Tout le monde lève une main au ciel ! Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>8 ♠</b><br/><i>is mate</i><br/>Tu choisis un partenaire de boisson. {Quand l'un de vous boit, l'autre doit boire|Quand tu bois, ton partenaire doit boire aussi}.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>9 ♠</b><br/><i>is rhyme</i><br/>Choisis un mot. Énumérez les mots qui riment avec. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>10 ♠</b><br/><i>is categories</i><br/>Choisis une catégorie. Énumérez ce qui en fait partie. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"regle",
+		"content":"<b>J ♠</b><br/><i>is make a rule</i><br/>Tu inventes une règle. Les règles précédentes sont {annulées|conservées}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>Q ♠</b><br/><i>is Question Queen</i><br/>Tu deviens la Question Queen. Ceux qui répondent à tes questions boivent {b}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>K ♠</b><br/><i>is Thumb King</i><br/>Tu deviens le roi des pouces. Quand tu poses ton pouce sur la table, le dernier à faire pareil boit.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>As ♦</b><br/><i>Waterfall !</i><br/>Tout le monde boit et ne s'arrête qu'après son voisin de droite.<br/>Celui qui a pioché s'arrête en premier.<br/><br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>2 ♦</b><br/><i>is you</i><br/>Tu désignes quelqu'un qui doit boire {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>3 ♦</b><br/><i>is me</i><br/>Tu bois {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>4 ♦</b><br/><i>is floor</i><br/>Tout le monde touche par terre. Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>5 ♦</b><br/><i>is guys</i><br/>Les mecs boivent {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>6 ♦</b><br/><i>is chicks</i><br/>Les filles boivent {b1-3}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>7 ♦</b><br/><i>is heaven</i><br/>Tout le monde lève une main au ciel ! Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>8 ♦</b><br/><i>is mate</i><br/>Tu choisis un partenaire de boisson. {Quand l'un de vous boit, l'autre doit boire|Quand tu bois, ton partenaire doit boire aussi}.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>9 ♦</b><br/><i>is rhyme</i><br/>Choisis un mot. Énumérez les mots qui riment avec. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>10 ♦</b><br/><i>is categories</i><br/>Choisis une catégorie. Énumérez ce qui en fait partie. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"regle",
+		"content":"<b>J ♦</b><br/><i>is make a rule</i><br/>Tu inventes une règle. Les règles précédentes sont {annulées|conservées}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>Q ♦</b><br/><i>is Question Queen</i><br/>Tu deviens la Question Queen. Ceux qui répondent à tes questions boivent {b}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>K ♦</b><br/><i>is Thumb King</i><br/>Tu deviens le roi des pouces. Quand tu poses ton pouce sur la table, le dernier à faire pareil boit.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>As ♣</b><br/><i>Waterfall !</i><br/>Tout le monde boit et ne s'arrête qu'après son voisin de droite.<br/>Celui qui a pioché s'arrête en premier.<br/><br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>2 ♣</b><br/><i>is you</i><br/>Tu désignes quelqu'un qui doit boire {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>3 ♣</b><br/><i>is me</i><br/>Tu bois {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>4 ♣</b><br/><i>is floor</i><br/>Tout le monde touche par terre. Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>5 ♣</b><br/><i>is guys</i><br/>Les mecs boivent {b1-4}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>6 ♣</b><br/><i>is chicks</i><br/>Les filles boivent {b1-3}<br/>"
+	},
+	{
+		"type":"action",
+		"content":"<b>7 ♣</b><br/><i>is heaven</i><br/>Tout le monde lève une main au ciel ! Le dernier boit {b1-4}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>8 ♣</b><br/><i>is mate</i><br/>Tu choisis un partenaire de boisson. {Quand l'un de vous boit, l'autre doit boire|Quand tu bois, ton partenaire doit boire aussi}.<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>9 ♣</b><br/><i>is rhyme</i><br/>Choisis un mot. Énumérez les mots qui riment avec. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"spin",
+		"content":"<b>10 ♣</b><br/><i>is categories</i><br/>Choisis une catégorie. Énumérez ce qui en fait partie. Celui qui répète ou ne trouve pas boit {b1-4}<br/>"
+	},
+	{
+		"type":"regle",
+		"content":"<b>J ♣</b><br/><i>is make a rule</i><br/>Tu inventes une règle. Les règles précédentes sont {annulées|conservées}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>Q ♣</b><br/><i>is Question Queen</i><br/>Tu deviens la Question Queen. Ceux qui répondent à tes questions boivent {b}<br/>"
+	},
+	{
+		"type":"role",
+		"content":"<b>K ♣</b><br/><i>is Thumb King</i><br/>Tu deviens le roi des pouces. Quand tu poses ton pouce sur la table, le dernier à faire pareil boit.<br/>"
+	}
+	]
+}

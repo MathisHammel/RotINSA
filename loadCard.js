@@ -1,7 +1,10 @@
 				
 function loadCard(tag, deck, id)
 {
-				// Enlever les classe de la carte du back pour pouvoir les recharger en fonction de ce qu'il y a dans le json
+				//TODO -> empêcher injections XSS
+				
+				
+				// Enlever les classes de la carte du back pour pouvoir les recharger en fonction de ce qu'il y a dans le json
 			  	$(tag).removeClass().addClass("card");
 
 			  	// Si la carte à un type, le charger

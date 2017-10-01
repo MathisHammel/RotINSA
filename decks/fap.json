@@ -1,7 +1,13 @@
 {
 	"info":{
 		"nom":"Fap Achievements",
-		"a":"a"
+		"a":"a",
+		"stars":5,
+		"nomDeck":"Fap Achievements",
+		"nomEtendu":"Fap Achievements",
+		"description":"Différents fap achievements, distribue si tu l'as déjà fait ! (cartes en anglais)",
+		"nomImage":"fap.jpg",
+		"idDeck":"fap"
 	},
 	"cards":[
 	    {

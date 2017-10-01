@@ -92,7 +92,7 @@
 			<a class="waves-effect waves-light btn green lighten-1" onclick='turn();'>rôti-moi ! </a>
 		</div>
 		<div class="center-item">
-			<a class="waves-effect waves-light btn green lighten-1" href="http://rotinsa.pro/">Retour au choix de deck</a>
+			<a class="waves-effect waves-light btn green lighten-1" href="index.html">Retour au choix de deck</a>
 		</div>
 
 		<div class="modal" id="deckend">
@@ -112,6 +112,18 @@
 	</div>
 
 	<script type="text/javascript">
+		
+		function escapeHtml(text) {
+	var map = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;'
+	};
+
+	return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+	}
 	var count = 1;
 	var block = true;
 
@@ -141,7 +153,7 @@
 	    }
 	};
 	// Charger le fichier de cartes 
-	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
+	// TODO : Charger le nom du fichier à partir de la barre d'adresse
 
 
 	file = getUrlParameter("deck");
@@ -196,7 +208,7 @@
 					$("#player-box").removeAttr("style");
 				}
 				block = true;
-				$("#player-name").html(joueurs[playerTurn]);
+				$("#player-name").html(escapeHtml(joueurs[playerTurn]));
 
 				// Gerer le sautage de tours
 				playerTurn = (playerTurn+skipNextTurn)%joueurs.length;

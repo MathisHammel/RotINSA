@@ -12,7 +12,13 @@ Les fichiers de decks ont la forme suivante :
 
 	{
 		"info":{
-			"nom":"Hardcore"
+			"nom":"Je n'ai jamais...",
+			"stars":4,
+			"nomDeck":"Je n'ai jamais...",
+			"nomEtendu":"Je n'ai jamais.../J'ai déjà...",
+			"description":"Découvrez des dossiers sur vos amis de manière très conviviale",
+			"nomImage":"ribery.jpg",
+			"idDeck":"jenaijamais"
 		},
 		"cards":[
 		{
