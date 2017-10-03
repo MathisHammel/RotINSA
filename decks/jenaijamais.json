@@ -1,9 +1,8 @@
 {
 	"info":{
-		"nom":"Bizuth",
-		"stars":4,
-		"nomDeck":"Je n'ai jamais...",
+		"nom":"Je n'ai jamais...",
 		"nomEtendu":"Je n'ai jamais.../J'ai déjà...",
+		"stars":4,
 		"description":"Découvrez des dossiers sur vos amis de manière très conviviale",
 		"nomImage":"ribery.jpg",
 		"idDeck":"jenaijamais"
