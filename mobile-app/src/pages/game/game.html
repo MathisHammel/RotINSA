@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="playable-cards-container" (swipe)="pickACard($event)">
+    <card *ngFor="let card of cards" [card]="card" [stack]="true"></card>
+  </div>
+
+</ion-content>

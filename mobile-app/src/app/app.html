@@ -1,0 +1,16 @@
+<ion-menu [content]="content" type="push">
+  <ion-content>
+    <ion-list text-center>
+      <img src="/assets/images/logo-rotinsa.png" (click)="doSomething()"/>
+
+      <ion-item tappable menuClose (click)="goToChangePlayers()" fullscren="true">
+        Changer les joueurs
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  <ion-footer text-center>
+  © Rot'INSA team 2015-2018
+  </ion-footer>
+</ion-menu>
+
+<ion-nav #content [root]="rootPage"></ion-nav>

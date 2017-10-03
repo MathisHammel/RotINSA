@@ -1,0 +1,17 @@
+{
+	"info":{
+		"nom":"Hardcore",
+		"a":"a"
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Ceux qui codent en {lua|python|c++|java} boivent {b1-10} avec {j1} et {j2} et {j3}, et dites {Choucroute|Poney|Poulpe}"
+	},
+	{
+		"type":"question",
+		"content":"AME D KARTS",
+		"skipTurn":0
+	}
+	]
+}
