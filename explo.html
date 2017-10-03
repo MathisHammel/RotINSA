@@ -87,7 +87,7 @@
 	// TODO : Chargher le nom du fichier à partir de la bare d'adresse
 
 	file = "decks/"+getUrlParameter("deck");
-	if (!file)
+	if (!getUrlParameter("deck"))
 	{
 		file = "decks/template.json"
 	}
