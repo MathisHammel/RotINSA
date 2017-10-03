@@ -2,9 +2,14 @@
   <ion-content>
     <ion-list text-center>
       <img src="/assets/images/logo-rotinsa.png" (click)="doSomething()"/>
-
-      <ion-item tappable menuClose (click)="goToChangePlayers()" fullscren="true">
+      <ion-item tappable menuClose (click)="goToHome()">
+        Accueil
+      </ion-item>
+      <ion-item tappable menuClose (click)="goToChangePlayers()">
         Changer les joueurs
+      </ion-item>
+      <ion-item tappable menuClose (click)="goToAbout()">
+        A propos
       </ion-item>
     </ion-list>
   </ion-content>

@@ -29,26 +29,42 @@ export class MyApp {
 
   doSomething() {
     this.clickCount++;
-    if(this.clickCount == 5) {
-      let at = this.toastCtrl.create({
-        message: "Hum !! Something is comming !!",
-        duration: 2500,
-        position: "top"
-      });
-      at.present();
+    var msg = null;
+    switch(this.clickCount) {
+      case 5:
+        msg = "Hum !! Something is comming !!";
+        break;
+      case 10:
+        msg = "Je sens que ça viennnt !";
+        break;
+      case 17:
+        msg = "Ohhh... OH!!!!";
+        break;
+      case 20:
+        msg = "Oh ça y est, je l'ai !!!!!";
+        break;
+      case 35:
+        msg = "Bin c'est bon t'as eu ton cadeau, qu'est-ce que tu fais encore là ?";
+        break;
+      case 50:
+        msg = "T'es un peu roti déjà non ?";
+        break;
+      case 65:
+        msg = "Oh je te cause !";
+        break;
+      case 80:
+        msg = "C'est pas possible d'être aussi borné...";
+        break;
+      case 100:
+        msg = "100 clics...wouhou...bien joué...";
+        break;
+      case 200:
+        msg = "T'as pas mieux à faire ?";
+        break;
     }
-    if(this.clickCount == 10) {
+    if(msg) {
       let at = this.toastCtrl.create({
-        message: "Je sens que ça viennnt !",
-        duration: 2500,
-        position: "top"
-      });
-      at.present();
-    }
-    if(this.clickCount == 15) {
-      this.deckPrvd.displaySecret = true;
-      let at = this.toastCtrl.create({
-        message: "Oh ça y est, je l'ai !!!!!",
+        message: msg,
         duration: 2500,
         position: "top"
       });
@@ -56,7 +72,15 @@ export class MyApp {
     }
   }
 
+  goToHome() {
+    this.nav.setRoot(HomePage);
+  }
+
   goToChangePlayers() {
     this.nav.push("ChangePlayersPage");
+  }
+
+  goToAbout() {
+    this.nav.push("AboutPage");
   }
 }

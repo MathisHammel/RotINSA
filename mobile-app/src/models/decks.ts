@@ -59,7 +59,7 @@ export class Deck {
     deck.id             = infos["idDeck"];
     deck.description    = infos["description"];
     deck.imgname        = infos["nomImage"].split(".")[0];
-    
+
     if(infos["secret"]) deck.secret = true;
 
     for(let c of cards) {
@@ -152,5 +152,30 @@ export class Card {
     card.type = this.type;
     card._content = this._content;
     return card;
+  }
+
+  static get StartingCards() : Array<Card> {
+    var cards = [];
+
+    var firstCard = new Card();
+    firstCard.type = "regle";
+    firstCard.content = "<b>Règles</b> : Chaque rôti tire une carte à tour de role dans le sens des aiguilles d'une montre.";
+    cards.push(firstCard);
+
+    var secondCard = new Card();
+    secondCard.type = "regle";
+    secondCard.content = 'Un <i class="fa fa-beer" aria-hidden="true"></i> indique un shot de boisson. Chacun est libre de boire ce qu\'il veut, du moment que ça rend rôti. <br/> <b> Bon Rôtissage !</b>';
+    cards.push(secondCard);
+
+    return cards;
+  }
+
+  static get EndingCard() : Card {
+    var end = new Card();
+
+    end.type = "regle";
+    end.content = "<h4>Fin du deck ! </h4><p>Tout le monde perd son rôle et toutes les règles sont annulés ! C'est reparti pour un tour !</p>";
+
+    return end;
   }
 }

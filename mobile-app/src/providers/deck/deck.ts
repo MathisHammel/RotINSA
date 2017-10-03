@@ -46,6 +46,11 @@ export class DeckProvider {
   public start() {
     this.activDeck.shuffle();
     this.cardsStack = this.activDeck.cards;
+    var sc = Card.StartingCards;
+    for (var i = sc.length-1; i >= 0; i--) {
+      this.cardsStack.push(sc[i]);
+    }
+    this.cardsStack.unshift(Card.EndingCard);
     for(var card of this.cardsStack) {
       card.format(this.players);
     }

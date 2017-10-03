@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 import { DeckProvider }   from "../../providers/deck/deck";
 /**
@@ -29,10 +30,13 @@ export class GamePage {
     return this.deckPrvd.topCard;
   }
 
-  pan(event: any) {
-  }
+  pan(event: any) {}
 
   pickACard(event : any) {
     this.deckPrvd.pickACard();
+  }
+
+  goToHome() {
+    this.navCtrl.setRoot(HomePage);
   }
 }

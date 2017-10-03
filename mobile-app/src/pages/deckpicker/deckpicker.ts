@@ -25,23 +25,6 @@ export class DeckpickerPage {
     return [1,2,3,4,5];
   }
 
-  createDecks() {
-    let deckNames = [
-      "bizuth",
-      "fap",
-      "hardcore",
-      "if",
-      "jenaijamais",
-      "repliques",
-      "ringoffire",
-      "rotistandard"
-    ];
-    for (let name of deckNames) {
-      var deck = new Deck(name);
-      this.decks.push( deck );
-    }
-  }
-
   startAGame(deck: Deck) {
     this.deckPrvd.activDeck = deck;
     this.deckPrvd.start();
