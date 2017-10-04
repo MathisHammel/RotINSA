@@ -1,26 +1,54 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## Comment build l'app mobile
 
-## How to use this template
+### Step 1 : Installer le matos
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
+Première chose : avoir node et npm d'installés sur son ordi. Un petit lien pour les download ici: https://nodejs.org/en/download/
+(npm est le gestionnaire de packets inclus avec l'install de node)
+Pour vérifier l'install, utilise les commandes :
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+npm -v
+node -v
 ```
 
-Then, to run it, cd into `myBlank` and run:
-
+Ensuite, télécharge Ionic 3 et cordova avec la commande :
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+npm install -g ionic cordova
 ```
 
-Substitute ios for android if not on a Mac.
 
+### Step 2 : Tester l'app sur l'ordi
+
+L'étape facile pendant laquelle y a rarement des problèmes. cd dans la racine de l'app (au niveau de ce README)
+```bash
+ionic serve
+```
+
+L'app se lance dans ton navigateur par défaut, plus qu'à le régler pour avoir un aperçu mobile. (portrait, en paysage c'est pas prévu ni testé)
+
+### Step 3 : Build l'app sur un portable
+
+Je note android|ios pour choisissez l'un ou l'autre.
+
+D'abord ajouter la platforme ciblée sur son ordi:
+```bash
+ionic cordova platform add android|ios
+```
+Puis la préparer
+```bash
+ionic cordova prepare android|ios
+```
+Et enfin build
+```bash
+ionic cordova build android|ios --prod|--debug|
+```
+
+Pour android, il suffit de se brancher et d'executer la commande suivante pour que l'appli se lance sur le portable :
+```bash
+ionic cordova run android --device --prod|--debug|
+```
+
+Sur Mac et iOS il faut avoir Xcode, et ouvrir le fichier workspace dans le dossier platform/ios pour le lancer via Xcode. Après ça, rien de compliqué, donc je ne m'attarde pas.
+
+### Step 4 : Enjoy the app !
+
+Faut vraiment que je fasse un desin ?
