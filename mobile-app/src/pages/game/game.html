@@ -5,7 +5,7 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding no-bounce>
   <div class="playable-cards-container" (swipe)="pickACard($event)">
     <card *ngFor="let card of cards" [card]="card" [stack]="true"></card>
   </div>

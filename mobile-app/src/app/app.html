@@ -1,7 +1,9 @@
 <ion-menu [content]="content" type="push">
   <ion-content>
     <ion-list text-center>
-      <img src="/assets/images/logo-rotinsa.png" (click)="doSomething()"/>
+      <button class="small-round-button">
+        <img src="assets/images/logo-rotinsa.png" (click)="doSomething()"/>
+      </button>
       <ion-item tappable menuClose (click)="goToHome()">
         Accueil
       </ion-item>
@@ -18,4 +20,4 @@
   </ion-footer>
 </ion-menu>
 
-<ion-nav #content [root]="rootPage"></ion-nav>
+<ion-nav color="transparent" #content [root]="rootPage" swipeBackEnabled="false"></ion-nav>

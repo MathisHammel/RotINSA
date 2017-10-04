@@ -21,7 +21,7 @@ export class RequestsProvider {
   }
 
   getLocal(route: string, params: any = {}) : any {
-    return this.http.get("../assets/"+route, params)
+    return this.http.get("assets/"+route, params)
       .map((res: Response) => {	return this.extractData(res); })
       .catch((error: any) => {	return this.handleError(error); });
   }
@@ -35,7 +35,7 @@ export class RequestsProvider {
     if (error instanceof Response) {
       if(error.status == 500) {
         let at = this.toastCtrl.create({
-          message: "Pas trouvé :/",
+          message: "Service innaccessible :/",
           duration: 2500,
           position: "top"
         });
@@ -44,9 +44,21 @@ export class RequestsProvider {
         const body = error.json() || {};
         const err = body.error || JSON.stringify(body);
         errMsg = `${error.status} - ${error.statusText || ''} ${err}`;
+        let at = this.toastCtrl.create({
+          message: "Pas trouvé :/ " + errMsg,
+          duration: 4000,
+          position: "top"
+        });
+        at.present();
       }
     } else {
       errMsg = error.message ? error.message : error.toString();
+      let at = this.toastCtrl.create({
+        message: "Pas trouvé :/ (not error instance)" + errMsg,
+        duration: 4000,
+        position: "top"
+      });
+      at.present();
     }
     console.error(errMsg);
 

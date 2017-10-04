@@ -1,9 +1,13 @@
 page-home {
   color: white;
   ion-content {
-    background: url("/assets/images/background_pub.jpg");
+    background: url("../assets/images/background_pub.jpg");
     background-size: cover;
     color: white;
+
+    .scroll-content {
+      padding: 0 !important;
+    }
 
     .padding {
       height: 15vh;

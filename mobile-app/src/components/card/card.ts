@@ -57,8 +57,8 @@ export class CardComponent {
   }
 
   onMove(event: any) {
-    this._deltax = event.deltaX;
-    this._deltay = event.deltaY;
+    //this._deltax = event.deltaX;
+    //this._deltay = event.deltaY;
     /*if(event.velocity > 0.5) {
       this.transition = "all .3s";
       this._opacity = 0;

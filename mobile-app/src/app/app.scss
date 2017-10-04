@@ -2,15 +2,17 @@
 ion-app.md,
 ion-app.wp,
 ion-app.ios {
-  font-family: 'Roboto Slab', Roboto, Helevetica, sans-serif;
+  font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
   background-color: #2c3e50;
+
+  .content-ios:not([no-bounce])>.scroll-content::before { bottom: 0; }
 
   // Menu
   ion-menu[type=overlay],
 	ion-menu {
 		.menu-inner {
 			background-color: black;
-			background-image: url("/assets/images/hardcore.jpg");
+			background-image: url("../assets/images/hardcore.jpg");
 			box-shadow: 0 0 100px 2px  black inset;
 		}
 
@@ -154,7 +156,7 @@ ion-app.ios {
 
   .tile_title{
   	height:20%;
-    font-family: 'Roboto Slab', Roboto, Helevetica, sans-serif;
+    font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
   	margin-left:5%;
   	color:white;
   	font-weight:300;
@@ -172,7 +174,7 @@ ion-app.ios {
 
   .tile_descr{
   	height:20%;
-    font-family: 'Roboto Slab', Roboto, Helevetica, sans-serif;
+    font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
   	font-style:italic;
   	padding:5%;
   	color:white;
@@ -191,7 +193,7 @@ ion-app.ios {
   	color:#34495e;
 
 
-    font-family: 'Roboto Slab', Roboto, Helevetica, sans-serif;
+    font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
   	font-weight:300;
   	text-align: center;
   	vertical-align: middle;
@@ -203,12 +205,18 @@ ion-app.ios {
   	background-color:#27ae60;
   }
 
+  .card-deck {
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }
+
   .card-deck-img {
     position: relative;
     background-position: center;
     background-size: cover;
     height: 30vh;
     width: 100%;
+    box-shadow: 0 0 3px 3px rgba(88,54,2, 0.4) inset;
   }
 
   .card-footer {
@@ -236,6 +244,7 @@ ion-app.ios {
   }
 
   .big-round-button {
+    position: relative;
   	margin: 8vh auto;
   	padding: 0;
 
@@ -251,12 +260,33 @@ ion-app.ios {
   	font-style: italic;
 
   	img {
+      position: absolute;
+      left: 23vw;
+      top: 0;
   		margin: auto;
   		height: 54vw;
   		width: 54vw;
   		filter: drop-shadow(2px 2px 5px #404040);
   		transition: .2s;
   	}
+    .round-shadow-overlay {
+      position: absolute;
+      margin: auto;
+      border-radius: 50%;
+
+      box-shadow:0 0 100px 0 white;
+      height: 1px;
+      width: 1px;
+      top: 27vw;
+      left: 50vw;
+      /*
+      box-shadow:0 0 100px 0 white inset;
+      height: 54vw;
+      width: 54vw;
+      top: O;
+      left: 23vw;
+      */
+    }
   }
 
   .big-round-button:active {
@@ -265,45 +295,69 @@ ion-app.ios {
   	}
   }
 
+  .small-round-button {
+  	margin: auto;
+  	padding: 0;
+
+  	width: 100px;
+  	height: auto;
+  	background-color: transparent;
+
+  	color: white;
+  	transition: .2s;
+
+  	font-size: 2em;
+  	font-weight: 700;
+  	font-style: italic;
+
+  	img {
+  		margin: auto;
+  		width: 100%;
+  		height: auto;
+  		transition: .2s;
+  		filter: drop-shadow(-2px 3px 10px black);
+  	}
+  }
+
   // BACKGROUND IMAGES CLASS
   .img-poulet {
-    background-image: url('/assets/images/poulet.jpg');
+    background-image: url("../assets/images/poulet.jpg");
   }
 
   .img-bizuth {
-    background-image: url('/assets/images/bizuth.jpg');
+    background-image: url("../assets/images/bizuth.jpg");
   }
 
   .img-fap {
-    background-image: url('/assets/images/fap.jpg');
+    background-image: url("../assets/images/fap.jpg");
   }
 
   .img-informaticien {
-    background-image: url('/assets/images/informaticien.jpg');
+    background-image: url("../assets/images/informaticien.jpg");
   }
 
   .img-ribery {
-    background-image: url('/assets/images/ribery.jpg');
+    background-image: url("../assets/images/ribery.jpg");
   }
 
   .img-insa {
-    background-image: url('/assets/images/insa.jpg');
+    background-image: url("../assets/images/insa.jpg");
   }
 
   .img-hardcore {
-    background-image: url('/assets/images/hardcore.jpg');
+    background-image: url("../assets/images/hardcore.jpg");
   }
 
   .img-pc {
-    background-image: url('/assets/images/pc.jpg');
+    background-image: url("../assets/images/pc.jpg");
   }
 
   .img-obama {
-    background-image: url('/assets/images/obama.jpg');
+    background-image: url("../assets/images/obama.jpg");
   }
 
   .img-joker {
-    background-image: url('/assets/images/joker.jpg');
+    background-image: url("../assets/images/joker.jpg");
   }
 
   .diff1{

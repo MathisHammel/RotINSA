@@ -1,6 +1,6 @@
 page-game {
   ion-content {
-    background-image: url("/assets/images/background_table.jpg");
+    background-image: url("../assets/images/background_table.jpg");
   }
   .playable-cards-container {
       overflow: visible;
@@ -13,11 +13,9 @@ page-game {
 
   .playable-card {
     display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
+    justify-content: center;
+    align-items: center;
     position: relative;
-    /*float: left;*/
-    /*margin-right: 10px;*/
     width: 80vw;
     height: 130vw;
     border-radius: 25px;
@@ -27,6 +25,7 @@ page-game {
       0 0 0px 4px rgba(255,255,255, 0.3) inset;
 
     margin: auto 5vw;
+    overflow: auto;
 
     border-radius: 25px;
   }

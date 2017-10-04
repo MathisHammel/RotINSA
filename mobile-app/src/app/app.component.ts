@@ -11,7 +11,7 @@ import { DeckProvider }   from "../providers/deck/deck";
 })
 export class MyApp {
 	@ViewChild(Nav) nav: Nav;
-  rootPage:any = HomePage;
+  rootPage:any = "HomePage";
 
   constructor(
     platform: Platform,
@@ -42,6 +42,7 @@ export class MyApp {
         break;
       case 20:
         msg = "Oh ça y est, je l'ai !!!!!";
+        this.deckPrvd.displaySecret = true;
         break;
       case 35:
         msg = "Bin c'est bon t'as eu ton cadeau, qu'est-ce que tu fais encore là ?";
@@ -62,6 +63,7 @@ export class MyApp {
         msg = "T'as pas mieux à faire ?";
         break;
     }
+
     if(msg) {
       let at = this.toastCtrl.create({
         message: msg,
@@ -73,7 +75,7 @@ export class MyApp {
   }
 
   goToHome() {
-    this.nav.setRoot(HomePage);
+    this.nav.setRoot("HomePage");
   }
 
   goToChangePlayers() {
