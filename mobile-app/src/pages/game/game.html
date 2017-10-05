@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar color="transparent">
+    <ion-buttons end><button ion-button>{{cards.length}} restante{{cards.length > 1 ? "s": ""}}</button><button ion-button large clear (click)="goToHome()"><ion-icon name="exit" color="secondary"></ion-icon></button></ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding no-bounce>
+  <div class="playable-cards-container" (swipe)="pickACard($event)">
+    <card *ngFor="let card of cards" [card]="card" [stack]="true"></card>
+  </div>
+</ion-content>

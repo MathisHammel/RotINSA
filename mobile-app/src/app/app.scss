@@ -1,0 +1,389 @@
+
+ion-app.md,
+ion-app.wp,
+ion-app.ios {
+  font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
+  background-color: #2c3e50;
+
+  .content-ios:not([no-bounce])>.scroll-content::before { bottom: 0; }
+
+  // Menu
+  ion-menu[type=overlay],
+	ion-menu {
+		.menu-inner {
+			background-color: black;
+			background-image: url("../assets/images/hardcore.jpg");
+			box-shadow: 0 0 100px 2px  black inset;
+		}
+
+		ion-footer {
+			//box-shadow: 0 0 40px 20px #000000;
+      color: white;
+      font-size: .8em;
+      font-style: italic;
+		}
+
+		ion-toolbar {
+			background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.7) 50%, rgba(0,0,0,1));
+		}
+
+		ion-content {
+			background: transparent;
+			.scroll-content {
+				padding-top: 50px;
+			}
+		}
+
+		ion-item {
+			padding: 8px 10%	;
+			background-color: transparent;
+			color: color($colors, secondary);
+			font-size: 1.2em;
+			font-weight: 700;
+
+			ion-label {
+				padding: 11px;
+				margin: 0 auto;
+			}
+		}
+
+		ion-item-divider {
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: 400;
+			background: transparent;
+		}
+
+		.menu-button {
+			background: transparent;
+			border: 0 solid white;
+			padding: 10px 4px;
+			margin: 5px 5px;
+			border-radius: 0;
+			font-weight: 200;
+			letter-spacing: 1px;
+			border-bottom: 2px solid;
+			color: white;
+			font-size: .9em;
+			text-align: center;
+		}
+
+		i {
+			font-style: normal;
+			color: color($colors, secondary);
+		}
+	}
+  // --fin menu
+
+  .title{
+  	font-weight: 3em;
+  	text-align:center;
+  	color:#ecf0f1;
+  	height:15vh;
+  	font-size: 100px;
+    padding-bottom: 10px;
+  }
+
+  .table{
+  	width:auto;
+  	height:auto;
+  	padding-top:4%;
+  }
+
+  .line{
+  	margin: 0 auto;
+  	width:auto;
+  	padding-top:2vw;
+  	height:auto;
+  	display:table;
+  }
+
+  .tile{
+
+  	width:27vw;
+  	height:20vw;
+  	float:left;
+  	margin:0 2vw 0 0;
+  }
+
+  .tile__front{
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    	-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  }
+
+  .tile__back{
+  	position:relative;
+    top: -20vw;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    	-webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  	box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+  }
+
+  .tile__front,
+  .tile__back {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s;
+            transition: transform 0.3s;
+  }
+
+  .tile__front {
+    background-color: #bdc3c7;
+  }
+
+  .tile__back {
+    background-color: #7f8c8d;
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+
+  .tile.effect__hover:hover .tile__front {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+
+  .tile.effect__hover:hover .tile__back {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+
+  .tile_title{
+  	height:20%;
+    font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
+  	margin-left:5%;
+  	color:white;
+  	font-weight:300;
+  	vertical-align: middle;
+  	font-size:3vw;
+  	line-height: 4vw;
+  }
+
+  .tile_image{
+
+  	height:75%;
+  	width:96%;
+  	margin:2%;
+  }
+
+  .tile_descr{
+  	height:20%;
+    font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
+  	font-style:italic;
+  	padding:5%;
+  	color:white;
+  	font-weight:300;
+  	font-size:2vw;
+
+  }
+
+  .tile_button{
+  	position:absolute;
+  	left:15vw;
+  	top:15vw;
+  	height:4vw;
+  	width:10vw;
+  	background-color:#2ecc71;
+  	color:#34495e;
+
+
+    font-family: "Roboto Slab", Roboto, Helevetica, sans-serif;
+  	font-weight:300;
+  	text-align: center;
+  	vertical-align: middle;
+  	font-size:3vw;
+  	line-height: 4vw;
+  }
+
+  .tile_button:hover{
+  	background-color:#27ae60;
+  }
+
+  .card-deck {
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }
+
+  .card-deck-img {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+    box-shadow: 0 0 3px 3px rgba(88,54,2, 0.4) inset;
+  }
+
+  .card-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,.7) 50%,rgba(0,0,0,0) 100%);
+    padding: 5px 10px;
+    color: white;
+  }
+
+  .card-deck-title {
+    font-size: 1.2em;
+  }
+
+  .bright-on-click {
+    opacity: 1;
+    transition: opacity .1s, filter .1s;
+  }
+
+  .bright-on-click:active {
+    opacity: .7;
+    filter: brightness(200%);
+  }
+
+  .big-round-button {
+    position: relative;
+  	margin: 8vh auto;
+  	padding: 0;
+
+  	width: 100%;
+  	height: 54vw;
+  	background-color: transparent;
+
+  	color: white;
+  	transition: .2s;
+
+  	font-size: 2em;
+  	font-weight: 700;
+  	font-style: italic;
+
+  	img {
+      position: absolute;
+      left: 23vw;
+      top: 0;
+  		margin: auto;
+  		height: 54vw;
+  		width: 54vw;
+  		filter: drop-shadow(2px 2px 5px #404040);
+  		transition: .2s;
+  	}
+    .round-shadow-overlay {
+      position: absolute;
+      margin: auto;
+      border-radius: 50%;
+
+      box-shadow:0 0 100px 0 white;
+      height: 1px;
+      width: 1px;
+      top: 27vw;
+      left: 50vw;
+      /*
+      box-shadow:0 0 100px 0 white inset;
+      height: 54vw;
+      width: 54vw;
+      top: O;
+      left: 23vw;
+      */
+    }
+  }
+
+  .big-round-button:active {
+  	img {
+  		padding: 12px;
+  	}
+  }
+
+  .small-round-button {
+  	margin: auto;
+  	padding: 0;
+
+  	width: 100px;
+  	height: auto;
+  	background-color: transparent;
+
+  	color: white;
+  	transition: .2s;
+
+  	font-size: 2em;
+  	font-weight: 700;
+  	font-style: italic;
+
+  	img {
+  		margin: auto;
+  		width: 100%;
+  		height: auto;
+  		transition: .2s;
+  		filter: drop-shadow(-2px 3px 10px black);
+  	}
+  }
+
+  // BACKGROUND IMAGES CLASS
+  .img-poulet {
+    background-image: url("../assets/images/poulet.jpg");
+  }
+
+  .img-bizuth {
+    background-image: url("../assets/images/bizuth.jpg");
+  }
+
+  .img-fap {
+    background-image: url("../assets/images/fap.jpg");
+  }
+
+  .img-informaticien {
+    background-image: url("../assets/images/informaticien.jpg");
+  }
+
+  .img-ribery {
+    background-image: url("../assets/images/ribery.jpg");
+  }
+
+  .img-insa {
+    background-image: url("../assets/images/insa.jpg");
+  }
+
+  .img-hardcore {
+    background-image: url("../assets/images/hardcore.jpg");
+  }
+
+  .img-pc {
+    background-image: url("../assets/images/pc.jpg");
+  }
+
+  .img-obama {
+    background-image: url("../assets/images/obama.jpg");
+  }
+
+  .img-joker {
+    background-image: url("../assets/images/joker.jpg");
+  }
+
+  .diff1{
+  background-color:#2ecc71;
+  }
+
+  .diff2{
+  background-color:#3498db;
+  }
+
+  .diff3{
+  background-color:#f1c40f;
+  }
+
+  .diff4{
+  background-color:#e67e22;
+  }
+
+  .diff5{
+  background-color:#e74c3c;
+  }
+
+  h3 {
+  	color:#FFFFFF;
+  	text-align:center;
+  	padding:10px;
+  }
+
+}

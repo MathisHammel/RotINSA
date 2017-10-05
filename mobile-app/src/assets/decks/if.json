@@ -1,0 +1,250 @@
+{
+	"info":{
+		"nom":"Hardcore",
+		"a":"a",
+		"stars":3,
+		"nomDeck":"IF",
+		"nomEtendu":"IF",
+		"description":"Je suis ingénieur informaticieeeeeeeeeeeeeeeeen",
+		"nomImage":"informaticien.jpg",
+		"idDeck":"if"
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Ceux qui ont perdu au Jeu boivent {b2-4}"
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne connaissent pas le vrai nom de barbiche boivent {b3-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez des langages de programmation. Celui qui ne sait plus boit {b2-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui font des retours à la ligne avant d'ouvrir une accolade boivent {b2-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne font pas des retours à la ligne avant d'ouvrir une accolade boivent {b2-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui codent en {lua|python|c++|java} boivent {b2-4}."
+	},
+	{
+		"type":"action",
+		"content":"Récite les décimales de pi. Distribue un {b} par décimale juste."
+	},
+	{
+		"type":"action",
+		"content":"Paul-Louis, tu bois {b2-2}. Si Paul-Louis a tiré cette carte, à la place tout le monde <b>finit son verre</b>."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne vont plus en amphi, buvez {b2-5}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>La Patrouille</b> : Si tu vois quelqu'un poser son verre, tu peux lui faire boire {b3-3}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Barbiche</b> : Tu n'as plus de stage, et tu bois {b} à chaque fois que quelqu'un tire une carte pour oublier."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Maranzana</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b2-4}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Maurincaûme</b> : Tu peux rediriger la moitié de tes {b} (arrondi à l'inférieur) sur quelqu'un d'autre quand tu dois boire"
+	},
+	{
+		"type":"regle",
+		"content":"A chaque fois que l'on doit boire, les filles boivent un {b} de moins, les mecs un {b} de plus."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le cours de Génie Logiciel</b> : Distribue un {b} à chaque fois que quelqu'un pioche."	
+	},
+	{
+		"type":"action",
+		"content":"Joue à pile-ou-face avec quelqu'un. Le perdant boit {b} et le ganant peut rejouer. Doublez les {b} à chaque fois."
+	},
+	{
+		"type":"action",
+		"content":"Distribue {b1-6}."
+	},
+	{
+		"type":"action",
+		"content":"Donne {b}{b}{b}{b}{b} à quelqu'un. Il en donne un de moins à quelqu'un d'autre et ainsi de suite."
+	},
+	{
+		"type":"action",
+		"content":"\"Je n'ai jamais ... \". Ceux qui l'on déjà fait boivent {b2-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui trouvent que la Modélisation des processus c'est vraiement du bullshit, buvez {b1-5}"
+	},
+	{
+		"type":"spin",
+		"content":"Recitez l'aphabet à l'envers. Celui qui se trompe boit {b3-5}"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le Rôti</b> : Si tu dois boire un nombre {pair|impair} de {b}, double ce nombre !"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le Co-TP</b> : Choisis une personne. Elle doit boire à chaque fois que tu dois boire !"
+	},
+	{
+		"type":"action",
+		"content":"Ton PC est en panne ! Bois {b2-3} pour oublier."
+	},
+	{
+		"type":"action",
+		"content":"On te vante les mérites de l'open source ! Bois {b3-5}."
+	},
+	{
+		"type":"action",
+		"content":"HADOPI t'a chopé ! Bois {b5-5}."
+	},
+	{
+		"type":"action",
+		"content":"Tu majores en DASI ! Distribue {b8-8}."
+	},
+	{
+		"type":"action",
+		"content":"En retard pour Maranzana ! Bois {b1-2}."
+	},
+	{
+		"type":"action",
+		"content":"Mise à jour Windows ! Bois {b2-5} pour patienter."
+	},
+	{
+		"type":"action",
+		"content":"La DSI a effacé tous les serveurs ! Tout le monde perds son rôle et boit {b1-3}."
+	},
+	{
+		"type":"action",
+		"content":"Paul-Louis est encore en retard ! Si il est dans la pièce, il distribue {b10-10}."
+	},
+	{
+		"type":"action",
+		"content":"Ton Co-TP n'est jamais là ! Tu sombre dans l'alcoolisme et boit {b4-5}."
+	},
+	{
+		"type":"action",
+		"content":"Tu viens de terminer tes spécifications ! Distribue {b5-5} pour fêter ça !"
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les noms des profs d'IF. Celui qui ne trouve pas boit {b5-5}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Yoda</b>. Parler comme lui, tu dois. Boire {b1-2} quand tu te trompes, tu dois !"
+	},
+	{
+		"type":"action",
+		"content":"Cul Sec ! Finis ton verre."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont été témoins d'un Bazoom boivent {b5-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui {viennent du PC|ne viennent pas du PC} boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont un mac boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont installé Linux boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui jouent à LoL boivent {b1-3}."
+	},
+	{
+		"type":"action",
+		"content":"Joue au Chou-Fleur avec la personne de ton choix. Le perdant boit {b2-5}."
+	},
+	{
+		"type":"action",
+		"content":"<b>Chapeau Chinois !</b> Le dernier boit {b3-5}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont déjà fait une nuit blanche pour rendre un TP boivent {b2-6}."
+	},
+	{
+		"type":"action",
+		"content":"Complète cette citation et distribue {b}{b}, sinon bois {b}{b}{b}{b}. Je suis surpris et _______."
+	},
+	{
+		"type":"action",
+		"content":"Bois autant de {b} que de rattrapages où tu penses aller !"
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui un iPhone boivent {b}{b}{b}{b}."
+	},
+	{
+		"type":"action",
+		"content":"Le premier qui donne la complexité de bubble sort distribue {b}{b}."
+	},
+	{
+		"type":"action",
+		"content":"Tu passes ta nuit à taper du bullshit pour le PLD. Bois {b}{b}{b} pour oublier."
+	},
+	{
+		"type":"action",
+		"content":"Les {3IF | 4IF | 5IF s'il en reste encore en France} boivent {b}."
+	},
+	{
+		"type":"action",
+		"content":"Un IF doit rester seul. Celui qui a le plus d'amis Facebook boit {b}{b}{b}."
+	},
+	{
+		"type":"action",
+		"content":"Imite un pointeur ou bois {b}."
+	},
+	{
+		"type":"question",
+		"content":"Quand y a un new, y a un ? Bois {b}."
+	},
+	{
+		"type":"action",
+		"content":"Tu es élu Mister Bizuth au WEI ! Distribue {b}{b} et choisit ta Miss Bizuth."
+	},
+	{
+		"type":"action",
+		"content":"Tu es rôti le matin des RIFs, pas de stage pour toi ! Bois {b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ne sont jamais allé aux simulations d'entretien boivent {b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux dont le CV est un template Word boivent {b}{b}{b}{b}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les cours de bullshit en 4IF. Celui qui ne sait plus boit {b}{b}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les mots qui riment avec IF. Celui qui ne sait plus boit {b}{b}{b}{b}."
+	}	
+	]
+}
