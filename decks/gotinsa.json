@@ -48,5 +48,25 @@
 		"type":"role",
 		"content":"<b>Theon</b><br/> T'es une putain de victime mec, bois double quand tu dois boire"
 	},
+	{
+		"type":"spin",
+		"content":"Enumérez les villes de Westeros, celui qui ne trouve plus boit {b1-3}"
+	},
+	{
+		"type":"spin",
+		"content":"Enumérez les villes de Etos, celui qui ne trouve plus boit {b1-3}"
+	},
+	{
+		"type":"spin",
+		"content":"Enumérez les maisons, , celui qui ne trouve plus boit {b1-3}"
+	},
+	{
+		"type":"spin",
+		"content":"Enumérez les blasons, celui qui ne trouve plus boit {b1-3}"
+	},
+	{
+		"type":"spin",
+		"content":"Enumérez les morts, celui qui ne trouve plus boit {b1-3}"
+	}
 	]
 }
