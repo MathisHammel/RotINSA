@@ -1,16 +1,16 @@
-				
+
 function loadCard(tag, deck, id)
 {
 				//TODO -> empêcher injections XSS
-				
-				
+
+
 				// Enlever les classes de la carte du back pour pouvoir les recharger en fonction de ce qu'il y a dans le json
 			  	$(tag).removeClass().addClass("card");
 
 			  	// Si la carte à un type, le charger
 			  	if (deck[id].type)
 			  	{
-			  		$(tag).addClass("suit"+deck[id].type);
+			  		$(tag).addClass("suit-"+deck[id].type);
 			  	}
 
 

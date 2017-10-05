@@ -1,0 +1,228 @@
+{
+	"info":{
+		"nom":"Répliques cultes",
+		"stars":3,
+		"nomDeck":"Citations",
+		"nomEtendu":"Citations",
+		"description":"Complétez les citations données",
+		"nomImage":"obama.jpg",
+		"idDeck":"repliques"
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Mother of dragons, breaker of ______ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Mais j'anticipe ! Comme ça si vous voulez faire un deuxième étage, __________ ! "
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Ich muss durch den ________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. May the _____________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Vers l'infini et ____________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Red___ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Tu vois, le monde se divise en deux catégories: ceux qui ont un pistolet chargé et ceux qui ______ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. You shall not _____ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Did you fuck _________ ? "
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Veni, vedi, _____ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Cours, __________ !"
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Toi, tu t’appelles Nathalie, _____________________ ? ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Ingrid, _____________________ ? ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Mais vous m'avez dit de pas dire ______ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Je ferai tout pour être vainqueur, ____________________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. I love cats,  ______________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Is this real _____ ?"
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Houston, __________________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Don't be yourself, be a _____ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Houston, __________________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Maman disait toujours : La vie, ________________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Supercalifragi_________________!"
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. La deuxième étoile à droite et __________________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Sire, Sire ! On en a ____ !"
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Let it go, let it go ! _______________________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Ils m'entraînent au bout _________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Oh. You touch __________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Ouvrez vos livres à la page ___ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Wingardium __________."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Maintenant si ça ne vous dérange pas, je vais me coucher... Avant que l'un de vous ai encore une brillante idée pour nous faire tuer... Ou pire, _________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Peux-tu peindre en __________________ ?"
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Hello darkness ____________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Help, _____________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. I can't get no ___________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. A vrai dire, j'ai tellement changé depuis ce matin que je ne saurais plus dire _______ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. La musique, c'est du bruit __________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Deux choses sont infinies : l’Univers et la bêtise humaine. Mais, _________________________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Mrs Dalloway said she ______________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. C'est l'histoire de la vie, du _____________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Come as ________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Cindy sois pas fâchée, pour t'oublier _______________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Non Madame Pavoshko, j'suis pas ____________ ."
+	},
+	
+	{
+		"type":"question",
+		"content":"Le premier qui complète la citation distribue {b3-3}. Because I'm easy come, easy go, _________ ."
+	}
+
+	]
+}
