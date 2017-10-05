@@ -1,8 +1,8 @@
 {
 	"info":{
-		"nom":"Bizuth",
-		"nomDeck":"Rôti standard",
+		"nom":"Rôti standard",
 		"nomEtendu":"Rôti standard",
+		"stars":2,
 		"description":"Pour une rôtisserie classique en famille ou entre amis",
 		"nomImage":"poulet.jpg",
 		"idDeck":"rotistandard"
