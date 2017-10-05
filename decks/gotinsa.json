@@ -1,0 +1,52 @@
+{
+	"info":{
+		"nom":"GOT'Insa",
+		"nomDeck":"GOT'Insa",
+		"nomEtendu":"GOT'Insa",
+		"description":"Incollable sur Games of Throne ?! Accroche bien ton foie car t'en auras besoin ;)",
+		"nomImage":"got.jpg",
+		"idDeck":"gotinsa"
+	},
+	"cards":[
+	{
+		"type":"role",
+		"content":"<b>Daenerys</b><br/> L'alcool c'est du feu, et le feu c'est de l'eau, à chaque tour distribue {b1-3}"
+	},
+	{
+		"type":"role",
+		"content":"<b>Cersei</b><br/> Utilise (1 seule fois) quand tu veux le feu grégeois et tout le monde boit {b1-3}"
+	},
+	{
+		"type":"role",
+		"content":"<b>Jon</b><br/> Tu te pèles le cul dans le nord, à chaque tour bois {b1-3}"
+	},
+	{
+		"type":"role",
+		"content":"<b>Tyrion</b><br/> A chaque fois que tu bois, choisis une putain qui boit avec toi"
+	},
+	{
+		"type":"role",
+		"content":"<b>Little finger</b><br/> T'es un fils de pute gros, à chaque tour distribue {b1-3}"
+	},
+	{
+		"type":"role",
+		"content":"<b>Arya</b><br/> There is only one god and his name is death : Tu n'as plus le droit de diluer"
+	},
+	{
+		"type":"role",
+		"content":"<b>Sansa</b><br/> T'es une Lady, bois la moitié de ce que tu dois boire"
+	},
+	{
+		"type":"role",
+		"content":"<b>Ramsey</b><br/> T'es un enculé, distribue double"
+	},
+	{
+		"type":"role",
+		"content":"<b>Jaime</b><br/> T'as perdu ta main droite, bois si tu l'utilises"
+	},
+	{
+		"type":"role",
+		"content":"<b>Theon</b><br/> T'es une putain de victime mec, bois double quand tu dois boire"
+	},
+	]
+}
