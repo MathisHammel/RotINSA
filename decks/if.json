@@ -56,7 +56,7 @@
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Maranzana</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b2-4}."
+		"content": "Tu deviens <b>Maranzana</b> : Si tu vois quelqu'un sur son portable, tu peux lui faire boire {b2-4}."
 	},
 	{
 		"type":"role",
@@ -128,7 +128,7 @@
 	},
 	{
 		"type":"action",
-		"content":"La DSI a effacé tous les serveurs ! Tout le monde perds son rôle et boit {b1-3}."
+		"content":"La DSI a effacé tous les serveurs ! Tout le monde perd son rôle et boit {b1-3}."
 	},
 	{
 		"type":"action",
@@ -196,11 +196,11 @@
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui un iPhone boivent {b}{b}{b}{b}."
+		"content":"Ceux qui ont un iPhone boivent {b}{b}{b}{b}."
 	},
 	{
 		"type":"action",
-		"content":"Le premier qui donne la complexité de bubble sort distribue {b}{b}."
+		"content":"Le premier qui donne la complexité du bubble sort distribue {b}{b}."
 	},
 	{
 		"type":"action",
