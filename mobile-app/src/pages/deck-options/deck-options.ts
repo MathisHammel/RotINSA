@@ -16,6 +16,10 @@ export class DeckOptionsPage {
 
   }
 
+  isDefaultDecks() : boolean {
+    return this.deckPrvd.defaultDecks;
+  }
+
   get decks() {
     return this.deckPrvd.decks;
   }
@@ -26,5 +30,17 @@ export class DeckOptionsPage {
 
   restoreDefaultDecks() {
     this.deckPrvd.getLocalDecks();
+  }
+
+  restoreDynamicDecks() {
+    this.deckPrvd.getLocalDynamicDecks();
+  }
+
+  isDDAvailable() : boolean {
+    return this.deckPrvd.localDynamicDecksAvailable;
+  }
+
+  clearLocalDeckDatas() {
+    this.deckPrvd.clearLocalDeckDatas();
   }
 }

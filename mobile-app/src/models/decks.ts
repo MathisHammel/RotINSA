@@ -65,7 +65,7 @@ export class Deck {
   static parseObject(obj: any, filename: string) : Deck {
     let deck = new Deck(filename);
 
-    let infos = obj["info"];
+    let infos = obj["infos"] || obj["info"];
     let cards = obj["cards"];
 
     deck.name           = infos["nom"];
@@ -88,6 +88,29 @@ export class Deck {
     }
 
     return deck;
+  }
+
+  toObject() : any {
+    let d = {};
+
+    let infos = d["infos"] = {};
+    infos["nom"]        = this.name;
+    infos["nomEtendu"]  = this.fullName;
+    infos["stars"]      = this.lvl;
+    infos["idDeck"]     = this.id;
+    infos["description"]    = this.description;
+    infos["nomImage"]       = this.imgname;
+    infos["secret"]         = this.secret;
+
+    let cards = d["cards"] = [];
+    for(let card of this.cards) {
+      let c = {};
+      c["content"]      = card.content;
+      c["type"]         = card.type;
+      cards.push(c);
+    }
+
+    return d;
   }
 
 }

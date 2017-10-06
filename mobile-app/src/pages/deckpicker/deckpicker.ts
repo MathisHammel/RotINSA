@@ -11,7 +11,6 @@ import { Deck }           from "../../models/decks";
 })
 export class DeckpickerPage {
 
-  public randomDeck: Deck;
   public changeRandom: any;
 
   constructor(public navCtrl: NavController,
@@ -19,12 +18,15 @@ export class DeckpickerPage {
       private deckPrvd: DeckProvider) {
   }
 
-  ionViewDidEnter() {
-    this.randomDeck = this.deckPrvd.decks[Math.floor(Math.random()*this.deckPrvd.decks.length)];
-    if(!this.deckPrvd.displaySecret) {
-      while(this.randomDeck.secret) {
-        this.randomDeck = this.deckPrvd.decks[Math.floor(Math.random()*this.deckPrvd.decks.length)];
+  startARandomGame() {
+    if(this.deckPrvd.decks.length > 1) {
+      let randomDeck;
+      if(!this.deckPrvd.displaySecret) {
+        while(!randomDeck || randomDeck.secret) {
+          randomDeck = this.deckPrvd.decks[Math.floor(Math.random()*this.deckPrvd.decks.length)];
+        }
       }
+      this.startAGame(randomDeck);
     }
   }
 
@@ -48,6 +50,10 @@ export class DeckpickerPage {
 
   isGameOn() {
     return this.deckPrvd.isGameOn();
+  }
+
+  goToDeckOptions() {
+    this.navCtrl.push("DeckOptionsPage");
   }
 
 }

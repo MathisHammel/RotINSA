@@ -6,20 +6,27 @@
 </ion-header>
 
 <ion-content>
-  <ion-card class="card-deck bright-on-click" tappable (click)="startAGame(randomDeck)">
-    <ion-card-content class="card-deck-img img-rotinsa"  style="transition: background-image 1s; filter: sepia(90%)" >
-      <div class="card-footer">
-        <div class="card-deck-title">Aléatoire</div>
-        <div class="card-deck-lvl">Tu ne sais pas avec quoi te rotir ? On trouve pour toi !</div>
-      </div>
-    </ion-card-content>
-  </ion-card>
-  <ion-card *ngFor="let d of decks" class="card-deck bright-on-click" tappable (click)="startAGame(d)">
-    <ion-card-content class="card-deck-img img-{{d.imgname}}" *ngIf="!d.secret || deckPrvd.displaySecret">
-      <div class="card-footer">
-        <div class="card-deck-title">{{d.name}}</div>
-        <div class="card-deck-lvl">Niveau: <span *ngFor="let i of tab5"><ion-icon name="star" *ngIf="i <= d.lvl"></ion-icon></span></div>
-      </div>
-    </ion-card-content>
-  </ion-card>
+  <div *ngIf="deckPrvd.decks.length">
+    <ion-card class="card-deck bright-on-click" tappable (click)="startARandomGame()" *ngIf="deckPrvd.decks.length > 1">
+      <ion-card-content class="card-deck-img img-rotinsa"  style="transition: background-image 1s; filter: sepia(90%)" >
+        <div class="card-footer">
+          <div class="card-deck-title">Aléatoire</div>
+          <div class="card-deck-lvl">Tu ne sais pas avec quoi te rotir ? On trouve pour toi !</div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+    <ion-card *ngFor="let d of decks" class="card-deck bright-on-click" tappable (click)="startAGame(d)">
+      <ion-card-content class="card-deck-img img-{{d.imgname}}" *ngIf="!d.secret || deckPrvd.displaySecret">
+        <div class="card-footer">
+          <div class="card-deck-title">{{d.name}}</div>
+          <div class="card-deck-lvl">Niveau: <span *ngFor="let i of tab5"><ion-icon name="star" *ngIf="i <= d.lvl"></ion-icon></span></div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div padding text-center *ngIf="deckPrvd.decks.length == 0">
+      <h2>Aucune liste de decks de sélectionnée. <br/>Choisis en une sur la page</h2>
+    <ion-buttons ><button ion-button (click)="goToDeckOptions()">Paramètres des decks</button></ion-buttons>
+  </div>
 </ion-content>

@@ -21,6 +21,10 @@ export class ChangePlayersPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private deckPrvd: DeckProvider) {}
 
+  ionViewWillLeave() {
+      this.deckPrvd.storePlayers();
+  }
+
   public get players() {
     return this.deckPrvd.players;
   }
