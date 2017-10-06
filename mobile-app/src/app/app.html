@@ -1,0 +1,23 @@
+<ion-menu [content]="content" type="push">
+  <ion-content>
+    <ion-list text-center>
+      <button class="small-round-button">
+        <img src="assets/images/logo-rotinsa.png" (click)="doSomething()"/>
+      </button>
+      <ion-item tappable menuClose (click)="goToHome()">
+        Accueil
+      </ion-item>
+      <ion-item tappable menuClose (click)="goToChangePlayers()">
+        Changer les joueurs
+      </ion-item>
+      <ion-item tappable menuClose (click)="goToAbout()">
+        A propos
+      </ion-item>
+    </ion-list>
+  </ion-content>
+  <ion-footer text-center>
+  © Rot'INSA team 2015-2018
+  </ion-footer>
+</ion-menu>
+
+<ion-nav color="transparent" #content [root]="rootPage" swipeBackEnabled="false"></ion-nav>

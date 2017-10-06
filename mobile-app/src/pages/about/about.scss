@@ -1,0 +1,22 @@
+page-about {
+  color: white;
+  ion-content {
+    .scroll-content { color: white }
+    background: url("../assets/images/background_pub.jpg");
+    background-size: cover;
+    color: white;
+
+    .padding {
+      height: 15vh;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    h2 {
+      color: #E0E0E0;
+      font-style: italic;
+    }
+  }
+}
