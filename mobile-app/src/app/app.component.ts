@@ -82,6 +82,10 @@ export class MyApp {
     this.nav.push("ChangePlayersPage");
   }
 
+  goToDeckOptions() {
+    this.nav.push("DeckOptionsPage");
+  }
+
   goToAbout() {
     this.nav.push("AboutPage");
   }

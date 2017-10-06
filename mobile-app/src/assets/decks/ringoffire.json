@@ -1,6 +1,5 @@
 {
 	"info":{
-
 		"nom":"Ring of Fire",
 		"stars":2,
 		"nomDeck":"Ring of Fire",
@@ -8,8 +7,6 @@
 		"description":"Baby you're so classic",
 		"nomImage":"joker.jpg",
 		"idDeck":"ringoffire"
-
-
 	},
 	"cards":[
 	{
@@ -223,4 +220,3 @@
 	]
 
 }
-

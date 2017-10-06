@@ -16,12 +16,20 @@ import { ToastController }    from "ionic-angular";
 @Injectable()
 export class RequestsProvider {
 
+  private onlineRootEndpoint: string = "http://kara71.github.io/RotINSA/";
+
   constructor(public http: Http,
     private toastCtrl: ToastController) {
   }
 
   getLocal(route: string, params: any = {}) : any {
     return this.http.get("assets/"+route, params)
+      .map((res: Response) => {	return this.extractData(res); })
+      .catch((error: any) => {	return this.handleError(error); });
+  }
+
+  getOnline(route: string, params: any = {}) : any {
+    return this.http.get(this.onlineRootEndpoint + route)
       .map((res: Response) => {	return this.extractData(res); })
       .catch((error: any) => {	return this.handleError(error); });
   }

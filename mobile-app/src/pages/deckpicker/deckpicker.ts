@@ -11,11 +11,22 @@ import { Deck }           from "../../models/decks";
 })
 export class DeckpickerPage {
 
+  public randomDeck: Deck;
+  public changeRandom: any;
+
   constructor(public navCtrl: NavController,
       public navParams: NavParams,
       private deckPrvd: DeckProvider) {
   }
 
+  ionViewDidEnter() {
+    this.randomDeck = this.deckPrvd.decks[Math.floor(Math.random()*this.deckPrvd.decks.length)];
+    if(!this.deckPrvd.displaySecret) {
+      while(this.randomDeck.secret) {
+        this.randomDeck = this.deckPrvd.decks[Math.floor(Math.random()*this.deckPrvd.decks.length)];
+      }
+    }
+  }
 
   get decks() {
     return this.deckPrvd.decks;
@@ -29,6 +40,14 @@ export class DeckpickerPage {
     this.deckPrvd.activDeck = deck;
     this.deckPrvd.start();
     this.navCtrl.push("GamePage");
+  }
+
+  resumeGame() {
+    this.navCtrl.push("GamePage");
+  }
+
+  isGameOn() {
+    return this.deckPrvd.isGameOn();
   }
 
 }

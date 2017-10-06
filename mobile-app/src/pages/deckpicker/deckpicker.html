@@ -1,10 +1,19 @@
 
 <ion-header>
     <ion-navbar color="transparent">
+      <ion-buttons end *ngIf="isGameOn()" (click)="resumeGame()"><button ion-button>Reprendre la partie</button></ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
+  <ion-card class="card-deck bright-on-click" tappable (click)="startAGame(randomDeck)">
+    <ion-card-content class="card-deck-img img-rotinsa"  style="transition: background-image 1s; filter: sepia(90%)" >
+      <div class="card-footer">
+        <div class="card-deck-title">Aléatoire</div>
+        <div class="card-deck-lvl">Tu ne sais pas avec quoi te rotir ? On trouve pour toi !</div>
+      </div>
+    </ion-card-content>
+  </ion-card>
   <ion-card *ngFor="let d of decks" class="card-deck bright-on-click" tappable (click)="startAGame(d)">
     <ion-card-content class="card-deck-img img-{{d.imgname}}" *ngIf="!d.secret || deckPrvd.displaySecret">
       <div class="card-footer">

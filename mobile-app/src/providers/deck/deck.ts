@@ -2,7 +2,9 @@ import { Injectable } from '@angular/core';
 import { RequestsProvider } from '../requests/requests';
 import 'rxjs/add/operator/map';
 
-import { Deck, Card }     from "../../models/decks";
+import { Storage }        from "@ionic/storage";
+
+import { Deck, Card, createAlphabetCompare }     from "../../models/decks";
 
 @Injectable()
 export class DeckProvider {
@@ -10,9 +12,13 @@ export class DeckProvider {
   public decks: Array<Deck>;
   public displaySecret: boolean = false;
 
-  constructor(public request: RequestsProvider) {
+  constructor( public request: RequestsProvider,
+    private storage: Storage) {
+
     this.decks = [];
-    this.getLocalDecks();
+    //this.getLocalDecks();
+    this.getLocalDynamicDecks();
+    this.getOnlineDecks();
 
     this.initPlayers();
     this.initGame();
@@ -38,9 +44,14 @@ export class DeckProvider {
   // ======= A game =====================
   public activDeck: Deck;
   public cardsStack: Array<Card>;
+  private _gameOnTheRun: boolean;
 
   public initGame() {
     this.cardsStack = [];
+  }
+
+  public isGameOn() : boolean {
+    return this._gameOnTheRun;
   }
 
   public start() {
@@ -54,10 +65,14 @@ export class DeckProvider {
     for(var card of this.cardsStack) {
       card.format(this.players);
     }
+    this._gameOnTheRun = true;
   }
 
   public pickACard() {
     this.cardsStack.pop();
+    if(this.cardsStack.length <= 1) {
+      this.stop();
+    }
   }
 
   public get topCard() : Card {
@@ -67,12 +82,19 @@ export class DeckProvider {
       return new Card();
   }
 
+  public stop() {
+    this._gameOnTheRun = false;
+  }
+
   // ======= Retrieve the decks =========
+
+  private deckPathRoot: string = "decks/";
 
   getLocalDecks() {
     this.request.getLocal("decks/listeDecks.json")
     .subscribe(
       r => {
+        this.decks = [];
         for (let name of r["decks"]) {
           this.getLocalDeck(name);
         }
@@ -95,6 +117,45 @@ export class DeckProvider {
         console.error(name,error);
       }
     )
+  }
+
+  getLocalDynamicDecks() {
+    this.storage.get(this.deckPathRoot + "list")
+      .then( val => {
+        console.log(val);
+      });
+  }
+
+  getOnlineDecks() {
+    this.request.getOnline(this.deckPathRoot + "listeDecks.json")
+      .subscribe(
+        list => {
+          this.decks = [];
+          for(var deckname of list["decks"]) {
+            this.getOnlineDeck(deckname);
+          }
+        },
+        error => {
+          console.log(error);
+        }
+      );
+  }
+
+  getOnlineDeck(name: string) {
+    this.request.getOnline(this.deckPathRoot + name + ".json")
+      .subscribe(
+        deck => {
+          let d = Deck.parseObject(deck, name);
+          d.shuffle();
+          if(d.cards.length > 5) {
+            this.decks.push(d);
+            this.decks.sort(createAlphabetCompare("name", true));
+          }
+        },
+        error => {
+          console.log(name,error);
+        }
+      )
   }
 
 

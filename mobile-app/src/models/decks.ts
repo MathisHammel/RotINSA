@@ -8,6 +8,17 @@ function shuffle(a) {
     }
 }
 
+export function createAlphabetCompare(property: string, asc: boolean) : (lhs: any, rhs: any) => number{
+  var ascm = (asc ? -1 : 1);
+  return (lhs: any, rhs: any) : number => {
+    var lhsval = lhs[property].toLowerCase();
+    var rhsval = rhs[property].toLowerCase();
+    if(lhsval < rhsval) return ascm;
+    if(lhsval > rhsval) return -ascm;
+    return 0;
+  };
+}
+
 export class Deck {
 
   public name: string;
@@ -43,6 +54,10 @@ export class Deck {
     return cards;
   }
 
+  public get size() {
+    return this.cards.length;
+  }
+
   public shuffle() {
     shuffle(this._cards);
   }
@@ -58,9 +73,12 @@ export class Deck {
     deck.lvl            = infos["stars"];
     deck.id             = infos["idDeck"];
     deck.description    = infos["description"];
-    deck.imgname        = infos["nomImage"].split(".")[0];
+    if(infos["nomImage"])
+      deck.imgname        = infos["nomImage"].split(".")[0];
+    else
+      deck.imgname      = "logo-rotinsa.png";
 
-    if(infos["secret"]) deck.secret = true;
+    if(infos["secret"] || deck.id == "fap") deck.secret = true;
 
     for(let c of cards) {
       let card = new Card();

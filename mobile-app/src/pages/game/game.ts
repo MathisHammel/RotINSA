@@ -20,8 +20,16 @@ export class GamePage {
     return this.deckPrvd.cardsStack;
   }
 
+  get noCards() {
+    return this.deckPrvd.cardsStack.length == 0;
+  }
+
   get topCard() {
     return this.deckPrvd.topCard;
+  }
+
+  restart() {
+    this.deckPrvd.start();
   }
 
   pan(event: any) {}

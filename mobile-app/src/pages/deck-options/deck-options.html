@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item-divider>Decks dispos<button ion-button outline item-right (click)="downloadDecks()">Télécharger les decks</button></ion-item-divider>
+  <ion-list>
+    <div *ngFor="let deck of decks">
+      <ion-item *ngIf="!deck.secret">
+        {{(deck.name)}}
+        <ion-badge item-right>{{deck.size}}</ion-badge>
+      </ion-item>
+    </div>
+
+    <div *ngFor="let deck of decks">
+      <ion-item *ngIf="deck.secret">
+        {{(!deckPrvd.displaySecret ? "Celui si est secret ;) " : deck.name)}}
+        <ion-badge item-right>{{deck.size}}</ion-badge>
+      </ion-item>
+    </div>
+  </ion-list>
+  <ion-buttons><button ion-button small full (click)="restoreDefaultDecks()">Restaurer les decks par défaut</button></ion-buttons>
+</ion-content>
