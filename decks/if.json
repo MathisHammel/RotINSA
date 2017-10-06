@@ -1,9 +1,7 @@
 {
 	"info":{
-		"nom":"Hardcore",
-		"a":"a",
+		"nom":"IF",
 		"stars":3,
-		"nomDeck":"IF",
 		"nomEtendu":"IF",
 		"description":"Je suis ingénieur informaticieeeeeeeeeeeeeeeeen",
 		"nomImage":"informaticien.jpg",
@@ -68,7 +66,7 @@
 	},
 	{
 		"type":"role",
-		"content":"Tu deviens <b>Le cours de Génie Logiciel</b> : Distribue un {b} à chaque fois que quelqu'un pioche."	
+		"content":"Tu deviens <b>Le cours de Génie Logiciel</b> : Distribue un {b} à chaque fois que quelqu'un pioche."
 	},
 	{
 		"type":"action",
@@ -245,6 +243,6 @@
 	{
 		"type":"spin",
 		"content":"Énumérez les mots qui riment avec IF. Celui qui ne sait plus boit {b}{b}{b}{b}."
-	}	
+	}
 	]
 }

@@ -1,6 +1,11 @@
 {
 	"info":{
-		"nom":"Hardcore"
+		"nom":"Hardcore",
+		"nomEtendu":"Hardcore",
+		"stars":5,
+		"description":"Pour les plus solides!",
+		"nomImage":"hardcore.jpg",
+		"idDeck":"hardcore"
 	},
 	"cards":[
 	{

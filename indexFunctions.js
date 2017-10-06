@@ -21,9 +21,9 @@ $(document).ready(function(){
 							var containerImage= $("<div/>",{class:"card-image waves-effect waves-block waves-light"});
 							$("<img />", {class:"activator", src:infos.nomImage}).appendTo(containerImage);
 							var containerName=$("<div/>",{class:"card-content activator waves-effect waves-block waves-light"});
-							$("<span />",{class:"card-title activator grey-text text-darken-4",style:"font-size:35px",text:infos.nomDeck}).appendTo(containerName);
+							$("<span />",{class:"card-title activator grey-text text-darken-4",style:"font-size:35px",text:infos.nom}).appendTo(containerName);
 							var containerText=$("<div/>", {class:"card-reveal activator"});
-							containerText.append($("<span/>",{class:"card-title grey-text text-darken-4 activator",style:"font-size:35px",text:infos.nomDeck}).append($("<i/>",{class:"material-icons right",text:"close"})));
+							containerText.append($("<span/>",{class:"card-title grey-text text-darken-4 activator",style:"font-size:35px",text:infos.nomEtendu}).append($("<i/>",{class:"material-icons right",text:"close"})));
 							containerText.append($("<p/>",{text:infos.description}));
 							var button=$("<button/>",{class:"btn waves-effect waves-light",type:"submit",name:"action",id:infos.idDeck+'B',text:"C'est parti!"});
 							button.click(function(){
