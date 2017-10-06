@@ -2,11 +2,9 @@
 
 ## But :
 
-Le but est d'offrir un jeu a boire sous forme de jeu de carte à ceux qui veulent se rôtir et passer du bon temps en soirée.
+Le but est d'offrir un jeu à boire sous forme de jeu de carte à ceux qui veulent se rôtir et passer du bon temps en soirée.
 
-## Architechture :
-
-Les decks de cartes sont chargés par `roti.html?deck=nomDuDeck.json` ou dans l'item de localStorage 'deck'. Ils doivent être placés dans le dossier decks.
+## Architecture d'un deck :
 
 Lors de l'ajout d'un deck, il est important d'ajouter le deck dans le dossier decks ainsi que son nom, sans extension, dans listeDecks.json, au format Json.
 
@@ -60,3 +58,12 @@ Exemple : `"content":"Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme 
 `count` : Optionnel, correspond au nombre de fois que la carte apparaîtra dans un deck (Utile pour les cartes génériques). Exemple : `"count":3` -> La carte apparaîtra 3 fois dans la partie. Si non défini, la carte n’apparaîtra qu'une fois.
 
 `skipTurn` : Optionnel, qui sera le prochain joueur dans la liste du tour. 1 est la valeur par défaut (utilisée si il n'y a pas le paramètre), 0 ne change pas le joueur, et 2 saute le prochain joueur. Utile pour les cartes qui font sauter des tours ou re-piocher. (Pratique pour la carte "Ame des cartes").
+
+## Version en ligne du jeu :
+
+Les decks de cartes sont chargés par `roti.html?deck=nomDuDeck.json` ou dans l'item de localStorage 'deck'. Ils doivent être placés dans le dossier decks.
+
+## Version application mobile du jeu :
+
+L'appli utilise une architecture logiciel un peu différente (et l'easter egg a une autre technique pour être trouvé ! ;) )
+Les decks sont tous chargés localement dans l'appli, peut-être que sur le long terme, il sera possible d'utiliser des decks récupérés en lignes ? Up to you.

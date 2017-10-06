@@ -90,9 +90,9 @@ div[class*='suit']:before {
   left: 15px;
   top: 10px;
 }
- 
+
 div[class*='suit']:after {
-  
+
   position: absolute;
   font-size: 50px;
   right: 15px;
@@ -102,53 +102,53 @@ div[class*='suit']:after {
 
 
 /* ------------ CARTES STYLES --------------*/
-.suitspin {
+.suit-spin {
   background: #9b59b6;
 }
 
-.suitspin:before, .suitspin:after {
+.suit-spin:before, .suit-spin:after {
   font-family: FontAwesome;
   content: "\f021";
   color: #000;
 }
 
-.suitquestion {
+.suit-question {
   background: #3498db;
 }
 
-.suitquestion:before, .suitquestion:after {
+.suit-question:before, .suit-question:after {
   font-family: FontAwesome;
   content: "\f29c";
   color: #000;
 }
 
-.suitaction {
+.suit-action {
   background: #e74c3c;
 }
 
-.suitaction:before, .suitaction:after {
+.suit-action:before, .suit-action:after {
   font-family: FontAwesome;
   content: "\f06a";
   color: #000;
 }
 
-.suitrole {
+.suit-role {
   background: #f1c40f;
   color: #000;
 }
 
-.suitrole:before, .suitrole:after {
+.suit-role:before, .suit-role:after {
   font-family: FontAwesome;
   content: "\f005";
   color: #000;
 }
 
-.suitregle {
+.suit-regle {
   background: #34495e;
   color: #fff;
 }
 
-.suitregle:before, .suitregle:after {
+.suit-regle:before, .suit-regle:after {
   font-family: FontAwesome;
   content: "\f085";
   color: #fff;
