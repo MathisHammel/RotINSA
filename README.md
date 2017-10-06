@@ -8,13 +8,14 @@ Le but est d'offrir un jeu a boire sous forme de jeu de carte à ceux qui veulen
 
 Les decks de cartes sont chargés par `roti.html?deck=nomDuDeck.json` ou dans l'item de localStorage 'deck'. Ils doivent être placés dans le dossier decks.
 
+Lors de l'ajout d'un deck, il est important d'ajouter le deck dans le dossier decks ainsi que son nom, sans extension, dans listeDecks.json, au format Json.
+
 Les fichiers de decks ont la forme suivante :
 
 	{
 		"info":{
 			"nom":"Je n'ai jamais...",
 			"stars":4,
-			"nomDeck":"Je n'ai jamais...",
 			"nomEtendu":"Je n'ai jamais.../J'ai déjà...",
 			"description":"Découvrez des dossiers sur vos amis de manière très conviviale",
 			"nomImage":"ribery.jpg",
@@ -28,6 +29,14 @@ Les fichiers de decks ont la forme suivante :
 		...
 
 	}
+`infos` contient les metadonnées du deck
+ - `nom` : Le nom du deck tel qu'affiché dans l'interface
+ - `stars` : Le nombre d'étoiles du deck
+ - `nomEtendu` : Le nom du deck tel qu'il doit s'afficher sur un espace plus grand (quand on clique sur le deck)
+ - `description` : Description du deck
+ - `nomImage` : Le nom de l'image du deck, avec extension, contenu dans le dossier 'images'
+ - `idDeck` : Le nom du fichier dans lequel le deck est enregistré, sans l'extension .json, dans le dossier decks
+
 
 `cards` contient la liste des cartes du deck. Chaque carte possède 2 attributs :
 
