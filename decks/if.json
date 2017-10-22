@@ -251,6 +251,38 @@
 	{
 		"type":"question",
 		"content":"Ceux qui vont à tous les amphis distribuent {b}{b}."
+	},
+	{
+		"type":"action",
+		"content":"<b>Calixte royal !</b> Complète cette citation : Si 2 = 3, je suis...? Sinon bois {b1-3}."
+	},
+	{
+		"type":"action",
+		"content":"<b>Binar'in the noze</b> Donne l'heure en binaire et distribue {b}{b}{b}, sinon bois {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont toujours eu Windows boivent {b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont au moins 5 jeux sur leur téléphone distribuent {b2-4}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui vont sur fb moins d'une fois par jour boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont plus de la moitié de leurs mails zimbra non lus boivent {b1-2}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez des jeux vidéos pour téléphone. Celui qui ne sait plus ou répète boit {b}{b}{b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Tu avais cours de langue ou de sport mais tu as oublié d'envoyer un mail à Maranzana. Bois {b1-2}."
 	}
 	]
 }
