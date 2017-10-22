@@ -247,6 +247,10 @@
 	{
 		"type":"spin",
 		"content":"Énumérez les mots qui riment avec IF. Celui qui ne sait plus boit {b}{b}{b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui vont à tous les amphis distribuent {b}{b}."
 	}
 	]
 }
