@@ -109,6 +109,10 @@
 		"content":"On te vante les mérites de l'open source ! Bois {b3-5}."
 	},
 	{
+		"type":"role",
+		"content":"Tu deviens <b>Calixte</b> : A chaque fin de phrase, lève un doigt en l'air pour appuyer ton propos. Bois un {b] à chaque oubli."
+	},
+	{
 		"type":"action",
 		"content":"HADOPI t'a chopé ! Bois {b5-5}."
 	},
