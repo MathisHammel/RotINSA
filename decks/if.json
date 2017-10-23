@@ -250,7 +250,7 @@
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui vont à tous les amphis distribuent {b}{b}."
+		"content":"Ceux qui vont à tous les amphis distribuent {b2-2}."
 	},
 	{
 		"type":"action",
@@ -262,7 +262,7 @@
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ont toujours eu Windows boivent {b}{b}."
+		"content":"Ceux qui ont toujours eu Windows boivent {b2-2}."
 	},
 	{
 		"type":"question",
@@ -278,7 +278,7 @@
 	},
 	{
 		"type":"spin",
-		"content":"Énumérez des jeux vidéos pour téléphone. Celui qui ne sait plus ou répète boit {b}{b}{b}{b}."
+		"content":"Énumérez des jeux vidéos pour téléphone. Celui qui ne sait plus ou répète boit {b4-4}."
 	},
 	{
 		"type":"question",
