@@ -270,7 +270,7 @@
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui vont sur fb moins d'une fois par jour boivent {b1-3}."
+		"content":"Ceux qui vont sur Facebook moins d'une fois par jour boivent {b1-3}."
 	},
 	{
 		"type":"question",
@@ -283,6 +283,18 @@
 	{
 		"type":"question",
 		"content":"Tu avais cours de langue ou de sport mais tu as oublié d'envoyer un mail à Maranzana. Bois {b1-2}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui passent au moins 30 minutes par jour sur TS / Discord distribuent {b1-2}."
+	},
+	{
+		"type":"question",
+		"content":"Si Git ne te dit rien bois {b3-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez des noms de console. Celui qui ne sait plus boit {b4-4}."
 	}
 	]
 }
