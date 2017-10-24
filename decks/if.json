@@ -258,7 +258,7 @@
 	},
 	{
 		"type":"action",
-		"content":"<b>Binar'in the noze</b> Donne l'heure en binaire et distribue {b}{b}{b}, sinon bois {b1-3}."
+		"content":"<b>Binar'in the noze</b> Donne l'heure en binaire et distribue {b3-3}, sinon bois {b1-3}."
 	},
 	{
 		"type":"question",
