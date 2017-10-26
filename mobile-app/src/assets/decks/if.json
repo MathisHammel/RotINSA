@@ -79,7 +79,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Donne {b}{b}{b}{b}{b} à quelqu'un. Il en donne un de moins à quelqu'un d'autre et ainsi de suite."
+		"content":"Donne {b5-5} à quelqu'un. Il en donne un de moins à quelqu'un d'autre et ainsi de suite."
 	},
 	{
 		"type":"action",
@@ -187,7 +187,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Complète cette citation et distribue {b}{b}, sinon bois {b}{b}{b}{b}. Je suis surpris et _______."
+		"content":"Complète cette citation et distribue {b2-2}, sinon bois {b4-4}. Je suis surpris et _______."
 	},
 	{
 		"type":"action",
@@ -195,15 +195,15 @@
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui un iPhone boivent {b}{b}{b}{b}."
+		"content":"Ceux qui un iPhone boivent {b4-4}."
 	},
 	{
 		"type":"action",
-		"content":"Le premier qui donne la complexité de bubble sort distribue {b}{b}."
+		"content":"Le premier qui donne la complexité de bubble sort distribue {b2-2}."
 	},
 	{
 		"type":"action",
-		"content":"Tu passes ta nuit à taper du bullshit pour le PLD. Bois {b}{b}{b} pour oublier."
+		"content":"Tu passes ta nuit à taper du bullshit pour le PLD. Bois {b3-3} pour oublier."
 	},
 	{
 		"type":"action",
@@ -211,7 +211,7 @@
 	},
 	{
 		"type":"action",
-		"content":"Un IF doit rester seul. Celui qui a le plus d'amis Facebook boit {b}{b}{b}."
+		"content":"Un IF doit rester seul. Celui qui a le plus d'amis Facebook boit {b3-3}."
 	},
 	{
 		"type":"action",
@@ -223,27 +223,27 @@
 	},
 	{
 		"type":"action",
-		"content":"Tu es élu Mister Bizuth au WEI ! Distribue {b}{b} et choisit ta Miss Bizuth."
+		"content":"Tu es élu Mister Bizuth au WEI ! Distribue {b2-2} et choisit ta Miss Bizuth."
 	},
 	{
 		"type":"action",
-		"content":"Tu es rôti le matin des RIFs, pas de stage pour toi ! Bois {b}{b}."
+		"content":"Tu es rôti le matin des RIFs, pas de stage pour toi ! Bois {b2-2}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux qui ne sont jamais allé aux simulations d'entretien boivent {b}{b}."
+		"content":"Ceux qui ne sont jamais allé aux simulations d'entretien boivent {b2-2}."
 	},
 	{
 		"type":"question",
-		"content":"Ceux dont le CV est un template Word boivent {b}{b}{b}{b}."
+		"content":"Ceux dont le CV est un template Word boivent {b4-4}."
 	},
 	{
 		"type":"spin",
-		"content":"Énumérez les cours de bullshit en 4IF. Celui qui ne sait plus boit {b}{b}."
+		"content":"Énumérez les cours de bullshit en 4IF. Celui qui ne sait plus boit {b2-2}."
 	},
 	{
 		"type":"spin",
-		"content":"Énumérez les mots qui riment avec IF. Celui qui ne sait plus boit {b}{b}{b}{b}."
+		"content":"Énumérez les mots qui riment avec IF. Celui qui ne sait plus boit {b4-4}."
 	}
 	]
 }
