@@ -295,6 +295,10 @@
 	{
 		"type":"spin",
 		"content":"Énumérez des noms de console. Celui qui ne sait plus boit {b4-4}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont jamais ouvert aucun poly distribuent {b5-5} (+ {b3-3} si ils sont en plus dans les 20 premiers de promo)"
 	}
 	]
 }
