@@ -66,7 +66,7 @@
 	},
 	{
 		"type":"spin",
-		"content":"Enumérez les morts, celui qui ne trouve plus boit {b1-3}"
+		"content":"Enumérez les morts, celui qui n'en trouve plus boit {b1-3}"
 	}
 	]
 }
