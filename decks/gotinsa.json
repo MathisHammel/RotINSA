@@ -10,15 +10,15 @@
 	"cards":[
 	{
 		"type":"role",
-		"content":"<b>Daenerys</b><br/> L'alcool c'est du feu, et le feu c'est de l'eau, à chaque tour distribue {b1-3}"
+		"content":"<b>Daenerys</b><br/> L'alcool c'est du feu, et le feu c'est de l'eau, à chaque tour distribue {b2-5}"
 	},
 	{
 		"type":"role",
-		"content":"<b>Cersei</b><br/> Utilise (1 seule fois) quand tu veux le feu grégeois et tout le monde boit {b1-3}"
+		"content":"<b>Cersei</b><br/> Utilise (1 seule fois) quand tu veux le feu grégeois et tout le monde boit {b4-6}"
 	},
 	{
 		"type":"role",
-		"content":"<b>Jon</b><br/> Tu te pèles le cul dans le nord, à chaque tour bois {b1-3}"
+		"content":"<b>Jon</b><br/> Tu te pèles le cul dans le nord, à chaque tour bois {b1-2}"
 	},
 	{
 		"type":"role",
@@ -26,7 +26,7 @@
 	},
 	{
 		"type":"role",
-		"content":"<b>Little finger</b><br/> T'es un fils de pute gros, à chaque tour distribue {b1-3}"
+		"content":"<b>LittleFinger</b><br/> T'es un fils de pute gros, à chaque tour distribue {b2-5}"
 	},
 	{
 		"type":"role",
