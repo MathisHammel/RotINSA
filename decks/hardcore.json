@@ -1,9 +1,8 @@
 {
 	"info":{
-		"nom":"Bizuth",
+		"nom":"Hardcore",
+		"nomEtendu":"Hardcore",
 		"stars":5,
-		"nomDeck":"Hardcore",
-		"nomEtendu":"Harcore",
 		"description":"Pour les plus solides!",
 		"nomImage":"hardcore.jpg",
 		"idDeck":"hardcore"
@@ -16,7 +15,7 @@
 	{
 		"type":"action",
 		"content":"Paie une couille ou bois {b5-10}. Passe si tu n'as pas de couilles (au sens propre)."
-	},	
+	},
 	{
 		"type":"action",
 		"content":"Paie un boob ou bois {b5-10}. Passe si tu n'as pas de boobs."

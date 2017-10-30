@@ -1,0 +1,137 @@
+{
+	"info":{
+		"nom":"Bizuth",
+		"stars":5,
+		"nomDeck":"Hardcore",
+		"nomEtendu":"Harcore",
+		"description":"Pour les plus solides!",
+		"nomImage":"hardcore.jpg",
+		"idDeck":"hardcore"
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Ceux qui pensent avoir raté leurs partiels, buvez {b3-5}"
+	},
+	{
+		"type":"action",
+		"content":"Paie une couille ou bois {b5-10}. Passe si tu n'as pas de couilles (au sens propre)."
+	},	
+	{
+		"type":"action",
+		"content":"Paie un boob ou bois {b5-10}. Passe si tu n'as pas de boobs."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le Rôti</b> : Si tu dois boire un nombre {pair|impair} de {b}, double ce nombre !"
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Parle-Man</b> : {j2} est ton Némésis ! A chaque fois qu'il parle, tu dois boire {b1-1}, et inversement."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>HODOR</b> : Tu dois parler comme Hodor, sinon tu bois {b1-1}."
+	},
+	{
+		"type":"action",
+		"content":"Joue à pile-ou-face avec quelqu'un. Le perdant boit {b} et le gagnant peut rejouer. Doublez les {b} à chaque fois."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les sites de Porn. Celui qui ne trouve pas boit {b3-5}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Le roi des Pouces</b>. Quand tu poses ton pouce sur la table, tout le monde doit faire pareil. Le dernier boit {b2-2}."
+	},
+	{
+		"type":"action",
+		"content":"Doublez le nombre de {b} de la prochaine carte."
+	},
+	{
+		"type":"action",
+		"content":"L'âme des cartes est avec toi {j1} ! Bois {b1-3} et re-pioche !",
+		"skipTurn":0
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les personnages morts de Game of Thrones. Celui qui ne trouve pas boit {b3-5}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les gros spoilers de films. Celui qui ne trouve pas boit {b3-5}."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>Jean Marie La Peine</b>. Tu parles comme lui n'est-ce-pas ? Bois {b2-2} si tu te trompes."
+	},
+	{
+		"type":"role",
+		"content":"Tu deviens <b>HITLER</b>. Tu dois parler avec ein petit accent Nazi, sinon tu bois {b3-3}."
+	},
+	{
+		"type":"action",
+		"content":"Bois {b4-4}."
+	},
+	{
+		"type":"action",
+		"content":"Fais boire {b2-2} à tout le monde."
+	},
+	{
+		"type":"action",
+		"content":"<b>Armageddon</b> :<br/>TOUT LE MONDE CUL SEC."
+	},
+	{
+		"type":"action",
+		"content":"Joue a Chi-Fu-Mi avec {j2} en 3 manches gagnantes. Le perdant boit {b3-4}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui sont baptisés boivent {b3-3}."
+	},
+	{
+		"type":"action",
+		"content":"Bois autant de {b} que tu veux, et distribues-en le triple."
+	},
+	{
+		"type":"regle",
+		"content":"<b>Buffalo !</b><br/>Tout le monde doit à présent tenir son verre dans la main avec laquelle il n'écrit pas. Si quelqu'un se trompe, il doit finir son verre."
+	},
+	{
+		"type":"action",
+		"content":"<b>Patate chaude !</b><br/>Bois {b6-6} et fait passer ce nombre de {b}-1 à quelqu'un d'autre, qui fait de même et ainsi de suite."
+	},
+	{
+		"type":"action",
+		"content":"<b>Rôtisserie</b><br/>Chacun donne son verre au joueur à sa droite, et boit {b2-2}."
+	},
+	{
+		"type":"action",
+		"content":"<b>Rôtisserie</b><br/>Chacun donne son verre au joueur à sa droite, et boit {b2-2}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez les Chuck Norris facts. Celui qui ne sait plus boit {b4-4}."
+	},
+	{
+		"type":"action",
+		"content":"Énumérez les Chuck Norris facts. Celui qui ne sait plus boit {b4-4}."
+	},
+	{
+		"type":"action",
+		"content":"<em>\"Je n'ai jamais ...\"</em>. Ceux qui l'ont déja fait boivent {b3-3}."
+	},
+	{
+		"type":"action",
+		"content":"Mets la musique de ton choix. Si quelqu'un donne le titre, il distribue {b5-5}."
+	},
+	{
+		"type":"action",
+		"content":"Mets la musique de ton choix. Si quelqu'un donne le titre, il distribue {b5-5}."
+	}
+
+
+
+	]
+}
