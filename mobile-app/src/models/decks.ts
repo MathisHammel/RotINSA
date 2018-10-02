@@ -8,6 +8,17 @@ function shuffle(a) {
     }
 }
 
+export function createAlphabetCompare(property: string, asc: boolean) : (lhs: any, rhs: any) => number{
+  var ascm = (asc ? -1 : 1);
+  return (lhs: any, rhs: any) : number => {
+    var lhsval = lhs[property].toLowerCase();
+    var rhsval = rhs[property].toLowerCase();
+    if(lhsval < rhsval) return ascm;
+    if(lhsval > rhsval) return -ascm;
+    return 0;
+  };
+}
+
 export class Deck {
 
   public name: string;
@@ -43,6 +54,10 @@ export class Deck {
     return cards;
   }
 
+  public get size() {
+    return this.cards.length;
+  }
+
   public shuffle() {
     shuffle(this._cards);
   }
@@ -50,7 +65,7 @@ export class Deck {
   static parseObject(obj: any, filename: string) : Deck {
     let deck = new Deck(filename);
 
-    let infos = obj["info"];
+    let infos = obj["infos"] || obj["info"];
     let cards = obj["cards"];
 
     deck.name           = infos["nom"];
@@ -58,9 +73,12 @@ export class Deck {
     deck.lvl            = infos["stars"];
     deck.id             = infos["idDeck"];
     deck.description    = infos["description"];
-    deck.imgname        = infos["nomImage"].split(".")[0];
+    if(infos["nomImage"])
+      deck.imgname        = infos["nomImage"].split(".")[0];
+    else
+      deck.imgname      = "logo-rotinsa.png";
 
-    if(infos["secret"]) deck.secret = true;
+    if(infos["secret"] || deck.id == "fap") deck.secret = true;
 
     for(let c of cards) {
       let card = new Card();
@@ -70,6 +88,29 @@ export class Deck {
     }
 
     return deck;
+  }
+
+  toObject() : any {
+    let d = {};
+
+    let infos = d["infos"] = {};
+    infos["nom"]        = this.name;
+    infos["nomEtendu"]  = this.fullName;
+    infos["stars"]      = this.lvl;
+    infos["idDeck"]     = this.id;
+    infos["description"]    = this.description;
+    infos["nomImage"]       = this.imgname;
+    infos["secret"]         = this.secret;
+
+    let cards = d["cards"] = [];
+    for(let card of this.cards) {
+      let c = {};
+      c["content"]      = card.content;
+      c["type"]         = card.type;
+      cards.push(c);
+    }
+
+    return d;
   }
 
 }

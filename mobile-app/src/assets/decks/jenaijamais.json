@@ -1,6 +1,6 @@
 {
 	"info":{
-		"nom":"Bizuth",
+		"nom":"Je n'ai jamais...",
 		"stars":4,
 		"nomDeck":"Je n'ai jamais...",
 		"nomEtendu":"Je n'ai jamais.../J'ai déjà...",
@@ -21,7 +21,7 @@
 	{
 		"type":"action",
 		"content":"Celui/celle qui s'est masturbé le plus récemment {boit|distribue} {b4-8}."
-	},	
+	},
 	{
 		"type":"question",
 		"content":"Ceux qui ont déjà fait l'amour à plus de deux personnes différentes dans la même journée boivent {b2-4}."
@@ -41,11 +41,11 @@
 	{
 		"type":"spin",
 		"content":"Ceux qui ont déjà regardé du hentai à tentacules boivent {b1-3}."
-	},	
+	},
 	{
 		"type":"action",
 		"content":"<em>\"{Je n'ai jamais|J'ai déjà} envoyé des photos coquines\"</em>. {b1-3}"
-	},	
+	},
 	{
 		"type":"action",
 		"content":"<em>\"{Je n'ai jamais|J'ai déjà} dormi sous tente\"</em>. {b1-3}"
@@ -153,15 +153,15 @@
 	{
 		"type":"question",
 		"content":"Ceux qui se sont masturbé aujourd'hui boivent {b1-3}."
-	},	
+	},
 	{
 		"type":"question",
 		"content":"Ceux qui ont regardé un porno dans les 5 derniers jours boivent {b1-3}."
-	},	
+	},
 	{
 		"type":"question",
 		"content":"Ceux qui ont déjà couché avec quelqu'un présent dans la pièce boivent {b1-3}."
-	},	
+	},
 	{
 		"type":"question",
 		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent {b1-3}."

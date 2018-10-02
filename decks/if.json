@@ -109,6 +109,10 @@
 		"content":"On te vante les mérites de l'open source ! Bois {b3-5}."
 	},
 	{
+		"type":"role",
+		"content":"Tu deviens <b>Calixte</b> : A chaque fin de phrase, lève un doigt en l'air pour appuyer ton propos. Bois {b} à chaque oubli."
+	},
+	{
 		"type":"action",
 		"content":"HADOPI t'a chopé ! Bois {b5-5}."
 	},
@@ -243,6 +247,54 @@
 	{
 		"type":"spin",
 		"content":"Énumérez les mots qui riment avec IF. Celui qui ne sait plus boit {b}{b}{b}{b}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui vont à tous les amphis distribuent {b2-2}."
+	},
+	{
+		"type":"action",
+		"content":"<b>Calixte royal !</b> Complète cette citation : Si 2 = 3, je suis...? Sinon bois {b1-3}."
+	},
+	{
+		"type":"action",
+		"content":"<b>Binar'in the noze</b> Donne l'heure en binaire et distribue {b3-3}, sinon bois {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont toujours eu Windows boivent {b2-2}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont au moins 5 jeux sur leur téléphone distribuent {b2-4}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui vont sur Facebook moins d'une fois par jour boivent {b1-3}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui ont plus de la moitié de leurs mails zimbra non lus boivent {b1-2}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez des jeux vidéos pour téléphone. Celui qui ne sait plus ou répète boit {b4-4}."
+	},
+	{
+		"type":"question",
+		"content":"Tu avais cours de langue ou de sport mais tu as oublié d'envoyer un mail à Maranzana. Bois {b1-2}."
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui passent au moins 30 minutes par jour sur TS / Discord distribuent {b1-2}."
+	},
+	{
+		"type":"question",
+		"content":"Si Git ne te dit rien bois {b3-3}."
+	},
+	{
+		"type":"spin",
+		"content":"Énumérez des noms de console. Celui qui ne sait plus boit {b4-4}."
 	}
 	]
 }

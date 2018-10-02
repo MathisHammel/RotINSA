@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item-divider>Decks dispos<button ion-button outline item-right (click)="downloadDecks()">Télécharger les decks</button></ion-item-divider>
+  <p style="color: #A0A0A0; text-align: right;">
+    <i *ngIf="isDefaultDecks()">Decks préinstallés</i>
+    <i *ngIf="!isDefaultDecks()">Decks téléchargés</i>
+  </p>
+  <ion-list>
+    <div *ngFor="let deck of decks">
+      <ion-item *ngIf="!deck.secret">
+        {{(deck.name)}}
+        <ion-badge item-right>{{deck.size}}</ion-badge>
+      </ion-item>
+    </div>
+
+    <div *ngFor="let deck of decks">
+      <ion-item *ngIf="deck.secret">
+        {{(!deckPrvd.displaySecret ? "Celui si est secret ;) " : deck.name)}}
+        <ion-badge item-right>{{deck.size}}</ion-badge>
+      </ion-item>
+    </div>
+  </ion-list>
+  <ion-buttons>
+    <button ion-button small full (click)="restoreDefaultDecks()" *ngIf="!isDefaultDecks()">Utiliser les decks par défaut</button>
+    <button ion-button small full (click)="restoreDynamicDecks()" *ngIf="isDefaultDecks() && isDDAvailable()">Utiliser les decks téléchargés</button>
+  </ion-buttons>
+  <br/><br/><br/>
+  <ion-buttons text-center>
+    <button ion-button small small (click)="clearLocalDeckDatas()" *ngIf="!isDefaultDecks()" color="danger">Effacer les decks téléchargés</button>
+  </ion-buttons>
+</ion-content>
