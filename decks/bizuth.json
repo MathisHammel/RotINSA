@@ -1,15 +1,31 @@
 {
-    "info": {
-        "nom": "Bizuth"
-    },
-    "cards": [
-        {
-            "type": "question",
-            "content": "Ceux qui pensent qu'ils ont raté leur partiels, buvez {b3-5}"
-        },
-        {
-            "type": "question",
-            "content": "Ceux qui sont rôtis boivent encore !"
-        }
-    ]
+   "info":{
+      "nom":"Bizuth"
+   },
+   "cards":[
+      {
+         "type":"question",
+         "content":"Ceux qui pensent qu'ils ont raté leur partiels, buvez {b3-5}"
+      },
+      {
+         "type":"question",
+         "content":"Ceux qui sont rôtis boivent encore !"
+      },
+      {
+         "type":"question",
+         "content":"Ceux qui ont râté leur réveil vendredi matin parce qu'ils étaient trop rôtis la veille au moins un fois boivent {b2-3}"
+      },
+      {
+         "type":"question",
+         "content":"Ceux qui répètent depuis le début qu'ils doivent trier leurs cours et qui l'ont toujours pas fait boivent {b3-3}"
+      },
+      {
+         "type":"question",
+         "content":"Ceux qui ont bossé leurs amphis et TD dès la 1ere ou la 2e semaine boivent {b3-3}"
+      },
+      {
+         "type":"question",
+         "content":"Ceux qui sont pas venus au WEI boivent {b3-4}"
+      }
+   ]
 }
