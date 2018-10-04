@@ -1,488 +1,488 @@
 {
-	"info":{
-		"nom":"Fap Achievements",
-		"stars":5,
-		"nomEtendu":"Fap Achievements",
-		"description":"Différents fap achievements, distribue si tu l'as déjà fait ! (cartes en anglais)",
-		"nomImage":"fap.jpg",
-		"idDeck":"fap"
-	},
-	"cards":[
-	    {
-        "type":"question",
-        "content":"<b>Behind Seven Proxies</b><br />Fap through your pants<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Altitude</b><br />Fap on an airplane<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Ambidexterous</b><br />Fap with both hands<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Anger Management</b><br />Fap while angry<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Anti-Depressant</b><br />Fap while sad<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Backstabber</b><br />Fap in a friends shower<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Beauty Parlor</b><br />Fap while at spa getting massage or some shit<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Behind Enemy Lines</b><br />Fap in someone else's house<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Bible-Thumper</b><br />Fap to Jesus<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Big Belly, Big Lovin</b><br />Fap to pregnant chick<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Biodegradable</b><br />Fap to a dead person<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Blinding Shot</b><br />Fap/cum to the sun<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Boogie Man</b><br />Fap under bed<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Bookworm</b><br />Go to public library and cum into a book<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Buckets</b><br />Edge routinely for at least 2 weeks, without cumming. Then release yoursaved up load, in all its glory.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Bullseye</b><br />Shoot into your own mouth and swallow<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Capture The Cum</b><br />Aim the cum in a jar 3 feet away<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Careless</b><br />Cum in your underwear or pants and wear them like nothing happened.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Chris Benoit</b><br />Fap in the gym.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Complete Control</b><br />Get an erection on command<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Company Ink</b><br />Fap to a classmate<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Corruption</b><br />Fap to rule 34 of something innocent.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Dead Shot</b><br />Fap to the dead.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Dirty Harry</b><br />Fap while fingering your asshole<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Dodged It!</b><br />Cum flies towards your face and you dodge it.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Doggy Style</b><br />Fap to bestiality.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Drive-By</b><br />Fap while driving your car.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Drying Paint</b><br />Fap to your wall and cum onto it.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Duracell</b><br />Fap three times in a row.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Early Bird</b><br />Fap immediately after you wake up.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Empty Balls</b><br />All achievements unlocked.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Endurance Fap</b><br />Fap for more than 60 minutes.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Endurance Test</b><br />Fap for the whole day.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Exposure</b><br />Fap standing at your window, so people living across the street can see you do it.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Family Shot</b><br />Fap to family.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Fap Fap And Away</b><br />Cum 100 feet above ground level.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Fap And Dump</b><br />Take a dump while fapping.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>The Fapman</b><br />Fap using left hand (or right, if your are lefty) while playing Pacman<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Farmer Jones</b><br />Fap in a field.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Feels Good, Man</b><br />Fart while fapping.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Friction Burn</b><br />Fap fast/hard enough to create a friction-burn like sore on penis.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Fruityloop</b><br />Fap with a fruit or vegetable<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>In God We Fap</b><br />Fap in a church<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Greedy Fucker</b><br />Fap next to sleeping girlfriend after sex<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Green Thumb</b><br />Fap in the woods<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Hard At Work</b><br />Fall asleep while fapping<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Headshot</b><br />Fap onto girlfriend's face<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Holding The Line</b><br />Hold your orgasm 3 times<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Going Up</b><br />Fap in the elevator<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>HOT FIRE!</b><br />Fap to gingers<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Hot Nights</b><br />Spend a whole night fapping<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>I Buy It For The Articles</b><br />Fap to a porn magazine.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>I Don't Give A Fuck</b><br />Fap into someone's food<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Imagination Mode</b><br />Fap without any porn of any sort beside your imagination<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>In Recent News...</b><br />Fap to anchorwoman<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Iron Man</b><br />Fap without any form of lube<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Iron Will</b><br />Don't fap for 30 days<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Jack-Off Daniels</b><br />Fap whilst drunk.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Jaws</b><br />Fap in public pool.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>JETSON! You're Fired!</b><br />Fap at work.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Just A Cold</b><br />Wipe your jizz on your bedsheets when sick, blame runny nose.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Kamikaze Fap</b><br />Fap in a busy public library<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Keeps The Doctor Away</b><br />Fap once a day for six months.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Killstreak</b><br />Fap more than 10 times a day.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Kodak Moment</b><br />Fap and cum to a face pic of someone.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Lasting Blast</b><br />Fire at least 10 shots.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Like Father Like Son</b><br />Fap to your mom.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Long Shot</b><br />Fire your cum 3 feet.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Manfap</b><br />Fap to men.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Messmaker</b><br />Fap and cum all over the floor<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Monkey Man</b><br />Fap while hanging from the local playgrounds monkey bars.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Motorhead</b><br />Fap to a machine.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Mount Vesuvius</b><br />Cum 18 inches/40 centimetres into the air.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Multi Shot</b><br />Fire more than once per fap.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Music To My Ears</b><br />Fap with headphones on, listening to music.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>New Meat</b><br />Fap to your ex's new boyfriend.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Ninja-Fap</b><br />Fap in public without being noticed.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Nirvana</b><br />Fap stoned.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>No Fear</b><br />Successfully fap while there is someone in the house with the door open.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>No Hands</b><br />Cum without touching your penis.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>No Rest For The Wicked</b><br />Fap at a family funeral.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Parental Controls</b><br />Fap to something on PBS<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Performance Enhancer</b><br />Fap while stoned, multiple times in the same high.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Pet Shot</b><br />Fap to animals.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Precision</b><br />Fap and shoot cum over a shoulder<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Quickshot</b><br />Cum in less than 90 seconds.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Rageee</b><br />Fap while holding in your shit.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Rebound</b><br />Fap and cum twice in thirty minutes.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Rigor Mortis</b><br />Fap in a hospital.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Royal Flush</b><br />Cum into same toilet bowl five times.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Runners World</b><br />Fap while running around the house.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Safety</b><br />Fap in a condom.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Self Sufficiency</b><br />Fap to yourself<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Seppuku</b><br />Shoot load into own face.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Shifty Shot</b><br />Fap with alternating hands each night.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Sick Fuck</b><br />Fap to furry sex in the missionary position.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Sieg Heil</b><br />Fap to Hitler.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>So Ronery</b><br />Fap to a picture of the person you have feelings for.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Stained</b><br />Use the same fap rag for a week straight<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Stealth</b><br />Fap with a friend in the room, remaining inconspicious.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Stealth Shot</b><br />Fap while watching a movie with a friend.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Balls Of Steel</b><br />Fap while soaking your balls in cold water.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Surprise!!</b><br />Cum on something for someone else to find.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Tastes Like Chicken</b><br />Eat your load after cumming.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Technology</b><br />Fap to porn from your smartphone.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>I Like Teh Movies</b><br />Fap in a theater.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>The Good Student</b><br />Fap in class.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>The Mozart</b><br />Fap at a classical music concert.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>The Passenger</b><br />Fap in taxi.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>This Is So Wrong</b><br />Fap to an unusual fetish.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Tickle Me Elmo</b><br />Tickle/rub the back of your cock until you cum.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Trap Fap</b><br />Fap to a trap.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Tresfapping</b><br />Trespass/fap.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Two Birds, One Stone</b><br />Fap into a tissue, then blow your nose into the same tissue.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Under Pressure</b><br />Fap inside the changing room of a clothing store.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>V For Vendetta</b><br />Shoot cum off in two directions.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Voyeur</b><br />Fap to someone you can see outside.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Wet Willy</b><br />Fap in the shower.<br />Distribue{b2-5}"
-    },
-    {
-        "type":"question",
-        "content":"<b>Work With What Ya Got</b><br />Dry fap, then fap again with your jizz.<br />Distribue{b2-5}"
-    }
-	]
+    "info": {
+        "nom": "Fap Achievements",
+        "stars": 5,
+        "nomEtendu": "Fap Achievements",
+        "description": "Différents fap achievements, distribue si tu l'as déjà fait ! (cartes en anglais)",
+        "nomImage": "fap.jpg",
+        "idDeck": "fap"
+    },
+    "cards": [
+        {
+            "type": "question",
+            "content": "<b>Behind Seven Proxies</b><br />Fap through your pants<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Altitude</b><br />Fap on an airplane<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Ambidexterous</b><br />Fap with both hands<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Anger Management</b><br />Fap while angry<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Anti-Depressant</b><br />Fap while sad<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Backstabber</b><br />Fap in a friends shower<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Beauty Parlor</b><br />Fap while at spa getting massage or some shit<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Behind Enemy Lines</b><br />Fap in someone else's house<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Bible-Thumper</b><br />Fap to Jesus<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Big Belly, Big Lovin</b><br />Fap to pregnant chick<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Biodegradable</b><br />Fap to a dead person<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Blinding Shot</b><br />Fap/cum to the sun<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Boogie Man</b><br />Fap under bed<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Bookworm</b><br />Go to public library and cum into a book<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Buckets</b><br />Edge routinely for at least 2 weeks, without cumming. Then release yoursaved up load, in all its glory.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Bullseye</b><br />Shoot into your own mouth and swallow<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Capture The Cum</b><br />Aim the cum in a jar 3 feet away<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Careless</b><br />Cum in your underwear or pants and wear them like nothing happened.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Chris Benoit</b><br />Fap in the gym.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Complete Control</b><br />Get an erection on command<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Company Ink</b><br />Fap to a classmate<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Corruption</b><br />Fap to rule 34 of something innocent.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Dead Shot</b><br />Fap to the dead.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Dirty Harry</b><br />Fap while fingering your asshole<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Dodged It!</b><br />Cum flies towards your face and you dodge it.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Doggy Style</b><br />Fap to bestiality.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Drive-By</b><br />Fap while driving your car.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Drying Paint</b><br />Fap to your wall and cum onto it.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Duracell</b><br />Fap three times in a row.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Early Bird</b><br />Fap immediately after you wake up.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Empty Balls</b><br />All achievements unlocked.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Endurance Fap</b><br />Fap for more than 60 minutes.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Endurance Test</b><br />Fap for the whole day.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Exposure</b><br />Fap standing at your window, so people living across the street can see you do it.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Family Shot</b><br />Fap to family.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Fap Fap And Away</b><br />Cum 100 feet above ground level.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Fap And Dump</b><br />Take a dump while fapping.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>The Fapman</b><br />Fap using left hand (or right, if your are lefty) while playing Pacman<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Farmer Jones</b><br />Fap in a field.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Feels Good, Man</b><br />Fart while fapping.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Friction Burn</b><br />Fap fast/hard enough to create a friction-burn like sore on penis.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Fruityloop</b><br />Fap with a fruit or vegetable<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>In God We Fap</b><br />Fap in a church<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Greedy Fucker</b><br />Fap next to sleeping girlfriend after sex<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Green Thumb</b><br />Fap in the woods<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Hard At Work</b><br />Fall asleep while fapping<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Headshot</b><br />Fap onto girlfriend's face<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Holding The Line</b><br />Hold your orgasm 3 times<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Going Up</b><br />Fap in the elevator<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>HOT FIRE!</b><br />Fap to gingers<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Hot Nights</b><br />Spend a whole night fapping<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>I Buy It For The Articles</b><br />Fap to a porn magazine.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>I Don't Give A Fuck</b><br />Fap into someone's food<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Imagination Mode</b><br />Fap without any porn of any sort beside your imagination<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>In Recent News...</b><br />Fap to anchorwoman<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Iron Man</b><br />Fap without any form of lube<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Iron Will</b><br />Don't fap for 30 days<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Jack-Off Daniels</b><br />Fap whilst drunk.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Jaws</b><br />Fap in public pool.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>JETSON! You're Fired!</b><br />Fap at work.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Just A Cold</b><br />Wipe your jizz on your bedsheets when sick, blame runny nose.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Kamikaze Fap</b><br />Fap in a busy public library<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Keeps The Doctor Away</b><br />Fap once a day for six months.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Killstreak</b><br />Fap more than 10 times a day.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Kodak Moment</b><br />Fap and cum to a face pic of someone.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Lasting Blast</b><br />Fire at least 10 shots.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Like Father Like Son</b><br />Fap to your mom.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Long Shot</b><br />Fire your cum 3 feet.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Manfap</b><br />Fap to men.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Messmaker</b><br />Fap and cum all over the floor<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Monkey Man</b><br />Fap while hanging from the local playgrounds monkey bars.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Motorhead</b><br />Fap to a machine.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Mount Vesuvius</b><br />Cum 18 inches/40 centimetres into the air.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Multi Shot</b><br />Fire more than once per fap.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Music To My Ears</b><br />Fap with headphones on, listening to music.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>New Meat</b><br />Fap to your ex's new boyfriend.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Ninja-Fap</b><br />Fap in public without being noticed.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Nirvana</b><br />Fap stoned.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>No Fear</b><br />Successfully fap while there is someone in the house with the door open.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>No Hands</b><br />Cum without touching your penis.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>No Rest For The Wicked</b><br />Fap at a family funeral.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Parental Controls</b><br />Fap to something on PBS<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Performance Enhancer</b><br />Fap while stoned, multiple times in the same high.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Pet Shot</b><br />Fap to animals.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Precision</b><br />Fap and shoot cum over a shoulder<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Quickshot</b><br />Cum in less than 90 seconds.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Rageee</b><br />Fap while holding in your shit.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Rebound</b><br />Fap and cum twice in thirty minutes.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Rigor Mortis</b><br />Fap in a hospital.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Royal Flush</b><br />Cum into same toilet bowl five times.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Runners World</b><br />Fap while running around the house.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Safety</b><br />Fap in a condom.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Self Sufficiency</b><br />Fap to yourself<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Seppuku</b><br />Shoot load into own face.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Shifty Shot</b><br />Fap with alternating hands each night.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Sick Fuck</b><br />Fap to furry sex in the missionary position.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Sieg Heil</b><br />Fap to Hitler.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>So Ronery</b><br />Fap to a picture of the person you have feelings for.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Stained</b><br />Use the same fap rag for a week straight<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Stealth</b><br />Fap with a friend in the room, remaining inconspicious.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Stealth Shot</b><br />Fap while watching a movie with a friend.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Balls Of Steel</b><br />Fap while soaking your balls in cold water.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Surprise!!</b><br />Cum on something for someone else to find.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Tastes Like Chicken</b><br />Eat your load after cumming.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Technology</b><br />Fap to porn from your smartphone.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>I Like Teh Movies</b><br />Fap in a theater.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>The Good Student</b><br />Fap in class.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>The Mozart</b><br />Fap at a classical music concert.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>The Passenger</b><br />Fap in taxi.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>This Is So Wrong</b><br />Fap to an unusual fetish.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Tickle Me Elmo</b><br />Tickle/rub the back of your cock until you cum.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Trap Fap</b><br />Fap to a trap.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Tresfapping</b><br />Trespass/fap.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Two Birds, One Stone</b><br />Fap into a tissue, then blow your nose into the same tissue.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Under Pressure</b><br />Fap inside the changing room of a clothing store.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>V For Vendetta</b><br />Shoot cum off in two directions.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Voyeur</b><br />Fap to someone you can see outside.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Wet Willy</b><br />Fap in the shower.<br />Distribue{b2-5}"
+        },
+        {
+            "type": "question",
+            "content": "<b>Work With What Ya Got</b><br />Dry fap, then fap again with your jizz.<br />Distribue{b2-5}"
+        }
+    ]
 }
