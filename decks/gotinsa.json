@@ -1,10 +1,10 @@
 {
 	"info":{
 		"nom":"GOT'Insa",
-		"nomDeck":"GOT'Insa",
 		"nomEtendu":"GOT'Insa",
+		"stars" : 3,
 		"description":"Incollable sur Game of Thrones ?! Accroche bien ton foie car t'en auras besoin ;)",
-		"nomImage":"got.jpg",
+		"nomImage":"got.png",
 		"idDeck":"gotinsa"
 	},
 	"cards":[
