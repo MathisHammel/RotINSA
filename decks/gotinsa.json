@@ -3,22 +3,22 @@
 		"nom":"GOT'Insa",
 		"nomDeck":"GOT'Insa",
 		"nomEtendu":"GOT'Insa",
-		"description":"Incollable sur Games of Throne ?! Accroche bien ton foie car t'en auras besoin ;)",
+		"description":"Incollable sur Game of Thrones ?! Accroche bien ton foie car t'en auras besoin ;)",
 		"nomImage":"got.jpg",
 		"idDeck":"gotinsa"
 	},
 	"cards":[
 	{
 		"type":"role",
-		"content":"<b>Daenerys</b><br/> L'alcool c'est du feu, et le feu c'est de l'eau, à chaque tour distribue {b1-3}"
+		"content":"<b>Daenerys</b><br/> L'alcool c'est du feu, et le feu c'est de l'eau, à chaque tour distribue {b2-5}"
 	},
 	{
 		"type":"role",
-		"content":"<b>Cersei</b><br/> Utilise (1 seule fois) quand tu veux le feu grégeois et tout le monde boit {b1-3}"
+		"content":"<b>Cersei</b><br/> Utilise (1 seule fois) quand tu veux le feu grégeois et tout le monde boit {b4-6}"
 	},
 	{
 		"type":"role",
-		"content":"<b>Jon</b><br/> Tu te pèles le cul dans le nord, à chaque tour bois {b1-3}"
+		"content":"<b>Jon</b><br/> Tu te pèles le cul dans le nord, à chaque tour bois {b1-2}"
 	},
 	{
 		"type":"role",
@@ -26,11 +26,11 @@
 	},
 	{
 		"type":"role",
-		"content":"<b>Little finger</b><br/> T'es un fils de pute gros, à chaque tour distribue {b1-3}"
+		"content":"<b>LittleFinger</b><br/> T'es un fils de pute gros, à chaque tour distribue {b2-5}"
 	},
 	{
 		"type":"role",
-		"content":"<b>Arya</b><br/> There is only one god and his name is death : Tu n'as plus le droit de diluer"
+		"content":"<b>Arya</b><br/> 'There is only one god and his name is death' : Tu n'as plus le droit de diluer"
 	},
 	{
 		"type":"role",
@@ -58,7 +58,7 @@
 	},
 	{
 		"type":"spin",
-		"content":"Enumérez les maisons, , celui qui ne trouve plus boit {b1-3}"
+		"content":"Enumérez les maisons, celui qui ne trouve plus boit {b1-3}"
 	},
 	{
 		"type":"spin",
@@ -66,7 +66,7 @@
 	},
 	{
 		"type":"spin",
-		"content":"Enumérez les morts, celui qui ne trouve plus boit {b1-3}"
+		"content":"Enumérez les morts, celui qui n'en trouve plus boit {b1-3}"
 	}
 	]
 }
