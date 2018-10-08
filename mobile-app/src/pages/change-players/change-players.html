@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar text-right>Change les joueurs !</ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item *ngFor="let p of players; let i = index;trackBy:trackByIndex;">
+    <ion-label stacked>Joueur n°{{i+1}}</ion-label>
+    <ion-input [(ngModel)]="players[i]" (swipe)="removePlayerAt(i)"></ion-input>
+  </ion-item>
+
+  <ion-item-divider></ion-item-divider>
+  <ion-buttons text-center>
+    <button ion-button (click)="addPlayer()">Ajouter un joueur</button>
+  </ion-buttons>
+  <p text-center><i>Swipe un joueur pour le retirer !</i></p>
+
+</ion-content>

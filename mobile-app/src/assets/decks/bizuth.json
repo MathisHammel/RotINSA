@@ -1,0 +1,22 @@
+{
+	"info":{
+		"nom":"Bizuth",
+		"stars":5,
+		"nomDeck":"Bizuuuth",
+		"nomEtendu":"Bizuuuuuuuuuth",
+		"description":"Biiiiiizuuuuuuuuuuuuth!",
+		"nomImage":"bizuth.jpg",
+		"idDeck":"biz"
+	},
+	"cards":[
+	{
+		"type":"question",
+		"content":"Ceux qui pensent qu'ils ont raté leur partiels, buvez {b3-5}"
+	},
+	{
+		"type":"question",
+		"content":"Ceux qui sont rôtis boivent encore !"
+	}
+
+	]
+}
