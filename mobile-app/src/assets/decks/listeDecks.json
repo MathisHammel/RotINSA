@@ -1,3 +1,11 @@
 {
-	"decks": ["fap", "hardcore", "if", "jenaijamais", "repliques", "ringoffire", "rotistandard"]
+	"decks": [
+		"hardcore",
+		"if",
+		"jenaijamais",
+		"repliques",
+		"ringoffire",
+		"rotistandard",
+		"fap"
+	]
 }

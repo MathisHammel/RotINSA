@@ -1,6 +1,7 @@
 {
 	"info":{
 		"nom":"Bizuth",
+		"stars": 3,
 		"nomDeck":"Rôti standard",
 		"nomEtendu":"Rôti standard",
 		"description":"Pour une rôtisserie classique en famille ou entre amis",

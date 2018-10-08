@@ -7,6 +7,13 @@
 
 <ion-content padding no-bounce>
   <div class="playable-cards-container" (swipe)="pickACard($event)">
+    <ion-buttons *ngIf="noCards" text-center padding>
+
+      <button ion-button icon-only large (click)="restart()">
+        <ion-icon name="refresh"></ion-icon><br/>
+      </button>
+       <h1>On recommence avec le même deck ?</h1>
+    </ion-buttons>
     <card *ngFor="let card of cards" [card]="card" [stack]="true"></card>
   </div>
 </ion-content>

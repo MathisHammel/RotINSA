@@ -1,168 +1,168 @@
 {
-	"info":{
-		"nom":"Je n'ai jamais...",
-		"nomEtendu":"Je n'ai jamais.../J'ai déjà...",
-		"stars":4,
-		"description":"Découvrez des dossiers sur vos amis de manière très conviviale",
-		"nomImage":"ribery.jpg",
-		"idDeck":"jenaijamais"
+	"info": {
+		"nom": "Je n'ai jamais...",
+		"nomEtendu": "Je n'ai jamais.../J'ai déjà...",
+		"stars": 4,
+		"description": "Découvrez des dossiers sur vos amis de manière très conviviale",
+		"nomImage": "ribery.jpg",
+		"idDeck": "jenaijamais"
 	},
-	"cards":[
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} donné de l'argent à un SDF boivent {b1-3}."
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} sucé une bite boivent {b1-3}."
-	},
-	{
-		"type":"action",
-		"content":"Celui/celle qui s'est masturbé le plus récemment {boit|distribue} {b4-8}."
-	},
-	{
-		"type":"action",
-		"content":"Ceux qui ont déjà fait l'amour à plus de deux personnes différentes dans la même journée boivent {b2-4}."
-	},
-	{
-		"type":"action",
-		"content":"Ceux qui ont déjà passé une journée sans mettre de sous-vêtements boivent {b2-4}."
-	},
-	{
-		"type":"spin",
-		"content":"Enumérez les sites de porn. Celui qui ne sait plus boit {b2-3}."
-	},
-	{
-		"type":"spin",
-		"content":"Enumérez les acteurs/actrices X. Celui qui ne sait plus boit {b1-3}."
-	},
-	{
-		"type":"spin",
-		"content":"Ceux qui ont déjà regardé du hentai à tentacules boivent {b1-3}."
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} envoyé des photos coquines boivent {b1-3}"
-	},	
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} dormi sous tente boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} été arrêté boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} téléchargé illégalement boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} regardé GoT boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} donné un faux numéro boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} donné une excuse bidon pour être en retard boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} perdu au jeu boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} payé mon cul boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} pris de la drogue boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} vu un homme politique dire la vérité boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} léché mon nez boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} raté un avion boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} été blessé en faisant l'amour boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} joui en moins de 2 minutes boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} dormi nu plus de 10 fois boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} raté le permis boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} raté mon code boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} oublié un rendez-vous galant boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} joué au jeu de la bouteille boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} joué au jeu de la biscotte boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} fait l'amour en gardant leurs chaussettes boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} été en {Asie|Afrique|Amérique du Sud} boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} visité {les USA|l'Allemagne|les Pays-Bas|le Canada} boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} visité {la Chine|l'Inde|le Japon|la Grèce} boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} pris l'avion pendant plus de 8h boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux/celles qui {ont déjà|n'ont jamais} mangé 2 fois fast-food en une journée boivent {b1-3}"
-	},
-	{
-		"type":"action",
-		"content":"Ceux qui se sont masturbé aujourd'hui boivent {b1-3}."
-	},
-	{
-		"type":"action",
-		"content":"Ceux qui ont regardé un porno dans les 5 derniers jours boivent {b1-3}."
-	},
-	{
-		"type":"action",
-		"content":"Ceux qui ont déjà couché avec quelqu'un présent dans la pièce boivent {b1-3}."
-	},
-	{
-		"type":"action",
-		"content":"Ceux qui ont déjà fait l'amour à l'hôtel boivent {b1-3}."
-	}
+	"cards": [
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} donné de l'argent à un SDF boivent {b1-3}."
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} sucé une bite boivent {b1-3}."
+		},
+		{
+			"type": "action",
+			"content": "Celui/celle qui s'est masturbé le plus récemment {boit|distribue} {b4-8}."
+		},
+		{
+			"type": "action",
+			"content": "Ceux qui ont déjà fait l'amour à plus de deux personnes différentes dans la même journée boivent {b2-4}."
+		},
+		{
+			"type": "action",
+			"content": "Ceux qui ont déjà passé une journée sans mettre de sous-vêtements boivent {b2-4}."
+		},
+		{
+			"type": "spin",
+			"content": "Enumérez les sites de porn. Celui qui ne sait plus boit {b2-3}."
+		},
+		{
+			"type": "spin",
+			"content": "Enumérez les acteurs/actrices X. Celui qui ne sait plus boit {b1-3}."
+		},
+		{
+			"type": "spin",
+			"content": "Ceux qui ont déjà regardé du hentai à tentacules boivent {b1-3}."
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} envoyé des photos coquines boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} dormi sous tente boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} été arrêté boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} téléchargé illégalement boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} regardé GoT boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} donné un faux numéro boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} donné une excuse bidon pour être en retard boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} perdu au jeu boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} payé mon cul boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} pris de la drogue boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} vu un homme politique dire la vérité boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} léché mon nez boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} raté un avion boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} été blessé en faisant l'amour boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} joui en moins de 2 minutes boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} dormi nu plus de 10 fois boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} raté le permis boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} raté mon code boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} oublié un rendez-vous galant boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} joué au jeu de la bouteille boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} joué au jeu de la biscotte boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} fait l'amour en gardant mes chaussettes boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} été en {Asie|Afrique|Amérique du Sud} boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} visité {les USA|l'Allemagne|les Pays-Bas|le Canada} boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} visité {la Chine|l'Inde|le Japon|la Grèce} boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} pris l'avion pendant plus de 8h boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} mangé 2 fois fast-food en une journée boivent {b1-3}"
+		},
+		{
+			"type": "action",
+			"content": "Ceux qui se sont masturbé aujourd'hui boivent {b1-3}."
+		},
+		{
+			"type": "action",
+			"content": "Ceux qui ont regardé un porno dans les 5 derniers jours boivent {b1-3}."
+		},
+		{
+			"type": "action",
+			"content": "Ceux qui ont déjà couché avec quelqu'un présent dans la pièce boivent {b1-3}."
+		},
+		{
+			"type": "action",
+			"content": "Ceux qui ont déjà fait l'amour à l'hôtel boivent {b1-3}."
+		}
 	]
 }

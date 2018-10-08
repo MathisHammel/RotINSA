@@ -1,6 +1,6 @@
 {
 	"info":{
-		"nom":"Bizuth",
+		"nom":"Hardcore",
 		"stars":5,
 		"nomDeck":"Hardcore",
 		"nomEtendu":"Harcore",
@@ -16,7 +16,7 @@
 	{
 		"type":"action",
 		"content":"Paie une couille ou bois {b5-10}. Passe si tu n'as pas de couilles (au sens propre)."
-	},	
+	},
 	{
 		"type":"action",
 		"content":"Paie un boob ou bois {b5-10}. Passe si tu n'as pas de boobs."
@@ -130,8 +130,5 @@
 		"type":"action",
 		"content":"Mets la musique de ton choix. Si quelqu'un donne le titre, il distribue {b5-5}."
 	}
-
-
-
 	]
 }
