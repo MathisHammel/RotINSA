@@ -1,0 +1,20 @@
+{
+    "info": {
+        "nom": "Clubelek",
+        "nomEtendu": "Clubelek",
+        "stars": 3,
+        "description": "3477, le Clubelek mec",
+        "nomImage": "benoit.png",
+        "idDeck": "clubelek"
+    },
+    "cards": [
+        {
+            "type": "action",
+            "content": "Tu es arrivé en retard à l'AG, tu bois {b1-4}<br/>"
+        },
+        {
+            "type": "question",
+            "content": "Jouez à pile ou face. Si c'est pile, le robot de la coupe plante, et vous buvez tous {b1-5}, si c'est face, le robot plante quand même et vous buvez aussi."
+        }
+    ]
+}
