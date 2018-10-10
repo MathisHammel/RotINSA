@@ -37,7 +37,7 @@
             "content": "Tu as posté à 0h01 sur #lamemephoto debenoittouslesjours. Bois {b2-5} pour laver cet affront."
         },
         {
-            "type": "action",
+            "type": "role",
             "content": "<b>Crabelek</b><br/>Ta cruauté te pousse à distribuer {b1-1} un tour sur deux ( commence le tour suivant ). Bois {b2-2} si tu oublies."
         }
 
