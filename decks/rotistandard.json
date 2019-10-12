@@ -38,7 +38,7 @@
 		},
 		{
 			"type": "question",
-			"content": "Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et boivent {b1-10}."
+			"content": "Les {roux|chatains|bruns|blonds|chauves} n'ont pas d'âme et distribuent {b1-10}."
 		},
 		{
 			"type": "spin",
@@ -182,7 +182,7 @@
 		},
 		{
 			"type": "role",
-			"content": "Tu deviens <b>La Reine d'Angleterre</b>. Si quelqu'un ne te parle pas avec le respect qu'il te doit, tu peut lui faire boire {b2-2}."
+			"content": "Tu deviens <b>La Reine de Prusse</b>. Si quelqu'un ne te parle pas avec le respect qu'il te doit, tu peut lui faire boire {b2-2}."
 		},
 		{
 			"type": "role",
@@ -202,11 +202,11 @@
 		},
 		{
 			"type": "action",
-			"content": "Échange ton verre avec la personne sur ta droite."
+			"content": "Échange ton verre avec la personne à ta droite."
 		},
 		{
 			"type": "action",
-			"content": "Échange ton verre avec la personne sur ta gauche."
+			"content": "Échange ton verre avec la personne à ta gauche."
 		},
 		{
 			"type": "action",
