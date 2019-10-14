@@ -59,6 +59,19 @@
 	{
 	    "type": "action",
 	    "content": "Les securitasses arrivent ! Planque l'alcool. Et ne bois PAS jusqu'au prochain tour."
+	},
+	{
+	    "type": "action",
+	    "content": "C'est la fête du chauve ! Donner le nom de chauves, celui qui n'arrive plus boit {b3-5}."
+-        },
+-        {
+-            "type": "role",
+-            "content": "Tu deviens le Securitasse ! Distribue {b3-5} au prochain qui rigole ou s'amuse un peu trop à ton goût."
+-        },
+-        {
+-            "type": "role",
+-            "content": "Tu deviens la Charte du Frigo ! Distribue {b5-5} au premier qui te regarde dans les yeux."
+
 	}
     ]
 }
