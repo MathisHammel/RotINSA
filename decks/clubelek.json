@@ -55,6 +55,10 @@
         {
             "type": "action",
             "content": "Ta demande de subvention a été validée ! Bois {b3-5} pour fêter ça."
-        }
+        },
+	{
+	    "type": "action",
+	    "content": "Les securitasses arrivent ! Planque l'alcool. Et ne bois PAS jusqu'au prochain tour."
+	}
     ]
 }
