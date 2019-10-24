@@ -38,7 +38,7 @@
 		},
 		{
 			"type": "spin",
-			"content": "Énumérez les sites de Porn. Celui qui ne trouve pas boit {b3-5}."
+			"content": "Énumérez les sites de porn. Celui qui ne trouve pas boit {b3-5}."
 		},
 		{
 			"type": "role",
@@ -79,11 +79,11 @@
 		},
 		{
 			"type": "action",
-			"content": "<b>Armageddon</b> :<br/>TOUT LE MONDE CUL SEC."
+			"content": "<b>Armageddon</b> :<br/> Tout le monde (toi inclus) doit boire le nombre de {b} de ton choix."
 		},
 		{
 			"type": "action",
-			"content": "Joue a Chi-Fu-Mi avec {j2} en 3 manches gagnantes. Le perdant boit {b3-4}."
+			"content": "Joue a Chi-Fu-Mi avec {j2}, le premier à 3 points donne {b3-4} à son adversaire."
 		},
 		{
 			"type": "question",
@@ -99,7 +99,7 @@
 		},
 		{
 			"type": "action",
-			"content": "<b>Patate chaude !</b><br/>Bois {b6-6} et fait passer ce nombre de {b}-1 à quelqu'un d'autre, qui fait de même et ainsi de suite."
+			"content": "<b>Patate chaude !</b><br/>Bois {b4-12} et fait passer ce nombre de {b}-1 à quelqu'un d'autre, qui fait de même et ainsi de suite."
 		},
 		{
 			"type": "action",
@@ -107,14 +107,10 @@
 		},
 		{
 			"type": "action",
-			"content": "<b>Rôtisserie</b><br/>Chacun donne son verre au joueur à sa droite, et boit {b2-2}."
+			"content": "<b>Rôtisserie</b><br/>Chacun donne son verre au joueur à sa gauche, et boit {b2-2}."
 		},
 		{
 			"type": "spin",
-			"content": "Énumérez les Chuck Norris facts. Celui qui ne sait plus boit {b4-4}."
-		},
-		{
-			"type": "action",
 			"content": "Énumérez les Chuck Norris facts. Celui qui ne sait plus boit {b4-4}."
 		},
 		{
@@ -123,11 +119,11 @@
 		},
 		{
 			"type": "action",
-			"content": "Mets la musique de ton choix. Si quelqu'un donne le titre, il distribue {b5-5}."
+			"content": "Mets (ou chante) la musique de ton choix. Si quelqu'un donne le titre, il distribue {b5-5}."
 		},
 		{
 			"type": "action",
-			"content": "Mets la musique de ton choix. Si quelqu'un donne le titre, il distribue {b5-5}."
+			"content": "Mets (ou chante) la musique de ton choix. Si quelqu'un donne le titre, il distribue {b5-5}."
 		}
 	]
 }
