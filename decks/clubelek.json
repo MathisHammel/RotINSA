@@ -22,7 +22,7 @@
         },
         {
             "type": "role",
-            "content": "<b>Disciple Benoitien</b><br/>Ton amour de Benoit te pousse à le mettre dans toutes tes phrases. Tu reçois {b2-2} à chaque phrase que tu prononces sans « Benoit »."
+            "content": "<b>Disciple Benoitien</b><br/>Ton amour de Benoit te pousse à le mettre dans toutes tes phrases. Tu reçois {b2-2} à chaque phrase que tu prononces sans «Benoit»."
         },
         {
             "type": "question",
@@ -34,11 +34,11 @@
         },
         {
             "type": "action",
-            "content": "Tu as posté à 0h01 sur #lamemephoto debenoittouslesjours. Bois {b2-5} pour laver cet affront."
+            "content": "Tu as posté à 0h01 sur #lamemephotodebenoittouslesjours. Bois {b2-5} pour laver cet affront."
         },
         {
             "type": "role",
-            "content": "<b>Crabelek</b><br/>Ta cruauté te pousse à distribuer {b1-1} un tour sur deux ( commence le tour suivant ). Bois {b2-2} si tu oublies."
+            "content": "<b>Crabelek</b><br/>Ta cruauté te pousse à distribuer {b1-1} un tour sur deux (commence le tour suivant). Bois {b2-2} si tu oublies."
         },
         {
             "type": "role",
@@ -46,7 +46,7 @@
         },
         {
             "type": "role",
-            "content": "<b>Ziggy</b><br/>Tu dois placer le mot « dank » dans chacune de tes phrases. Bois {b3-3} si tu oublies."
+            "content": "<b>Ziggy</b><br/>Tu dois placer le mot «dank» dans chacune de tes phrases. Bois {b3-3} si tu oublies."
         },
         {
             "type": "action",
