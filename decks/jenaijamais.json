@@ -22,11 +22,11 @@
 		},
 		{
 			"type": "action",
-			"content": "Ceux qui ont déjà fait l'amour à plus de deux personnes différentes dans la même journée boivent {b2-4}."
+			"content": "Ceux/celles qui ont déjà fait l'amour à plus de deux personnes différentes en moins de 24h boivent {b2-4}."
 		},
 		{
 			"type": "action",
-			"content": "Ceux qui ont déjà passé une journée sans mettre de sous-vêtements boivent {b2-4}."
+			"content": "Ceux/celles qui ont déjà passé une journée sans mettre de sous-vêtements boivent {b2-4}."
 		},
 		{
 			"type": "spin",
@@ -37,8 +37,8 @@
 			"content": "Enumérez les acteurs/actrices X. Celui qui ne sait plus boit {b1-3}."
 		},
 		{
-			"type": "spin",
-			"content": "Ceux qui ont déjà regardé du hentai à tentacules boivent {b1-3}."
+			"type": "action",
+			"content": "Ceux/celles qui ont déjà regardé du hentai à tentacules boivent {b1-3}."
 		},
 		{
 			"type": "action",
@@ -74,7 +74,7 @@
 		},
 		{
 			"type": "action",
-			"content": "Ceux/celles qui {ont déjà|n'ont jamais} payé mon cul boivent {b1-3}"
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} payé leur cul boivent {b1-3}"
 		},
 		{
 			"type": "action",
@@ -86,7 +86,7 @@
 		},
 		{
 			"type": "action",
-			"content": "Ceux/celles qui {ont déjà|n'ont jamais} léché mon nez boivent {b1-3}"
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} léché leur nez boivent {b1-3}"
 		},
 		{
 			"type": "action",
@@ -110,7 +110,7 @@
 		},
 		{
 			"type": "action",
-			"content": "Ceux/celles qui {ont déjà|n'ont jamais} raté mon code boivent {b1-3}"
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} raté leur code boivent {b1-3}"
 		},
 		{
 			"type": "action",
@@ -126,7 +126,7 @@
 		},
 		{
 			"type": "action",
-			"content": "Ceux/celles qui {ont déjà|n'ont jamais} fait l'amour en gardant mes chaussettes boivent {b1-3}"
+			"content": "Ceux/celles qui {ont déjà|n'ont jamais} fait l'amour en gardant leurs chaussettes boivent {b1-3}"
 		},
 		{
 			"type": "action",
@@ -150,19 +150,19 @@
 		},
 		{
 			"type": "action",
-			"content": "Ceux qui se sont masturbé aujourd'hui boivent {b1-3}."
+			"content": "Ceux/celles qui se sont masturbé aujourd'hui boivent {b1-3}."
 		},
 		{
 			"type": "action",
-			"content": "Ceux qui ont regardé un porno dans les 5 derniers jours boivent {b1-3}."
+			"content": "Ceux/celles qui ont regardé un porno dans les 5 derniers jours boivent {b1-3}."
 		},
 		{
 			"type": "action",
-			"content": "Ceux qui ont déjà couché avec quelqu'un présent dans la pièce boivent {b1-3}."
+			"content": "Ceux/celles qui ont déjà couché avec quelqu'un présent dans la pièce boivent {b1-3}."
 		},
 		{
 			"type": "action",
-			"content": "Ceux qui ont déjà fait l'amour à l'hôtel boivent {b1-3}."
+			"content": "Ceux/celles qui ont déjà fait l'amour à l'hôtel boivent {b1-3}."
 		}
 	]
 }
