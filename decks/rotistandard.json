@@ -46,7 +46,7 @@
 		},
 		{
 			"type": "spin",
-			"content": "Votez a tour de role pour <em> La Gauche ou La Droite</em>. La minorité boit {b3-5}."
+			"content": "Votez a tour de role pour <em>La Gauche ou La Droite</em>. La minorité boit {b3-5}."
 		},
 		{
 			"type": "action",
@@ -54,7 +54,7 @@
 		},
 		{
 			"type": "role",
-			"content": "Tu deviens <b>Stop Man</b>. Si tu t'arretes de bouger, tout le monde doit faire de même. Le dernier doit boire {b2-2}."
+			"content": "Tu deviens <b>Mister Freeze</b>. Si tu t'arretes de bouger, tout le monde doit faire de même. Le dernier doit boire {b2-2}."
 		},
 		{
 			"type": "question",
@@ -78,7 +78,7 @@
 		},
 		{
 			"type": "spin",
-			"content": "Énumérez les synonymes de <em>Penis</em>. Celui qui ne sait plus boit {b2-4}."
+			"content": "Énumérez les synonymes de <em>Pénis</em>. Celui qui ne sait plus boit {b2-4}."
 		},
 		{
 			"type": "spin",
@@ -98,7 +98,7 @@
 		},
 		{
 			"type": "question",
-			"content": "Ceux qui n'ont jamais triché à une interro boivent {b3-5}."
+			"content": "Ceux qui n'ont jamais triché à une interro boivent {b2-5}."
 		},
 		{
 			"type": "action",
@@ -182,11 +182,11 @@
 		},
 		{
 			"type": "role",
-			"content": "Tu deviens <b>La Reine de Prusse</b>. Si quelqu'un ne te parle pas avec le respect qu'il te doit, tu peut lui faire boire {b2-2}."
+			"content": "Tu deviens <b>La Reine de Prusse</b>. Si quelqu'un ne te parle pas avec le respect qu'il te doit, tu peux lui faire boire {b2-2}."
 		},
 		{
 			"type": "role",
-			"content": "Tu deviens <b>Le stéréotype Asiatique</b>. Tu parles à présent avec un accent chinois raciste {b2-2}."
+			"content": "Tu deviens <b>Le stéréotype Asiatique</b>. Tu parles à présent avec un accent chinois raciste, {b2-2} à chaque oubli."
 		},
 		{
 			"type": "role",
