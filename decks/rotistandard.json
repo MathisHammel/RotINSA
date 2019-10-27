@@ -42,11 +42,11 @@
 		},
 		{
 			"type": "spin",
-			"content": "Votez a tour de role pour <em> Voler ou se Téléporter</em>. La minorité boit {b3-5}."
+			"content": "Votez à tour de role pour <em> Voler ou se Téléporter</em>. La minorité boit {b3-5}."
 		},
 		{
 			"type": "spin",
-			"content": "Votez a tour de role pour <em>La Gauche ou La Droite</em>. La minorité boit {b3-5}."
+			"content": "Votez à tour de role pour <em>La Gauche ou La Droite</em>. La minorité boit {b3-5}."
 		},
 		{
 			"type": "action",
@@ -54,11 +54,11 @@
 		},
 		{
 			"type": "role",
-			"content": "Tu deviens <b>Mister Freeze</b>. Si tu t'arretes de bouger, tout le monde doit faire de même. Le dernier doit boire {b2-2}."
+			"content": "Tu deviens <b>Mister Freeze</b>. Si tu t'arrêtes de bouger, tout le monde doit faire de même. Le dernier doit boire {b2-2}."
 		},
 		{
 			"type": "question",
-			"content": "Ceux qui ont dilué leur boissons, buvez {b3-3}."
+			"content": "Ceux qui ont dilué leur boisson, buvez {b3-3}."
 		},
 		{
 			"type": "spin",
@@ -102,7 +102,7 @@
 		},
 		{
 			"type": "action",
-			"content": "Celui qui à les sous-vêtements les plus sombres entre {j1} et {j2} boit {b2-3}."
+			"content": "Celui qui a les sous-vêtements les plus sombres entre {j1} et {j2} boit {b2-3}."
 		},
 		{
 			"type": "action",
