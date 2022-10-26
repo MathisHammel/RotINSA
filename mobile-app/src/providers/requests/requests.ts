@@ -16,7 +16,7 @@ import { ToastController }    from "ionic-angular";
 @Injectable()
 export class RequestsProvider {
 
-  private onlineRootEndpoint: string = "http://kara71.github.io/RotINSA/";
+  private onlineRootEndpoint: string = "http://mathishammel.github.io/RotINSA/";
 
   constructor(public http: Http,
     private toastCtrl: ToastController) {
