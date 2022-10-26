@@ -2,7 +2,7 @@
 <widget id="rotinsateam.rotinsa" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Rot'INSA</name>
     <description>Un petit jeu pour être geek, saoûl, mais toujours convivial !</description>
-    <author href="https://github.com/kara71/RotINSA">Rotinsa team</author>
+    <author href="https://github.com/MathisHammel/RotINSA">Rotinsa team</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
